@@ -1,0 +1,70 @@
+{
+    "menu#header__menu--mobile": {
+        "children": [
+            "menu-item#departament__Mujer",
+            "menu-item#departament__Hombre",
+            "menu-item#departament__Sale",
+            "menu-item#departament__FlyUp"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass":"header__menu--mobile"
+        }
+    },
+    "menu-item#departament__Mujer": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Mujer",
+                "text": "MUJER"
+            }
+        }
+    },
+    "menu-item#departament__Hombre": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Hombre",
+                "text": "HOMBRE"
+            }
+        }
+    },
+    "menu-item#departament__Sale": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Sale",
+                "text": "SALE"
+            }
+        }
+    },
+    "menu-item#departament__FlyUp": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Fly Up",
+                "text": "FLY UP"
+            }
+        }
+    }
+}

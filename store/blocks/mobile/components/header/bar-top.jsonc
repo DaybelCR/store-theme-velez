@@ -1,0 +1,21 @@
+{
+    "header-row#header__topMobile":{
+        "children":[
+         "header-spacer",
+         "link#HeaderTop-text",
+         "header-spacer"
+        ],
+        "props":{
+         "fullWidth": true,
+         "sticky":true,
+         "blockClass":"header__topMobile"
+        }
+     },
+     "link#HeaderTop-text":{
+        "props":{
+         "label":  "Envío Gratis por compras superiores a $399|Comprar>>",
+         "blockClass":"HeaderTop-text"
+        }
+        
+     }
+}

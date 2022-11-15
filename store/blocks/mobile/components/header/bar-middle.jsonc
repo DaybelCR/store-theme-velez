@@ -1,0 +1,37 @@
+{
+    "header-row#header__middleMobile":{
+        "title":"Header Middle Mobile ",
+        "children":[
+            "drawer#header__mobile--menu",
+            "header-spacer",
+            "link#HeaderMiddle--logo",
+            "header-spacer",
+            "login",
+            "minicart.v2"
+           ],
+           "props":{
+            "fullWidth": true,
+            "sticky":true,
+            "blockClass":"header__middleMobile"
+           }
+    },
+    "drawer#header__mobile--menu":{
+        "children":["menu#header__menu--mobile"]
+    },
+   "link#HeaderMiddle--logo":{
+    "props":{
+        "label":  "VÉLEZ",
+        "blockClass":"HeaderMiddle--logo"
+       }
+   },
+    "login":{
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile":true
+          }
+    }
+}

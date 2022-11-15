@@ -1,0 +1,12 @@
+.headerRowContainer--header__topMobile{
+    background-color: rgb(138, 37, 37);
+    padding: 0.4rem 0 0.4rem 0;
+}
+.headerRowContainer--header__middleMobile{
+    height: 2.7rem;
+    background-color: transparent;
+}
+
+.headerRowContainer--header__middleMobile:hover{
+    background-color: #fff;
+}

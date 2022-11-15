@@ -1,0 +1,15 @@
+.label--HeaderTop-text{
+    color:#fff;
+    font-size: 0.7rem;
+    padding: 2px;
+    width: 100%;
+    font-weight: 800;
+}
+
+.link--HeaderTop-text{
+    text-decoration: none;
+}
+.label--HeaderMiddle--logo{
+    color: black;
+    font-size: 2rem;
+}
