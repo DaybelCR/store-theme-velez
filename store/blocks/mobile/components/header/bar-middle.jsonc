@@ -3,6 +3,7 @@
         "title":"Header Middle Mobile ",
         "children":[
             "drawer#header__mobile--menu",
+            "image#lookUp",
             "header-spacer",
             "link#HeaderMiddle--logo",
             "header-spacer",
@@ -17,6 +18,13 @@
     },
     "drawer#header__mobile--menu":{
         "children":["menu#header__menu--mobile"]
+    },
+    "image#lookUp":{
+        "props": {
+            "src": "assets/svg/search.svg",
+            "maxHeight": 24,
+            "maxWidth":17
+          }
     },
    "link#HeaderMiddle--logo":{
     "props":{

@@ -1,0 +1,11 @@
+{
+    "search-bar":{
+        "blocks": ["autocomplete-result-list.v2"],
+        "props":{
+            "autocompleteAlignment": "center",
+            "placeholder": "¿QUE BUSCAS?",
+            "openAutocompleteOnFocus": true,
+            "maxWidth": 350
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "header-row#header__middleDesktop":{
+        "title":"Header Middle Desktop ",
+        "children":[
+            "menu#header---menuDesktop",
+            "header-spacer",
+            "link#HeaderMiddle--logo",
+            "header-spacer",
+            "search-bar",
+            "login#desktop--login",
+            "minicart.v2"
+           ],
+           "props":{
+            "fullWidth": true,
+            "sticky":true,
+            "blockClass":"header__middleDesktop"
+           }
+    },
+    "menu#header---menuDesktop":{
+        "children": [
+            "menu-item#mujer--desktop",
+            "menu-item#hombre--desktop",
+            "menu-item#cyber--desktop",
+            "menu-item#flyUp--desktop"
+          ]
+    }
+}

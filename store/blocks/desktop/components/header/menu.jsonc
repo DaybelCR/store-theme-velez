@@ -1,0 +1,58 @@
+{
+    "menu-item#mujer--desktop":{
+        "props": {
+            "id": "menu-item-mujer--desktop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Mujer",
+              "text": "MUJER"
+            }
+    }
+    },
+    "menu-item#hombre--desktop":{
+        "props": {
+            "id": "menu-item-hombre--desktop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Hombre",
+              "text": "HOMBRE"
+            }
+    }
+    },
+    "menu-item#cyber--desktop":{
+        "props": {
+            "id": "menu-item-cyber--desktop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Cyber",
+              "text": "CYBER"
+            }
+    }
+    },
+    "menu-item#flyUp--desktop":{
+        "props": {
+            "id": "menu-item-mujer--desktop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Fly Up",
+              "text": "FLY UP"
+            }
+    }
+    }
+}

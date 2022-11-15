@@ -1,0 +1,59 @@
+{
+    "submenu.accordion#departament-Sale--submenu":{
+        "children":[
+           "menu#subMenu-sale"
+        ]
+       },
+       "menu#subMenu-sale":{
+       "children":[
+           "menu-item#sale--mujer",
+           "menu-item#sale--hombre",
+           "menu-item#sale--verTodo"
+       ],
+       "props":{
+        "orientation":"vertical"
+       }
+       },
+       "menu-item#sale--mujer":{
+        "props": {
+            "id": "menu-item-sale--mujer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Mujer",
+                "text": "MUJER"
+            }
+        }
+       },
+       "menu-item#sale--hombre":{
+        "props": {
+            "id": "menu-item-sale--hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Hombre",
+                "text": "HOMBRE"
+            }
+        }
+       },
+       "menu-item#sale--verTodo":{
+        "props": {
+            "id": "menu-item-sale--verTodo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Ver Todo",
+                "text": "VER TODO"
+            }
+        }
+       }
+}

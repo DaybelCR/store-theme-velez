@@ -1,0 +1,14 @@
+{
+    "header-row#header__topDesktop":{
+        "children":[
+         "header-spacer",
+         "link#HeaderTop-text",
+         "header-spacer"
+        ],
+        "props":{
+         "fullWidth": true,
+         "sticky":true,
+         "blockClass":"header__topMobile"
+        }
+     }
+}

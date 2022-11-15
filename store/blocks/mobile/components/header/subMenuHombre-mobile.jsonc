@@ -1,0 +1,195 @@
+{
+    "submenu.accordion#departament-Hombre--submenu":{
+        "children":[
+           "menu#nuevo--hombre"
+        ]
+       },
+       "menu#nuevo--hombre":{
+       "children":[
+           "menu-item#nuevo--hombre",
+           "menu-item#zapatillas--hombre",
+           "menu-item#zapatos--hombre",
+           "menu-item#mochilas--hombre",
+           "menu-item#bolsos--hombre",
+           "menu-item#casacas--hombre",
+           "menu-item#correas--hombre",
+           "menu-item#billeteras--hombre",
+           "menu-item#accesorios--hombre",
+           "menu-item#ropa--hombre",
+           "menu-item#viajes--hombre",
+           "menu-item#verTodo--hombre"
+       ],
+       "props":{
+        "orientation":"vertical"
+       }
+       },
+       "menu-item#nuevo--hombre":{
+        "props": {
+            "id": "menu-item-nuevo--hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Nuevo",
+                "text": "NUEVO"
+            }
+        }
+       },
+       "menu-item#zapatillas--hombre":{
+        "props": {
+            "id": "menu-item-zapatillas--hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Zapatillas",
+                "text": "ZAPATILLAS"
+            }
+        }
+       },
+       "menu-item#zapatos--hombre":{
+        "props": {
+            "id": "menu-item-zapatos--hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Zapatos",
+                "text": "ZAPATOS"
+            }
+        }
+       },
+       "menu-item#mochilas--hombre":{
+        "props": {
+            "id": "menu-item-mochilas--hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Mochilas",
+                "text": "MOCHILAS"
+            }
+        }
+       },
+       "menu-item#bolsos--hombre":{
+        "props": {
+            "id": "menu-item-bolsos--hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Bolsos",
+                "text": "BOLSOS"
+            }
+        }
+       },
+       "menu-item#casacas--hombre":{
+        "props": {
+            "id": "menu-item-casacas--hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle":"Casacas",
+                "text": "CASACAS"
+            }
+        }
+       },
+       "menu-item#correas--hombre":{
+        "props": {
+            "id": "menu-item-correas--hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Correas",
+                "text": "CORREAS"
+            }
+        }
+       },
+       "menu-item#billeteras--hombre":{
+        "props": {
+            "id": "menu-item-billeteras--hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Billeteras",
+                "text": "BILLETERAS"
+            }
+        }
+       },
+       "menu-item#accesorios--hombre":{
+        "props": {
+            "id": "menu-item-accesorios--hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Accesorios",
+                "text": "ACCESORIOS"
+            }
+        }
+       },
+       "menu-item#ropa--hombre":{
+        "props": {
+            "id": "menu-item-ropa--hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Ropa",
+                "text": "ROPA"
+            }
+        }
+       },
+       "menu-item#viajes--hombre":{
+        "props": {
+            "id": "menu-item-viajes--hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Viajes",
+                "text": "VIAJES"
+            }
+        }
+       },
+       "menu-item#verTodo--hombre":{
+        "props": {
+            "id": "menu-item-verTodo--hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "verTodo",
+                "text": "VER TODO"
+            }
+        }
+       }
+
+}
