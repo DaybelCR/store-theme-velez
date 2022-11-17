@@ -1,7 +1,7 @@
 {
-    "menu-item#mujer--desktop":{
+    "menu-item#departament__mujer--one":{
         "props": {
-            "id": "menu-item-mujer--desktop",
+            "id": "departament-mujer--one",
             "type": "custom",
             "highlight": false,
             "itemProps": {
@@ -11,11 +11,234 @@
               "tagTitle": "Mujer",
               "text": "MUJER"
             }
-    }
     },
-    "menu-item#hombre--desktop":{
+    "blocks":["submenu#departament__mujer--one"]
+    },
+    "submenu#departament__mujer--one":{
+      "children":["menu#departament__mujer--one"],
+      "props":{
+        "onMountBehahior":"open"
+      }
+    },
+    "menu#departament__mujer--one":{
+      "children":[
+        "flex-layout.row#departament__mujer--one"
+        // "flex-layout.row#buy__wtsp"
+      ],
+      "props":{
+        "orientation":"vertical"
+      }
+    },
+    "flex-layout.row#departament__mujer--one":{
+      "children":[
+          "flex-layout.col#categories__mujer",
+          "flex-layout.col#img"
+      ],
+      "props":{
+        "colsizing": "auto"
+      }
+    },
+    "flex-layout.col#categories__mujer":{
+      "children":[
+      "menu-item#category__mujer--one",
+      "menu-item#category__mujer--two",
+      "menu-item#category__mujer--three",
+      "menu-item#category__mujer--four",
+      "menu-item#category__mujer--five",
+      "menu-item#category__mujer--six",
+      "menu-item#category__mujer--seven",
+      "menu-item#category__mujer--eight",
+      "menu-item#category__mujer--nine",
+      "menu-item#category__mujer--ten",
+      "menu-item#category__mujer--eleven",
+      "menu-item#category__mujer--twelve"
+    ],
+      "props":{
+        "colsizing": "auto",
+       " preventVerticalStretch":true
+      }
+    },
+    "flex-layout.col#img":{
+      "children":[ "image#menu__img"]
+    },
+    "image#menu__img": {
+      "props": {
+        "src": "assets/desktop/menu-imag1.png",
+        "maxHeight": 350,
+        "maxWidth":300
+      }
+    },
+    "menu-item#category__mujer--one":{
+      "props": {
+        "id": "category-mujer--one",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Mujer",
+          "text": "NUEVO"
+        }
+}
+    },
+    "menu-item#category__mujer--two":{
+      "props": {
+        "id": "category-mujer--two",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Mujer",
+          "text": "ZAPATILLAS"
+        }
+}
+    },
+    "menu-item#category__mujer--three":{
+      "props": {
+        "id": "category-mujer--three",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Mujer",
+          "text": "ZAPATOS"
+        }
+}
+    },
+    "menu-item#category__mujer--four":{
+      "props": {
+        "id": "category-mujer--three",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Mujer",
+          "text": "MOCHILAS"
+        }
+}
+    },
+    "menu-item#category__mujer--five":{
+      "props": {
+        "id": "category-mujer--three",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Mujer",
+          "text": "BOLSOS"
+        }
+}
+    },
+    "menu-item#category__mujer--six":{
+      "props": {
+        "id": "category-mujer--three",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Mujer",
+          "text": "CASACAS"
+        }
+}
+    },
+    "menu-item#category__mujer--seven":{
+      "props": {
+        "id": "category-mujer--three",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Mujer",
+          "text": "CORREAS"
+        }
+}
+    },
+    "menu-item#category__mujer--eight":{
+      "props": {
+        "id": "category-mujer--three",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Mujer",
+          "text": "BILLETERAS"
+        }
+}
+    },
+    "menu-item#category__mujer--nine":{
+      "props": {
+        "id": "category-mujer--three",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Mujer",
+          "text": "ACCESORIOS"
+        }
+}
+    },
+    "menu-item#category__mujer--ten":{
+      "props": {
+        "id": "category-mujer--three",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Mujer",
+          "text": "ROPA"
+        }
+}
+    },
+    "menu-item#category__mujer--eleven":{
+      "props": {
+        "id": "category-mujer--three",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Mujer",
+          "text": "VIAJES"
+        }
+}
+    },
+    "menu-item#category__mujer--twelve":{
+      "props": {
+        "id": "category-mujer--three",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Mujer",
+          "text": "VER TODO"
+        }
+}
+    },
+    "menu-item#departament__hombre--two":{
         "props": {
-            "id": "menu-item-hombre--desktop",
+            "id": "departament-hombre--two",
             "type": "custom",
             "highlight": false,
             "itemProps": {
@@ -27,9 +250,9 @@
             }
     }
     },
-    "menu-item#cyber--desktop":{
+    "menu-item#departament__cyber--three":{
         "props": {
-            "id": "menu-item-cyber--desktop",
+            "id": "departament-cyber--three",
             "type": "custom",
             "highlight": false,
             "itemProps": {
@@ -41,9 +264,9 @@
             }
     }
     },
-    "menu-item#flyUp--desktop":{
+    "menu-item#departament__flyUp--four":{
         "props": {
-            "id": "menu-item-mujer--desktop",
+            "id": "departament-flyUp--four",
             "type": "custom",
             "highlight": false,
             "itemProps": {

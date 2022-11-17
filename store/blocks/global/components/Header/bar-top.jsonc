@@ -1,5 +1,5 @@
 {
-    "header-row#header__topMobile":{
+    "header-row#header__top":{
         "children":[
          "header-spacer",
          "link#HeaderTop-text",
@@ -8,7 +8,7 @@
         "props":{
          "fullWidth": true,
          "sticky":true,
-         "blockClass":"header__topMobile"
+         "blockClass":"header__top"
         }
      },
      "link#HeaderTop-text":{

@@ -1,12 +1,26 @@
-.headerRowContainer--header__topMobile{
+.headerRowContainer--header__top{
     background-color: rgb(138, 37, 37);
     padding: 0.4rem 0 0.4rem 0;
 }
+.headerRowContainer--header__middleDesktop{
+    position:absolute;
+    top:0px;
+    background-color: transparent;
+}
 .headerRowContainer--header__middleMobile{
+    position:absolute;
+    top:0px;
     height: 2.8rem;
     background-color: transparent;
 }
 
-.headerRowContainer--header__middleMobile:hover{
-    background-color: #fff;
+.headerRowContainer--header__middleDesktop:hover{
+    background-color: #ffffff;
+}
+
+.headerRowContainer--header__bottomMobile{
+    position:absolute;
+    top:35px;
+    height: 2.7rem;
+    background-color: transparent;
 }

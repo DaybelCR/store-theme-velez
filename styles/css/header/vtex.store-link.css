@@ -6,10 +6,11 @@
     font-weight: 800;
 }
 
-.link--HeaderTop-text{
-    text-decoration: none;
-}
 .label--HeaderMiddle--logo{
     color: black;
     font-size: 2rem;
+}
+
+.link{
+    text-decoration: none;
 }

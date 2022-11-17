@@ -6,7 +6,7 @@
             "header-spacer",
             "link#HeaderMiddle--logo",
             "header-spacer",
-            "search-bar",
+            "search-bar#desktop--search",
             "login#desktop--login",
             "minicart.v2"
            ],
@@ -18,10 +18,23 @@
     },
     "menu#header---menuDesktop":{
         "children": [
-            "menu-item#mujer--desktop",
-            "menu-item#hombre--desktop",
-            "menu-item#cyber--desktop",
-            "menu-item#flyUp--desktop"
-          ]
+            "menu-item#departament__mujer--one",
+            "menu-item#departament__hombre--two",
+            "menu-item#departament__cyber--three",
+            "menu-item#departament__flyUp--four"
+          ],
+          "props":{
+            "orientation":"horizontal"
+          }
+    },
+    "search-bar#desktop--search":{
+        "blocks": ["autocomplete-result-list.v2"],
+        "props":{
+            "autocompleteAlignment": "center",
+            "placeholder": "¿QUE BUSCAS?",
+            "openAutocompleteOnFocus": true,
+            "maxWidth":350,
+            "blockClass": ["search--Header","search-desktop"]
+        }
     }
 }

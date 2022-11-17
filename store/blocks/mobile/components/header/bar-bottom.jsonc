@@ -1,0 +1,25 @@
+{
+    "header-row#header__bottomMobile":{
+        "title":"Header Middle Mobile ",
+           "props":{
+            "fullWidth": true,
+            "sticky":true,
+            "blockClass":"header__bottomMobile"
+           },
+           "children":[
+            "header-spacer",
+            "search-bar#mobile--search",
+            "header-spacer"
+          ]
+        
+    },
+    "search-bar#mobile--search":{
+        "blocks": ["autocomplete-result-list.v2"],
+        "props":{
+            "autocompleteAlignment": "center",
+            "placeholder": "¿QUE BUSCAS?",
+            "openAutocompleteOnFocus": true,
+            "blockClass": ["search--Header","search-mobile"]
+        }
+    }
+}
