@@ -22,8 +22,8 @@
     },
     "menu#departament__mujer--one":{
       "children":[
-        "flex-layout.row#departament__mujer--one"
-        // "flex-layout.row#buy__wtsp"
+        "flex-layout.row#departament__mujer--one",
+        "rich-text#buy_on_wtsp"
       ],
       "props":{
         "orientation":"vertical"
@@ -32,11 +32,48 @@
     "flex-layout.row#departament__mujer--one":{
       "children":[
           "flex-layout.col#categories__mujer",
-          "flex-layout.col#img"
+          "flex-layout.col#imgMujer",
+          "rich-text#politica_condiciones"
       ],
       "props":{
-        "colsizing": "auto"
+        "colsizing": "auto",
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true,
+        "blockclass": "departament__mujer--one"
       }
+    },
+    "flex-layout.col#imgMujer":{
+     "children":["image#image__mujer--submenu","rich-text#caption--mujer"]
+    },
+    "rich-text#politica_condiciones":{
+        "props":{
+        "textAlignment": "CENTER",
+        "text": "[-PROGRAMA DE PUNTOS](/)\n[-NUESTRAS POLÍTICAS](/)\n[-TÉRMINOS Y CONDICIONES](/)",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5"
+      }   
+    },
+    "image#image__mujer--submenu":{
+     "props":{
+      "src": "assets/desktop/menu-imag1.png",
+      "maxHeight": 250,
+      "maxWidth": 250
+     }
+    },
+    "rich-text#caption--mujer":{
+      "props":{
+        "text": "Visit our [NUEVA COLECCIÓN](https://developers.vtex.com/vtex-developer-docs/docs/welcome) section.\n**Be Bold!**\n*This is italic*",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5"
+      }
+    },
+    "rich-text#buy_on_wtsp":{
+   "props":{
+    "text": "*[COMPRA POR WHATSAPP 51934389699>>](https://www.markdownguide.org)*.",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockclass": "buy_on_wtsp"
+   }
     },
     "flex-layout.col#categories__mujer":{
       "children":[
@@ -54,18 +91,7 @@
       "menu-item#category__mujer--twelve"
     ],
       "props":{
-        "colsizing": "auto",
-       " preventVerticalStretch":true
-      }
-    },
-    "flex-layout.col#img":{
-      "children":[ "image#menu__img"]
-    },
-    "image#menu__img": {
-      "props": {
-        "src": "assets/desktop/menu-imag1.png",
-        "maxHeight": 350,
-        "maxWidth":300
+        "colsizing": "auto"
       }
     },
     "menu-item#category__mujer--one":{

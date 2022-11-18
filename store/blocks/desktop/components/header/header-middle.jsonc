@@ -4,7 +4,7 @@
         "children":[
             "menu#header---menuDesktop",
             "header-spacer",
-            "link#HeaderMiddle--logo",
+            "link#logo--desktop",
             "header-spacer",
             "search-bar#desktop--search",
             "login#desktop--login",
@@ -14,6 +14,13 @@
             "fullWidth": true,
             "sticky":true,
             "blockClass":"header__middleDesktop"
+           }
+    },
+    "link#logo--desktop":{
+        "props":{
+            "label":  "VÉLEZ",
+            "blockClass":"logo--desktop",
+            "href": "/"
            }
     },
     "menu#header---menuDesktop":{

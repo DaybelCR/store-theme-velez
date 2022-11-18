@@ -6,11 +6,19 @@
     font-weight: 800;
 }
 
-.label--HeaderMiddle--logo{
+.label--logo--mobile{
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+    font-weight:950;
+}
+.label--logo--desktop{
     color: black;
     font-size: 2rem;
+    letter-spacing: 0.5rem;
 }
 
 .link{
     text-decoration: none;
 }
+

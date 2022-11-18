@@ -1,0 +1,15 @@
+.imageElement{
+    width: 100%;
+    height: 100vh;
+}
+
+.autoCompleteOuterContainer,:global(.vtex-input-prefix__group){
+    border:none;
+    border-radius: 0;
+    margin-right: 5px;
+    background-color: transparent;
+}
+
+:global(.vtex-input__suffix){
+    background-color: transparent;
+}

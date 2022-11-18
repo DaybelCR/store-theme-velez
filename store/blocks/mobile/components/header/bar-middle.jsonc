@@ -4,7 +4,7 @@
         "children":[
             "drawer#header__mobile--menu",
             "header-spacer",
-            "link#HeaderMiddle--logo",
+            "link#logo--mobile",
             "header-spacer",
             "login",
             "minicart.v2"
@@ -27,10 +27,10 @@
     "disclosure-content": {
         "children": ["header-row#header__bottomMobile"]
       },
-   "link#HeaderMiddle--logo":{
+    "link#logo--mobile":{
     "props":{
         "label":  "VÉLEZ",
-        "blockClass":"HeaderMiddle--logo",
+        "blockClass":"logo--mobile",
         "href": "/"
        }
    },

@@ -1,11 +1,7 @@
 {
   "store.home": { 
     "blocks": [
-      "slider-layout#home__slider--main",
-      "info-card#home-bannerGift--sectionOne"
-      // "responsive-layout.row#home-bannerGift--sectionTwo"
-      // "image#home-genero",
-      // "shelf#home"
+      "slider-layout#home__slider--main"
     ]
   }
 }
