@@ -27,11 +27,12 @@
         "children": [
             "menu-item#departament__mujer--one",
             "menu-item#departament__hombre--two",
-            "menu-item#departament__cyber--three",
+            "menu-item#departament__sale--three",
             "menu-item#departament__flyUp--four"
           ],
           "props":{
-            "orientation":"horizontal"
+            "orientation":"horizontal",
+            "blockClass":"container__desktop--menu"
           }
     },
     "search-bar#desktop--search":{
@@ -40,8 +41,7 @@
             "autocompleteAlignment": "center",
             "placeholder": "¿QUE BUSCAS?",
             "openAutocompleteOnFocus": true,
-            "maxWidth":350,
-            "blockClass": ["search--Header","search-desktop"]
+            "maxWidth":350
         }
     }
 }

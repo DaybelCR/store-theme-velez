@@ -6,16 +6,19 @@
     position:absolute;
     top:0px;
     background-color: transparent;
+    padding: 0 2.6rem 0 2.6rem;
 }
 .headerRowContainer--header__middleMobile{
     position:absolute;
     top:0px;
     height: 2.8rem;
     background-color: transparent;
+    color: #ffffff;
 }
 
 .headerRowContainer--header__middleDesktop:hover{
     background-color: #ffffff;
+    color: #000000;
 }
 
 .headerRowContainer--header__bottomMobile{

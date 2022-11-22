@@ -1,0 +1,7 @@
+{
+    "image#home__banner--two":{
+        "props": {
+            "src": "assets/phone/banner-regalo.png"
+          }
+    }
+}

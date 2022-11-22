@@ -1,7 +1,10 @@
 {
   "store.home": { 
     "blocks": [
-      "slider-layout#home__slider--main"
+     "responsive-layout.desktop",
+     "responsive-layout.tablet",
+     "responsive-layout.phone"
     ]
   }
 }
+

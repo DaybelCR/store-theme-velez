@@ -1,0 +1,24 @@
+{
+    "flex-layout.row#home__banner--three":{
+      "children":[
+        "image#bannerOne--three",
+        "image#bannerTwo--three"
+      ],
+      "props":{
+       " horizontalAlign":"center",
+       "blockClass": "home__banner--three"
+      }
+    },
+    "image#bannerOne--three":{
+        "props": {
+            "src": "assets/img-femenino.png",
+            "blockClass": "bannerOne--three"
+          }
+    },
+    "image#bannerTwo--three":{
+        "props": {
+            "src": "assets/img-masculino.png",
+            "blockClass": "bannerTwo--three"
+          }
+    }
+}

@@ -18,8 +18,7 @@
         "props":{
             "autocompleteAlignment": "center",
             "placeholder": "¿QUE BUSCAS?",
-            "openAutocompleteOnFocus": true,
-            "blockClass": ["search--Header","search-mobile"]
+            "openAutocompleteOnFocus": true
         }
     }
 }

@@ -1,6 +1,6 @@
-.imageElement{
-    width: 100%;
-    height: 100vh;
+.imageElement--bannerOne--three,.imageElement--bannerTwo--three{
+    width: 20rem;
+    height: 20rem;
 }
 
 .autoCompleteOuterContainer,:global(.vtex-input-prefix__group){
@@ -12,4 +12,10 @@
 
 :global(.vtex-input__suffix){
     background-color: transparent;
+}
+
+.imageElement--image__mujer--header{
+   margin: 0 auto;
+   max-width: 15rem;
+   object-fit: cover;
 }
