@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#home__gallery--eight":{
+        "children": [
+            "rich-text#instagram--title"
+        ]
+    },
+    "rich-text#instagram--title":{
+        "props": {
+            "text": "@velez_international",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

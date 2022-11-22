@@ -2,8 +2,9 @@
     "header-layout.mobile":{
         "title":"Header Mobile",
         "children":[
-            "header-row#header__topMobile",
-            "header-row#header__middleMobile"
+            "header-row#header__top",
+            "header-row#header__middleMobile",
+            "header-row#header__bottomMobile"
         ]
     }
 }

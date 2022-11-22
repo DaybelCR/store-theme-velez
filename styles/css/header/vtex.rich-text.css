@@ -1,0 +1,29 @@
+.link{
+    text-decoration: none;
+    color: #3f3f40;
+}
+.container--buy_on_wtsp{
+  width:100vw;
+  background-color: #d4d4d4;
+}
+.paragraph--category__mujer--items{
+  font-size: 0.8rem;
+  padding-left: 1.3rem;
+  margin-top: 0;
+}
+.strong--category__mujer--items:hover{
+  padding-left: 0.1rem;
+}
+.link--menu__conditions--text,.link--items__sale--text{
+  font-size: 0.8rem;
+}
+.link--menu__conditions--text:hover{
+  padding-left: 0.1rem;
+}
+.link--items__sale--text:hover{
+  padding-left: 0.2rem;
+}
+.wrapper--items__sale--text{
+  padding-right: 5.5rem;
+  padding-left: 1.4rem;
+}

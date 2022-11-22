@@ -13,7 +13,7 @@
     },
     "menu-item#departament__Mujer": {
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-mujer",
             "type": "custom",
             "highlight": false,
             "itemProps": {
@@ -23,11 +23,12 @@
                 "tagTitle": "Mujer",
                 "text": "MUJER"
             }
-        }
+        },
+        "blocks":["submenu.accordion#departament-Mujer--submenu"]
     },
     "menu-item#departament__Hombre": {
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-hombre",
             "type": "custom",
             "highlight": false,
             "itemProps": {
@@ -37,11 +38,12 @@
                 "tagTitle": "Hombre",
                 "text": "HOMBRE"
             }
-        }
+        },
+        "blocks":["submenu.accordion#departament-Hombre--submenu"]
     },
     "menu-item#departament__Sale": {
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-sale",
             "type": "custom",
             "highlight": false,
             "itemProps": {
@@ -51,11 +53,12 @@
                 "tagTitle": "Sale",
                 "text": "SALE"
             }
-        }
+        },
+        "blocks":["submenu.accordion#departament-Sale--submenu"]
     },
     "menu-item#departament__FlyUp": {
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-flyUp",
             "type": "custom",
             "highlight": false,
             "itemProps": {

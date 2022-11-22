@@ -1,0 +1,39 @@
+{
+    "slider-layout#home__slider--one": {
+        "title":"Home Slider Phone",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showPaginationDots":"never",
+          "showNavigationArrows":"never",
+          "blockClass": "home__slider--main",
+          "autoplay":{
+            "timeout":3000,
+            "stopOnHover":true
+          }
+        },
+        "children": [
+          "image#home__slider--mobileOne",
+          "image#home__slider--mobileTwo",
+          "image#home__slider--mobileThree"]
+      },
+      "image#home__slider--mobileOne":{
+        "props":{
+          "src":"assets/image/mobile/home__1-slider-mobile.png"
+        }
+      },
+      "image#home__slider--mobileTwo":{
+            "props":{
+              "src":"assets/image/mobile/home__1-slider-mobile.png"
+            }
+      },
+      "image#home__slider--mobileThree":{
+            "props":{
+              "src":"assets/image/mobile/home__1-slider-mobile.png"
+            }
+      }
+}

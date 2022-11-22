@@ -1,0 +1,15 @@
+{
+    "responsive-layout.phone": { 
+    "children": [
+        "slider-layout#home__slider--one",
+        "image#home__banner--two",
+        "flex-layout.row#home__banner--three",
+        "image#home__banner--four",
+        "rich-text#home__descriptionOne--five",
+        // "slider-layout#home__slider--six"
+        "flex-layout.row#home__shelf---seven",
+        "flex-layout.row#home__gallery--eight"
+        // "flex-layout.row#home__deals--nine"
+    ]
+    }
+}

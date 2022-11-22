@@ -1,0 +1,8 @@
+.openIconContainer{
+    margin-top:0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.openIconContainer:hover{
+ background-color: #d4d4d4;
+}

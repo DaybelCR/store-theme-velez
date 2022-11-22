@@ -1,0 +1,47 @@
+{
+    "header-row#header__middleDesktop":{
+        "title":"Header Middle Desktop ",
+        "children":[
+            "menu#header---menuDesktop",
+            "header-spacer",
+            "link#logo--desktop",
+            "header-spacer",
+            "search-bar#desktop--search",
+            "login#desktop--login",
+            "minicart.v2"
+           ],
+           "props":{
+            "fullWidth": true,
+            "sticky":true,
+            "blockClass":"header__middleDesktop"
+           }
+    },
+    "link#logo--desktop":{
+        "props":{
+            "label":  "VÉLEZ",
+            "blockClass":"logo--desktop",
+            "href": "/"
+           }
+    },
+    "menu#header---menuDesktop":{
+        "children": [
+            "menu-item#departament__mujer--one",
+            "menu-item#departament__hombre--two",
+            "menu-item#departament__sale--three",
+            "menu-item#departament__flyUp--four"
+          ],
+          "props":{
+            "orientation":"horizontal",
+            "blockClass":"container__desktop--menu"
+          }
+    },
+    "search-bar#desktop--search":{
+        "blocks": ["autocomplete-result-list.v2"],
+        "props":{
+            "autocompleteAlignment": "center",
+            "placeholder": "¿QUE BUSCAS?",
+            "openAutocompleteOnFocus": true,
+            "maxWidth":350
+        }
+    }
+}

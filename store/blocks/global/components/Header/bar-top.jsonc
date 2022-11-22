@@ -1,5 +1,5 @@
 {
-    "header-row#header__topMobile":{
+    "header-row#header__top":{
         "children":[
          "header-spacer",
          "link#HeaderTop-text",
@@ -8,12 +8,12 @@
         "props":{
          "fullWidth": true,
          "sticky":true,
-         "blockClass":"header__topMobile"
+         "blockClass":"header__top"
         }
      },
      "link#HeaderTop-text":{
         "props":{
-         "label":  "Envío Gratis por compras superiores a $399|Comprar>>",
+         "label":  "Envío Gratis por compras superiores a S/399|Comprar>>",
          "blockClass":"HeaderTop-text"
         }
         

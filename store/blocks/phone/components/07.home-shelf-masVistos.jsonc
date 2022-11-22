@@ -1,0 +1,15 @@
+{  
+    "flex-layout.row#home__shelf---seven":{
+     "children": [
+        "rich-text#home__shelf--title",
+        "shelf"
+     ]
+},
+"rich-text#home__shelf--title":{
+    "props": {
+        "text": "LOS MÁS VISTOS",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+    }
+}
+}

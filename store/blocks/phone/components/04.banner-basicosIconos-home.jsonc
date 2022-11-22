@@ -1,0 +1,7 @@
+{
+    "image#home__banner--four":{
+        "props": {
+            "src": "assets/image/phone/basico-icono-mobile.png"
+          }
+    }
+}

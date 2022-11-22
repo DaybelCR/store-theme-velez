@@ -4,7 +4,7 @@
         "children":[
             "drawer#header__mobile--menu",
             "header-spacer",
-            "link#HeaderMiddle--logo",
+            "link#logo--mobile",
             "header-spacer",
             "login",
             "minicart.v2"
@@ -18,10 +18,20 @@
     "drawer#header__mobile--menu":{
         "children":["menu#header__menu--mobile"]
     },
-   "link#HeaderMiddle--logo":{
+    "disclosure-layout":{
+        "children": ["disclosure-trigger"]
+    },
+    "disclosure-trigger":{
+        "children": ["disclosure-content"]
+    },
+    "disclosure-content": {
+        "children": ["header-row#header__bottomMobile"]
+      },
+    "link#logo--mobile":{
     "props":{
         "label":  "VÉLEZ",
-        "blockClass":"HeaderMiddle--logo"
+        "blockClass":"logo--mobile",
+        "href": "/"
        }
    },
     "login":{
