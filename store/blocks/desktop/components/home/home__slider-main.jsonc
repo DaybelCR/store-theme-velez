@@ -1,6 +1,6 @@
 {
-    "slider-layout#home__slider--one": {
-        "title":"Home Slider Phone",
+    "slider-layout#home__desktop--one": {
+        "title":"Home Slider One",
         "props": {
           "itemsPerPage": {
             "desktop": 1,
@@ -17,23 +17,23 @@
           }
         },
         "children": [
-          "image#home__slider--mobileOne",
-          "image#home__slider--mobileTwo",
-          "image#home__slider--mobileThree"]
+          "image#home__slider--one",
+          "image#home__slider--two",
+          "image#home__slider--three"]
       },
-      "image#home__slider--mobileOne":{
+      "image#home__slider--one":{
         "props":{
-          "src":"assets/image/mobile/home__1-slider-mobile.png"
+          "src":"assets/image/desktop/home__1-slider-desktop.png"
         }
       },
-      "image#home__slider--mobileTwo":{
+      "image#home__slider--two":{
             "props":{
-              "src":"assets/image/mobile/home__1-slider-mobile.png"
+                "src":"assets/image/desktop/home__2-slider-desktop.jpg"
             }
       },
-      "image#home__slider--mobileThree":{
+      "image#home__slider--three":{
             "props":{
-              "src":"assets/image/mobile/home__1-slider-mobile.png"
+                "src":"assets/image/desktop/home__3-slider-desktop.jpg"
             }
       }
 }

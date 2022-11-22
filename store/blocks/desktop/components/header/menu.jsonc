@@ -70,7 +70,7 @@
     },
     "image#image__mujer--header":{
      "props":{
-      "src": "assets/desktop/menu-imag1.png",
+      "src": "assets/image/desktop/header__menu-mujer.png",
       "blockClass": "image__mujer--header"
      }
     },
@@ -357,7 +357,7 @@
      },
      "image#image__hombre--header":{
       "props":{
-        "src": "assets/desktop/menu-imag2.png",
+        "src": "assets/image/desktop/header__menu-hombre.png",
         "blockClass": "image__mujer--header"
        }
      },
@@ -432,7 +432,7 @@
      },
      "image#image__sale--header":{
       "props":{
-        "src": "assets/desktop/menu-imag3.png",
+        "src": "assets/image/desktop/header__menu-sale.png",
         "blockClass": "image__mujer--header"
        }
      },

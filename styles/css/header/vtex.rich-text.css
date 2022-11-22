@@ -14,14 +14,11 @@
 .strong--category__mujer--items:hover{
   padding-left: 0.1rem;
 }
-.link--menu__conditions--text{
+.link--menu__conditions--text,.link--items__sale--text{
   font-size: 0.8rem;
 }
 .link--menu__conditions--text:hover{
   padding-left: 0.1rem;
-}
-.link--items__sale--text{
-  font-size: 0.8rem;
 }
 .link--items__sale--text:hover{
   padding-left: 0.2rem;

@@ -11,13 +11,13 @@
     },
     "image#bannerOne--three":{
         "props": {
-            "src": "assets/img-femenino.png",
+            "src": "assets/image/img-femenino.png",
             "blockClass": "bannerOne--three"
           }
     },
     "image#bannerTwo--three":{
         "props": {
-            "src": "assets/img-masculino.png",
+            "src": "assets/image/img-masculino.png",
             "blockClass": "bannerTwo--three"
           }
     }

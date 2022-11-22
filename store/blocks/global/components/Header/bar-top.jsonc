@@ -13,7 +13,7 @@
      },
      "link#HeaderTop-text":{
         "props":{
-         "label":  "Envío Gratis por compras superiores a $399|Comprar>>",
+         "label":  "Envío Gratis por compras superiores a S/399|Comprar>>",
          "blockClass":"HeaderTop-text"
         }
         

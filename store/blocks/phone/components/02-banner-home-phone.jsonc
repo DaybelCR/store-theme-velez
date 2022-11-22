@@ -1,7 +1,7 @@
 {
     "image#home__banner--two":{
         "props": {
-            "src": "assets/phone/banner-regalo.png"
+            "src": "assets/image/phone/banner-regalo.png"
           }
     }
 }
