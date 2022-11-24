@@ -1,0 +1,9 @@
+.closeIconContainer--header__mobile--drawer{
+    float: right;
+}
+
+.childrenContainer--header__mobile--drawer{
+    margin-top: 4rem;
+    border-top: solid 1px #d8d8d8;
+    display: block;
+}

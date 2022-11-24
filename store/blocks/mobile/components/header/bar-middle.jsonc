@@ -2,7 +2,7 @@
     "header-row#header__middleMobile":{
         "title":"Header Middle Mobile ",
         "children":[
-            "drawer#header__mobile--menu",
+            "drawer#header__mobile--drawer",
             "header-spacer",
             "link#logo--mobile",
             "header-spacer",
@@ -15,18 +15,47 @@
             "blockClass":"header__middleMobile"
            }
     },
-    "drawer#header__mobile--menu":{
-        "children":["menu#header__menu--mobile"]
+    "drawer#header__mobile--drawer":{
+        "title":"Drawer for menu mobile",
+       
+        "children":["flex-layout.row#container__mobile--menu",
+                    "icon#facebook--menu"
+    ],
+        "props":{
+            "blockClass": "header__mobile--drawer"
+        }
     },
-    "disclosure-layout":{
-        "children": ["disclosure-trigger"]
+    "flex-layout.row#container__mobile--menu":{
+        "title":"Row Menu Mobile",
+        "children": ["menu#header__menu--mobile",
+                    "rich-text#header__menu--text"],
+        "props": {
+            "blockClass": "container__mobile--menu"
+        }
     },
-    "disclosure-trigger":{
-        "children": ["disclosure-content"]
+    "rich-text#header__menu--text":{
+        "props": {
+            "text":"dhfshdhfjhdsh"
+        }
     },
-    "disclosure-content": {
-        "children": ["header-row#header__bottomMobile"]
-      },
+    // "flex-layout.row#container__mobile--social":{
+    //     "children":[
+    //         "link#link__to__face"
+    //         // "link#link__to__insta",
+    //         // "link#link__to__youtube",
+    //     ]
+    // }
+    // "link#link__to__face":{
+    //     "children": ["icon#facebook--menu"]
+    // },
+    "icon#facebook--menu":{
+        "title":"Facebook Icon Menu",
+        "props":{
+          "id": "icon-facebook",
+          "size": 20,
+          "viewBox":"0 0 25 25"
+    }}
+    ,
     "link#logo--mobile":{
     "props":{
         "label":  "VÉLEZ",

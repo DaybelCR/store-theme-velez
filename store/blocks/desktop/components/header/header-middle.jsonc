@@ -16,6 +16,21 @@
             "blockClass":"header__middleDesktop"
            }
     },
+    "icon#miniCart-icon":{
+      "title":"MiniCart Icon",
+      "props":{
+        "id": "bag-shopping",
+        "size": 28,
+        "blockclass":"header--iconCart",
+        "viewBox":"0 0 24 24"
+      }
+    },
+    "minicart.v2":{
+        "props": {
+            "MinicartIcon": "icon#miniCart-icon",
+            "maxDrawerWidth":330
+        }
+    },
     "link#logo--desktop":{
         "props":{
             "label":  "VÉLEZ",
