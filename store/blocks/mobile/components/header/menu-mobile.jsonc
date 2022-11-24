@@ -5,7 +5,11 @@
             "menu-item#departament__Mujer",
             "menu-item#departament__Hombre",
             "menu-item#departament__Sale",
-            "menu-item#departament__FlyUp"
+            "menu-item#departament__FlyUp",
+            "menu-item#dep__Iconos",
+            "menu-item#dep__Cuidado",
+            "menu-item#dep__Regalos",
+            "menu-item#dep__Casacas"
         ],
         "props": {
             "orientation": "vertical",
@@ -17,6 +21,7 @@
             "id": "menu-item-mujer",
             "type": "custom",
             "highlight": false,
+            "blockClass": "dep__mobile--menu",
             "itemProps": {
                 "type": "internal",
                 "href": "#",
@@ -225,6 +230,7 @@
             "id": "menu-item-hombre",
             "type": "custom",
             "highlight": false,
+            "blockClass": "dep__mobile--menu",
             "itemProps": {
                 "type": "internal",
                 "href": "#",
@@ -235,11 +241,13 @@
         },
         "blocks":["submenu.accordion#departament-Mujer--submenu"]
     },
+    ////////////////////////////////////////////
     "menu-item#departament__Sale": {
         "props": {
             "id": "menu-item-sale",
             "type": "custom",
             "highlight": false,
+            "blockClass": "dep__mobile--menu",
             "itemProps": {
                 "type": "internal",
                 "href": "#",
@@ -313,12 +321,76 @@
             "id": "menu-item-flyUp",
             "type": "custom",
             "highlight": false,
+            "blockClass": "dep__mobile--menu",
             "itemProps": {
                 "type": "internal",
                 "href": "/products",
                 "noFollow": true,
                 "tagTitle": "Fly Up",
                 "text": "FLY UP"
+            }
+        }
+    },
+    ///////////////////////////////////////////
+    "menu-item#dep__Iconos":{
+        "props": {
+            "id": "menu-item-flyUp",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["dep__mobile--menu","extraDep__mobile--menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/products",
+                "noFollow": true,
+                "tagTitle": "Fly Up",
+                "text": "- ICONOS"
+            }
+        }
+    },
+    ///////////////////////////////////////////
+    "menu-item#dep__Cuidado":{
+        "props": {
+            "id": "menu-item-flyUp",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["dep__mobile--menu","extraDep__mobile--menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/products",
+                "noFollow": true,
+                "tagTitle": "Fly Up",
+                "text": "- CUIDADOS DEL CUERO"
+            }
+        }
+    },
+    ///////////////////////////////////////////7
+    "menu-item#dep__Regalos":{
+        "props": {
+            "id": "menu-item-flyUp",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["dep__mobile--menu","extraDep__mobile--menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/products",
+                "noFollow": true,
+                "tagTitle": "Fly Up",
+                "text": "- GUIA DE REGALOS"
+            }
+        }
+    },
+    "menu-item#dep__Casacas":{
+        "props": {
+            "id": "menu-item-flyUp",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["dep__mobile--menu","extraDep__mobile--menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/products",
+                "noFollow": true,
+                "tagTitle": "Fly Up",
+                "text": "- ESPECIAL CASACAS"
             }
         }
     }

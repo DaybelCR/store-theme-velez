@@ -7,7 +7,7 @@
             "link#logo--desktop",
             "header-spacer",
             "search-bar#desktop--search",
-            "login#desktop--login",
+            "login",
             "minicart.v2"
            ],
            "props":{
@@ -29,7 +29,8 @@
         "props": {
             "MinicartIcon": "icon#miniCart-icon",
             "maxDrawerWidth":330
-        }
+        },
+        "children": ["minicart-base-content"]
     },
     "link#logo--desktop":{
         "props":{

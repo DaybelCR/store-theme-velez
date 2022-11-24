@@ -7,18 +7,14 @@
  padding-right: 2.5rem;
  border-right: solid 1px #d4d4d4;
 }
-/* .flexCol--container__col--img{
-    width: 33%;
-}
-.flexCol--container__col--conditions{
-    width: 33%;
-} */
-/* .flexColChild--container__sale--col{
-    padding-right: 13rem;
-    background-color: red;
-} */
 
+.flexRowContent--container__mobile--menu{
+    padding-left:1rem;
+}
 .flexRow--container__mobile--menu{
-    background-color: pink;
-    border: solid 1px black;
+    padding-bottom: 2rem;
+}
+
+.flexRow--containerSocial__mobile--menu{
+    background-color: #ebebeb;
 }

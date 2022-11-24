@@ -8,12 +8,38 @@
     background-color:#f1f1f1 ;
 }
 .minicartWrapperContainer :global(.vtex-button__label){
-padding: 0 0.7rem 0 0;
+padding: 0 0.7rem 0 0.2rem;
 margin-top: 0.7rem;
+}
+.minicartWrapperContainer :global(.vtex-button__label):hover{
+    background-color: transparent;
 }
 .closeIconContainer{
     float: right;
 }
-.drawer{
-    background-color: red;
+
+.minicartTitle::before{
+    content: "";
+    display: inline-block;
+    width: 4rem;
+    height: 2rem;
+    background-image: url(assets/svg/bag_shopping.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color:#575651
+}
+.minicartTitle::after{
+    content: "BOLSA DE COMPRAS";
+    position: absolute;
+    left:3.4rem;
+    top:0.9rem;
+    color:#575651;
+    font-size: 1.3rem;
+    background-color: #fff;
+    font-weight: 200;
+}
+.minicartEmptyStateContainer--minicart-empty{
+    width: 20.6rem;
+    border-top: solid 1px gray;
+    padding-top: 3rem;
 }
