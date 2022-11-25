@@ -1,5 +1,6 @@
 {
     "image#home__banner--two":{
+        "title": "Component Image",
         "props": {
             "src": "assets/image/phone/banner-regalo.png"
           }

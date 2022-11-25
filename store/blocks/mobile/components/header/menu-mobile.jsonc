@@ -1,21 +1,28 @@
 {
     "menu#header__menu--mobile": {
+        "title":"Menu Main Mobile",
         "children": [
             "menu-item#departament__Mujer",
             "menu-item#departament__Hombre",
             "menu-item#departament__Sale",
-            "menu-item#departament__FlyUp"
+            "menu-item#departament__FlyUp",
+            "menu-item#dep__Iconos",
+            "menu-item#dep__Cuidado",
+            "menu-item#dep__Regalos",
+            "menu-item#dep__Casacas"
         ],
         "props": {
             "orientation": "vertical",
             "blockClass":"header__menu--mobile"
         }
     },
+    //////////////////////////////////////////////////////////////////////////
     "menu-item#departament__Mujer": {
         "props": {
             "id": "menu-item-mujer",
             "type": "custom",
             "highlight": false,
+            "blockClass": "dep__mobile--menu",
             "itemProps": {
                 "type": "internal",
                 "href": "#",
@@ -26,11 +33,207 @@
         },
         "blocks":["submenu.accordion#departament-Mujer--submenu"]
     },
+    "submenu.accordion#departament-Mujer--submenu":{
+        "title":"SubMenu Departament Woman",
+        "children":[
+           "menu#nuevo--mujer"
+        ]
+       },
+       "menu#nuevo--mujer":{
+        "title":"Menu container Woman",
+       "children":[
+           "menu-item#nuevo--mujer",
+           "menu-item#zapatillas--mujer",
+           "menu-item#zapatos--mujer",
+           "menu-item#mochilas--mujer",
+           "menu-item#bolsos--mujer",
+           "menu-item#casacas--mujer",
+           "menu-item#correas--mujer",
+           "menu-item#billeteras--mujer",
+           "menu-item#accesorios--mujer",
+           "menu-item#ropa--mujer",
+           "menu-item#viajes--mujer",
+           "menu-item#verTodo--mujer"
+       ],
+       "props":{
+        "orientation":"vertical"
+       }
+       },
+       "menu-item#nuevo--mujer":{
+        "props": {
+            "id": "menu-item-nuevo--mujer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Nuevo",
+                "text": "NUEVO"
+            }
+        }
+       },
+       "menu-item#zapatillas--mujer":{
+        "props": {
+            "id": "menu-item-zapatillas--mujer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Zapatillas",
+                "text": "ZAPATILLAS"
+            }
+        }
+       },
+       "menu-item#zapatos--mujer":{
+        "props": {
+            "id": "menu-item-zapatos--mujer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Zapatos",
+                "text": "ZAPATOS"
+            }
+        }
+       },
+       "menu-item#mochilas--mujer":{
+        "props": {
+            "id": "menu-item-mochilas--mujer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Mochilas",
+                "text": "MOCHILAS"
+            }
+        }
+       },
+       "menu-item#bolsos--mujer":{
+        "props": {
+            "id": "menu-item-bolsos--mujer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Bolsos",
+                "text": "BOLSOS"
+            }
+        }
+       },
+       "menu-item#casacas--mujer":{
+        "props": {
+            "id": "menu-item-casacas--mujer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle":"Casacas",
+                "text": "CASACAS"
+            }
+        }
+       },
+       "menu-item#correas--mujer":{
+        "props": {
+            "id": "menu-item-correas--mujer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Correas",
+                "text": "CORREAS"
+            }
+        }
+       },
+       "menu-item#billeteras--mujer":{
+        "props": {
+            "id": "menu-item-billeteras--mujer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Billeteras",
+                "text": "BILLETERAS"
+            }
+        }
+       },
+       "menu-item#accesorios--mujer":{
+        "props": {
+            "id": "menu-item-accesorios--mujer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Accesorios",
+                "text": "ACCESORIOS"
+            }
+        }
+       },
+       "menu-item#ropa--mujer":{
+        "props": {
+            "id": "menu-item-ropa--mujer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Ropa",
+                "text": "ROPA"
+            }
+        }
+       },
+       "menu-item#viajes--mujer":{
+        "props": {
+            "id": "menu-item-viajes--mujer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Viajes",
+                "text": "VIAJES"
+            }
+        }
+       },
+       "menu-item#verTodo--mujer":{
+        "props": {
+            "id": "menu-item-verTodo--mujer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "verTodo",
+                "text": "VER TODO"
+            }
+        }
+       },
+       ///////////////////////////////////////////////////////////////////
     "menu-item#departament__Hombre": {
         "props": {
             "id": "menu-item-hombre",
             "type": "custom",
             "highlight": false,
+            "blockClass": "dep__mobile--menu",
             "itemProps": {
                 "type": "internal",
                 "href": "#",
@@ -39,13 +242,15 @@
                 "text": "HOMBRE"
             }
         },
-        "blocks":["submenu.accordion#departament-Hombre--submenu"]
+        "blocks":["submenu.accordion#departament-Mujer--submenu"]
     },
+    ///////////////////////////////////////////////////////////////////
     "menu-item#departament__Sale": {
         "props": {
             "id": "menu-item-sale",
             "type": "custom",
             "highlight": false,
+            "blockClass": "dep__mobile--menu",
             "itemProps": {
                 "type": "internal",
                 "href": "#",
@@ -56,17 +261,141 @@
         },
         "blocks":["submenu.accordion#departament-Sale--submenu"]
     },
+    "submenu.accordion#departament-Sale--submenu":{
+        "title":"SubMenu Departament Sale",
+        "children":[
+           "menu#subMenu-sale"
+        ]
+       },
+       "menu#subMenu-sale":{
+       "children":[
+           "menu-item#sale--mujer",
+           "menu-item#sale--hombre",
+           "menu-item#sale--verTodo"
+       ],
+       "props":{
+        "orientation":"vertical"
+       }
+       },
+       "menu-item#sale--mujer":{
+        "props": {
+            "id": "menu-item-sale--mujer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Mujer",
+                "text": "MUJER"
+            }
+        }
+       },
+       "menu-item#sale--hombre":{
+        "props": {
+            "id": "menu-item-sale--hombre",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Hombre",
+                "text": "HOMBRE"
+            }
+        }
+       },
+       "menu-item#sale--verTodo":{
+        "props": {
+            "id": "menu-item-sale--verTodo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "/products",
+                "noFollow": true,
+                "tagTitle": "Ver Todo",
+                "text": "VER TODO"
+            }
+        }
+       },
+       //////////////////////////////////////////////////////////////////
     "menu-item#departament__FlyUp": {
         "props": {
             "id": "menu-item-flyUp",
             "type": "custom",
             "highlight": false,
+            "blockClass": "dep__mobile--menu",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/products",
                 "noFollow": true,
                 "tagTitle": "Fly Up",
                 "text": "FLY UP"
+            }
+        }
+    },
+    ///////////////////////////////////////////
+    "menu-item#dep__Iconos":{
+        "props": {
+            "id": "menu-item-flyUp",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["dep__mobile--menu","extraDep__mobile--menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/products",
+                "noFollow": true,
+                "tagTitle": "Fly Up",
+                "text": "- ICONOS"
+            }
+        }
+    },
+    ///////////////////////////////////////////
+    "menu-item#dep__Cuidado":{
+        "props": {
+            "id": "menu-item-flyUp",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["dep__mobile--menu","extraDep__mobile--menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/products",
+                "noFollow": true,
+                "tagTitle": "Fly Up",
+                "text": "- CUIDADOS DEL CUERO"
+            }
+        }
+    },
+    ///////////////////////////////////////////////////////////////////
+    "menu-item#dep__Regalos":{
+        "props": {
+            "id": "menu-item-flyUp",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["dep__mobile--menu","extraDep__mobile--menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/products",
+                "noFollow": true,
+                "tagTitle": "Fly Up",
+                "text": "- GUIA DE REGALOS"
+            }
+        }
+    },
+    //////////////////////////////////////////////////////////////////
+    "menu-item#dep__Casacas":{
+        "props": {
+            "id": "menu-item-flyUp",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["dep__mobile--menu","extraDep__mobile--menu"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/products",
+                "noFollow": true,
+                "tagTitle": "Fly Up",
+                "text": "- ESPECIAL CASACAS"
             }
         }
     }

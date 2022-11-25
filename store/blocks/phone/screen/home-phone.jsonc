@@ -1,5 +1,6 @@
 {
     "responsive-layout.phone": { 
+    "title":"Home Responsive Phone",
     "children": [
         "slider-layout#home__slider--one",
         "image#home__banner--two",

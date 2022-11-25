@@ -1,0 +1,9 @@
+.flexRowContent--row-menuItems--mujer{
+    width: 95vw;
+    padding-bottom:2.5rem ;
+}
+.flexColChild--container__col--menu{
+ margin-left: -5.5rem;
+ padding-right: 2.5rem;
+ border-right: solid 1px #d4d4d4;
+}

@@ -2,7 +2,7 @@
     "header-row#header__middleMobile":{
         "title":"Header Middle Mobile ",
         "children":[
-            "drawer#header__mobile--menu",
+            "drawer#header__mobile--drawer",
             "header-spacer",
             "link#logo--mobile",
             "header-spacer",
@@ -15,33 +15,97 @@
             "blockClass":"header__middleMobile"
            }
     },
-    "drawer#header__mobile--menu":{
-        "children":["menu#header__menu--mobile"]
+    "drawer#header__mobile--drawer":{
+        "title":"Component Drawer Menu Mobile",
+       
+        "children":["flex-layout.row#container__mobile--menu",
+                    "flex-layout.row#container__mobile--social"
+    ],
+        "props":{
+            "blockClass": "header__mobile--menu"
+        }
     },
-    "disclosure-layout":{
-        "children": ["disclosure-trigger"]
+    "flex-layout.row#container__mobile--menu":{
+        "title":"Row Container Menu Departament",
+        "children": ["menu#header__menu--mobile"],
+        "props": {
+            "blockClass": "container__mobile--menu"
+        }
     },
-    "disclosure-trigger":{
-        "children": ["disclosure-content"]
+    "flex-layout.row#container__mobile--social":{
+      "title":"Row Container Social ",
+      "children": ["menu#items-social--menu"],
+      "props": {
+        "blockClass": "containerSocial__mobile--menu"
+    }
     },
-    "disclosure-content": {
-        "children": ["header-row#header__bottomMobile"]
-      },
+    "menu#items-social--menu":{
+        "title":"Menu Items Social",
+        "children": [
+            "menu-item#facebook--menu",
+            "menu-item#instagram-menu",
+            "menu-item#youtube-menu"
+          ],
+          "props":{
+            "blockClass": "items-social--menu"
+          }
+    },
+    "menu-item#facebook--menu":{
+        "props": {
+            "id": "menu-item-facebook",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#"
+            },
+            "iconProps": {
+              "id": "logo-facebook",
+              "size": 16,
+              "viewBox": "0 0 16 16"
+            }
+          }
+    },
+    "menu-item#instagram-menu":{
+        "props": {
+            "id": "menu-item-instagram",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#"
+            },
+            "iconProps": {
+              "id": "logo-instagram",
+              "size": 16,
+              "viewBox": "0 0 16 16"
+            },
+            "iconToTheRight": true
+          }
+    },
+    "menu-item#youtube-menu":{
+        "props": {
+            "id": "menu-item-youtube",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#"
+            },
+            "iconProps": {
+              "id": "logo-youtube",
+              "size": 20,
+              "viewBox": "0 0 16 16"
+            },
+            "iconToTheRight": true
+          }
+    },
     "link#logo--mobile":{
+      "title": "Link Logo Mobile",
     "props":{
         "label":  "VÉLEZ",
         "blockClass":"logo--mobile",
         "href": "/"
        }
-   },
-    "login":{
-        "props": {
-            "emailAndPasswordTitle": "LOG-IN",
-            "accessCodeTitle": "Acess Code LOG-IN",
-            "emailPlaceholder": "e-mail",
-            "passwordPlaceholder": "password",
-            "showPasswordVerificationIntoTooltip": true,
-            "showIconProfile":true
-          }
-    }
+   }
 }

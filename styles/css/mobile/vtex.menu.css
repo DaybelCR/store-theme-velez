@@ -1,0 +1,33 @@
+.menuContainerNav--header__menu--mobile{
+    margin-top:1rem;
+    display: block;
+}
+.menuContainerNav--header__menu--mobile .styledLinkContainer{
+    margin-left: 0;
+    color: #d8d8d8;
+}
+.styledLinkContent--dep__mobile--menu{
+    height: 1.5rem;
+    color: gray;
+}
+.styledLinkContent--extraDep__mobile--menu{
+font-weight: 700;
+}
+.menuContainerNav--items-social--menu .styledLinkContainer{
+    margin:0 0.4rem 0 0.2rem;
+}
+
+.menuContainer--header__menu--mobile .submenuAccordion .styledLinkContent{
+    height: 1.5rem;
+    color: gray;
+    font-size: 1rem;
+}
+/* .accordionIcon--dep__mobile--menu::before{
+background-color: #fff;
+content: ">";
+position:absolute;
+top:5rem;
+right: 25px;
+color:gray;
+font-size: 26px;
+} */

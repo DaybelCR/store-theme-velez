@@ -1,5 +1,6 @@
 {
     "image#home__banner--four":{
+        "title": "Component Image",
         "props": {
             "src": "assets/image/phone/basico-icono-mobile.png"
           }

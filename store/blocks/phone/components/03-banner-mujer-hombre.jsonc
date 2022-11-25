@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__banner--three":{
+      "title": "Component Row",
       "children":[
         "image#bannerOne--three",
         "image#bannerTwo--three"
@@ -10,12 +11,14 @@
       }
     },
     "image#bannerOne--three":{
+      "title": "Component Image",
         "props": {
             "src": "assets/image/img-femenino.png",
             "blockClass": "bannerOne--three"
           }
     },
     "image#bannerTwo--three":{
+      "title": "Component Image",
         "props": {
             "src": "assets/image/img-masculino.png",
             "blockClass": "bannerTwo--three"

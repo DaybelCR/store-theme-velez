@@ -1,5 +1,6 @@
 {
     "header-row#header__top":{
+      "title":"Header Top",
         "children":[
          "header-spacer",
          "link#HeaderTop-text",
@@ -12,6 +13,7 @@
         }
      },
      "link#HeaderTop-text":{
+      "title":"Component Link ",
         "props":{
          "label":  "Envío Gratis por compras superiores a S/399|Comprar>>",
          "blockClass":"HeaderTop-text"

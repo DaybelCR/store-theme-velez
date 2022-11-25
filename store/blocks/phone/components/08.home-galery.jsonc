@@ -1,10 +1,12 @@
 {
     "flex-layout.row#home__gallery--eight":{
+        "title": "Component Row",
         "children": [
             "rich-text#instagram--title"
         ]
     },
     "rich-text#instagram--title":{
+        "title": "Component Text",
         "props": {
             "text": "@velez_international",
             "textAlignment": "CENTER",

@@ -7,7 +7,7 @@
             "link#logo--desktop",
             "header-spacer",
             "search-bar#desktop--search",
-            "login#desktop--login",
+            "login",
             "minicart.v2"
            ],
            "props":{
@@ -16,7 +16,24 @@
             "blockClass":"header__middleDesktop"
            }
     },
+    "icon#miniCart-icon":{
+      "title":"MiniCart Icon",
+      "props":{
+        "id": "bag-shopping",
+        "size": 28,
+        "blockclass":"header--iconCart",
+        "viewBox":"0 0 24 24"
+      }
+    },
+    "minicart.v2":{
+        "props": {
+            "MinicartIcon": "icon#miniCart-icon",
+            "maxDrawerWidth":330
+        },
+        "children": ["minicart-base-content"]
+    },
     "link#logo--desktop":{
+        "title":"Component Link Logo",
         "props":{
             "label":  "VÉLEZ",
             "blockClass":"logo--desktop",
@@ -24,6 +41,7 @@
            }
     },
     "menu#header---menuDesktop":{
+        "title":"Menu Main Desktop",
         "children": [
             "menu-item#departament__mujer--one",
             "menu-item#departament__hombre--two",

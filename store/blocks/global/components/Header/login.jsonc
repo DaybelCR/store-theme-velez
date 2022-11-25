@@ -1,12 +1,11 @@
 {
-    "login#desktop--login":{
+    "login":{
         "props": {
             "emailAndPasswordTitle": "LOG-IN",
             "accessCodeTitle": "Acess Code LOG-IN",
             "emailPlaceholder": "e-mail",
             "passwordPlaceholder": "password",
             "showPasswordVerificationIntoTooltip": true,
-            "iconLabel": " ",
             "showIconProfile":true
           }
     }

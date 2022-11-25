@@ -1,0 +1,11 @@
+.link{
+    text-decoration: none;
+}
+
+.label--HeaderTop-text{
+    color:#fff;
+    font-size: 0.7rem;
+    padding: 2px;
+    width: 100%;
+    font-weight: 800;
+}

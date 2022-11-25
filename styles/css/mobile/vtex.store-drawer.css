@@ -1,0 +1,18 @@
+.closeIconContainer--header__mobile--menu{
+    float: right;
+}
+
+.childrenContainer--header__mobile--menu{
+    margin-top: 4rem;
+    border-top: solid 1px #d8d8d8;
+    display: block;
+}
+
+.closeIconContainer--header__mobile--menu::before{
+content: "CERRAR MENÚ";
+color: #d8d8d8;
+font-size: 0.8rem;
+position: absolute;
+top: 1.3rem;
+right: 2.5rem;
+}

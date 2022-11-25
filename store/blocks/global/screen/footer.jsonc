@@ -1,26 +1,24 @@
 {
   "footer": {
+    "title": "Footer",
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
   "footer-layout.desktop": { 
+    "title": "Footer desktop",
     "children": [
       "flex-layout.row#footer"
     ]
   },
   "footer-layout.mobile": { 
+    "title": "Footer Mobile",
     "children": [
       "flex-layout.row#footer"
     ]
   },
   "flex-layout.row#footer": { 
+    "title": "Row Container",
     "children": [
       "image"
     ]
-  },
-  "image": {
-    "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
-    }
   }
 }
