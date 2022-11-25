@@ -1,0 +1,24 @@
+.submenuWrapper--container__mujer--submenu--isOpen{
+    width: 100vw;
+    margin-left: -42px;
+    padding-bottom: 0;
+}
+.submenuWrapper--container__hombre--submenu--isOpen{
+    width: 100vw;
+    margin-left: -135px;
+    padding-bottom: 0;
+}
+.submenuWrapper--container__sale--submenu--isOpen{
+    width: 100vw;
+    margin-left: -238px;
+    padding-bottom: 0;
+}
+.submenu--container__mujer--submenu{
+    margin-bottom: 0;
+}
+.menuContainerNav--container__desktop--menu .styledLinkContent{
+    font-size: 0.8rem;
+}
+.styledLinkContent--category__mujer--item:hover{
+    padding-left: 0.2rem;
+}

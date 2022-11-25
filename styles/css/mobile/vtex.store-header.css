@@ -1,0 +1,13 @@
+.headerRowContainer--header__middleMobile{
+    /* position:absolute;
+    top:0px; */
+    height: 2.8rem;
+    background-color: #ffffff;
+}
+
+.headerRowContainer--header__bottomMobile{
+    /* position:absolute;
+    top:35px; */
+    height: 2.7rem;
+    background-color: #ffffff;
+}
