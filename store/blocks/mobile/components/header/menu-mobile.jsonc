@@ -1,6 +1,6 @@
 {
     "menu#header__menu--mobile": {
-        "title":"Menu Mobile",
+        "title":"Menu Main Mobile",
         "children": [
             "menu-item#departament__Mujer",
             "menu-item#departament__Hombre",
@@ -16,6 +16,7 @@
             "blockClass":"header__menu--mobile"
         }
     },
+    //////////////////////////////////////////////////////////////////////////
     "menu-item#departament__Mujer": {
         "props": {
             "id": "menu-item-mujer",
@@ -33,11 +34,13 @@
         "blocks":["submenu.accordion#departament-Mujer--submenu"]
     },
     "submenu.accordion#departament-Mujer--submenu":{
+        "title":"SubMenu Departament Woman",
         "children":[
            "menu#nuevo--mujer"
         ]
        },
        "menu#nuevo--mujer":{
+        "title":"Menu container Woman",
        "children":[
            "menu-item#nuevo--mujer",
            "menu-item#zapatillas--mujer",
@@ -241,7 +244,7 @@
         },
         "blocks":["submenu.accordion#departament-Mujer--submenu"]
     },
-    ////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////
     "menu-item#departament__Sale": {
         "props": {
             "id": "menu-item-sale",
@@ -259,6 +262,7 @@
         "blocks":["submenu.accordion#departament-Sale--submenu"]
     },
     "submenu.accordion#departament-Sale--submenu":{
+        "title":"SubMenu Departament Sale",
         "children":[
            "menu#subMenu-sale"
         ]
@@ -363,7 +367,7 @@
             }
         }
     },
-    ///////////////////////////////////////////7
+    ///////////////////////////////////////////////////////////////////
     "menu-item#dep__Regalos":{
         "props": {
             "id": "menu-item-flyUp",
@@ -379,6 +383,7 @@
             }
         }
     },
+    //////////////////////////////////////////////////////////////////
     "menu-item#dep__Casacas":{
         "props": {
             "id": "menu-item-flyUp",

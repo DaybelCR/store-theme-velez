@@ -16,7 +16,7 @@
            }
     },
     "drawer#header__mobile--drawer":{
-        "title":"Drawer for menu mobile",
+        "title":"Component Drawer Menu Mobile",
        
         "children":["flex-layout.row#container__mobile--menu",
                     "flex-layout.row#container__mobile--social"
@@ -26,13 +26,14 @@
         }
     },
     "flex-layout.row#container__mobile--menu":{
-        "title":"Row Menu Mobile",
+        "title":"Row Container Menu Departament",
         "children": ["menu#header__menu--mobile"],
         "props": {
             "blockClass": "container__mobile--menu"
         }
     },
     "flex-layout.row#container__mobile--social":{
+      "title":"Row Container Social ",
       "children": ["menu#items-social--menu"],
       "props": {
         "blockClass": "containerSocial__mobile--menu"
@@ -100,6 +101,7 @@
           }
     },
     "link#logo--mobile":{
+      "title": "Link Logo Mobile",
     "props":{
         "label":  "VÉLEZ",
         "blockClass":"logo--mobile",

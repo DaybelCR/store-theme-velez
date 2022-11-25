@@ -1,6 +1,6 @@
 {
     "header-row#header__bottomMobile":{
-        "title":"Header Middle Mobile ",
+        "title":"Header Bottom Mobile ",
            "props":{
             "fullWidth": true,
             "sticky":true,

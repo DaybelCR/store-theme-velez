@@ -33,6 +33,7 @@
         "children": ["minicart-base-content"]
     },
     "link#logo--desktop":{
+        "title":"Component Link Logo",
         "props":{
             "label":  "VÉLEZ",
             "blockClass":"logo--desktop",
@@ -40,6 +41,7 @@
            }
     },
     "menu#header---menuDesktop":{
+        "title":"Menu Main Desktop",
         "children": [
             "menu-item#departament__mujer--one",
             "menu-item#departament__hombre--two",

@@ -1,6 +1,6 @@
 {
     "responsive-layout.desktop": { 
-    "title":"Home Desktop",
+    "title":"Home Responsive Desktop",
     "children": [
         "slider-layout#home__desktop--one"
     ]
