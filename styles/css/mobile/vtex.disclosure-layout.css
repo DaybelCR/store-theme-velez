@@ -1,0 +1,8 @@
+.content--searchBar-content--visible{
+    background-color: red;
+}
+.trigger--searchBar-trigger{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}

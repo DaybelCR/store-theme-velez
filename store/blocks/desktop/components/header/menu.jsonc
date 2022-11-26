@@ -29,7 +29,8 @@
         "rich-text#buy_on_wtsp"
       ],
       "props":{
-        "orientation":"vertical"
+        "orientation":"vertical",
+        "blockClass":"container_Woman--menu"
       }
     },
     "flex-layout.row#departament__mujer--one":{
