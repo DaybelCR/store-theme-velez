@@ -1,0 +1,9 @@
+.container--footer__rowThree--textThree{
+    justify-content: end;
+}
+
+.link--footer__rowThree--textOne,
+.paragraph--footer__rowThree--textTwo,
+.paragraph--footer__rowThree--textThree{
+    font-size: 0.8rem;
+}
