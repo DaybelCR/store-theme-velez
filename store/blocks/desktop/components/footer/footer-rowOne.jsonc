@@ -2,44 +2,96 @@
     "flex-layout.row#desktop__footer--rowOne":{
         "title":"Footer Desktop Row One",
         "children": [
-            "rich-text#footer__rowOne--textOne",
-            "rich-text#footer__rowOne--textTwo",
-            "newsletter#footer__rowOne--textThree"
+            "flex-layout.col#footer__rowOne--containerOne",
+            "flex-layout.col#footer__rowOne--containerTwo",
+            "flex-layout.col#footer__rowOne--containerThree"
         ],
         "props": {
-            "blockClass": "desktop__footer--rowOne"
+            "blockClass": "desktop__footer--rowOne",
+            "horizontalAlign": "center",
+            "colGap":7
         }
     },
-    // "flex-layout.col#footer__rowOne--containerOne":{
-    //     "children": [
-    //         "rich-text#footer__rowOne--textOne"
-    //     ]
+    "flex-layout.col#footer__rowOne--containerOne":{
+        "title": "Container One",
+        "children": [
+            "rich-text#footer__rowOne--textOne"
+        ],
+        "props": {
+            "width": "25%"
+        }
 
-    // },
+    },
     "rich-text#footer__rowOne--textOne":{
         "props": {
-            "text": "NEWSLETTER"
+            "text": "NEWSLETTER",
+            "font": "t-heading-2"
         }
     },
-    // "flex-layout.col#footer__rowOne--containerTwo":{
-    //  "children": [
-    //     "rich-text#footer__rowOne--textTwo"
-    //  ]
-    // },
+    "flex-layout.col#footer__rowOne--containerTwo":{
+        "title": "Container Two",
+     "children": [
+        "rich-text#footer__rowOne--textTwo"
+     ],
+     "props": {
+        "width": "25%",
+        "verticalAlign": "middle"
+    }
+    },
     "rich-text#footer__rowOne--textTwo":{
         "props": {
-            "text": "Suscríbete y recibe contenido exclusivo de Velez"
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "text": "Suscríbete y recibe contenido Exclusivo de vélez"
         }
     },
-    // "flex-layout.col#footer__rowOne--containerThree":{
-    //   "children": [
-    //     "newsletter"
-    //   ]
-    // }
-    "newsletter#footer__rowOne--textThree":{
-      "props":{
-        "submit": "Enviar>>",
-        "placeholder": "Escribe tu correo electrónico"
+    "flex-layout.col#footer__rowOne--containerThree":{
+        "title": "Container Three",
+        "children": [
+            "newsletter-form"
+        ],
+        "props": {
+            "width": "50%",
+            "verticalAlign": "middle",
+            "blockClass": "footer__rowOne--containerThree"
+        }
+    },
+    "newsletter-form": {
+        "title": "Newsletter Form",
+        "children": [
+          "flex-layout.row#footer_container--newsletter",
+          "newsletter-checkbox-confirmation"
+        ],
+        "props": {
+            "blockClass":"footer--newsletter"
+        }
+      },
+      "flex-layout.row#footer_container--newsletter":{
+        "children": [
+            "newsletter-input-email",
+            "newsletter-submit"
+        ],
+        "props": {
+            "blockClass":"footer_container--newsletter"
+        }
+      },
+      "newsletter-input-email":{
+        "title": "Input Email",
+        "props": {
+            "placeholderText": "Escribe tu correo electrónico"
+        }
+      },
+      "newsletter-submit":{
+        "title": "Button submit",
+        "props": {
+            "submitButtonLabel":"ENVIAR>>"
+        }
+      },
+      "newsletter-checkbox-confirmation":{
+        "title":"Checkbox confirmation",
+        "props":{
+        "checkboxLabel":"Autorizo el tratamiento de mis datos personales de acuerdo con la Política de Protección de datos personales disponible aquí"
+        }
       }
-    }
+      
 }

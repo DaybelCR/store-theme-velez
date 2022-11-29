@@ -19,3 +19,13 @@
 .flexRowContent--desktop__footer--rowThree{
     padding:1rem 3.5rem 3.5rem 3.5rem;
 }
+
+.flexRowContent--desktop__footer--rowOne{
+padding:1.5rem 3.5rem 0.8rem 3.5rem;
+}
+
+.flexRowContent--footer_container--newsletter .stretchChildrenWidth:first-child{
+    width: calc(100%-3rem)!important;
+    border:solid black 2px;
+    height: 2.3rem;
+}

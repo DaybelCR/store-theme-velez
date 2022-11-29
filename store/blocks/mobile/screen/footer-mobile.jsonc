@@ -2,7 +2,9 @@
     "footer-layout.mobile": { 
         "title": "Footer Mobile",
         "children": [
-         
+         "flex-layout.row#footer__container--menu",
+         "rich-text#mobile__footer--textOne",
+         "rich-text#mobile__footer--textTwo"
         ]
       }
 }
