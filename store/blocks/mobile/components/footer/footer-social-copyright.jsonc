@@ -1,16 +1,32 @@
 {
-    "rich-text#mobile__footer--textOne": {
-        "props": {
-         "textAlignment": "CENTER",
-         "textPosition": "CENTER",
-         "text": "LIBRO DE RECLAMACIONES \n \n Conforme a lo establecido en el Código de protección y defensa del consumidor este establecimiento cuenta con un libro de reclamaciones virtual a tu disposición. Haz clic aquí para registrar una queja o reclamo"
-        }
-       },
-       "rich-text#mobile__footer--textTwo":{
-         "props": {
-           "textAlignment": "CENTER",
-           "textPosition": "CENTER",
-           "text": "TODOS LOS DERECHOS RESERVADOS INVERMODA SAC 2021"
-          }
-       }
+  "flex-layout.row#footer__container--social": {
+    "children": [
+      "social-networks"
+    ],
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "paddingTop": 5,
+      "paddingBottom": 3
+    }
+  },
+  "rich-text#mobile__footer--textOne": {
+    "props": {
+      "blockClass": "mobile__footer--textOne",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "LIBRO DE RECLAMACIONES \n \n Conforme a lo establecido en el Código de protección y defensa del consumidor este establecimiento cuenta con un libro de reclamaciones virtual a tu disposición. Haz clic aquí para registrar una queja o reclamo"
+    }
+  },
+  "rich-text#mobile__footer--textTwo": {
+    "props": {
+      "blockClass": "mobile__footer--textTwo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "TODOS LOS DERECHOS RESERVADOS INVERMODA SAC 2021"
+    }
+  }
 }

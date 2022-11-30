@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#footer__container--suscription":{
+        "children": [
+            "flex-layout.col#footer__container--suscription"
+        ],
+        "props": {
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#footer__container--suscription":{
+    "children": [
+        "rich-text#footer__rowOne--textOne",
+        "rich-text#footer__rowOne--textTwo",
+        "newsletter-form"
+    ],
+    "props": {
+        "preventVerticalStretch": true,
+        "verticalAlign": "middle",
+        "horizontalAlign": "center",
+        "width": "100%"
+    }
+    }
+}

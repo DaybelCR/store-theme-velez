@@ -31,3 +31,8 @@ right: 25px;
 color:gray;
 font-size: 26px;
 } */
+
+.menuContainer--footer-menu-item .styledLinkContent{
+    font-size: 0.8rem;
+    height: 1.5rem;
+}
