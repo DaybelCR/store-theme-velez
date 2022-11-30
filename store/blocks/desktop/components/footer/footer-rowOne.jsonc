@@ -23,9 +23,11 @@
 
     },
     "rich-text#footer__rowOne--textOne":{
+        "title": "title Newletter",
         "props": {
             "text": "NEWSLETTER",
-            "font": "t-heading-2"
+            "font": "t-heading-2",
+            "blockClass":"footer__rowOne--textOne"
         }
     },
     "flex-layout.col#footer__rowOne--containerTwo":{
@@ -39,6 +41,7 @@
     }
     },
     "rich-text#footer__rowOne--textTwo":{
+        "title": "text suscription",
         "props": {
             "textPosition": "CENTER",
             "font": "t-heading-6",
@@ -61,18 +64,37 @@
         "children": [
           "flex-layout.row#footer_container--newsletter",
           "newsletter-checkbox-confirmation"
-        ],
-        "props": {
-            "blockClass":"footer--newsletter"
-        }
+        ]
       },
       "flex-layout.row#footer_container--newsletter":{
+        "title": "Container row newsletter",
         "children": [
-            "newsletter-input-email",
+            "flex-layout.col#footer_container--input",
+            "flex-layout.col#footer_container--submit"
+        ],
+        "props": {
+            "paddingBottom":3,
+            "blockClass":"footer_container--newsletter"
+        }
+      },
+      "flex-layout.col#footer_container--input":{
+        "title": "Container input",
+        "children": [
+            "newsletter-input-email"
+        ],
+        "props": {
+            "width":"90%",
+            "blockClass":"footer_container--input"
+        }
+      },
+      "flex-layout.col#footer_container--submit":{
+        "title": "Container submit",
+        "children": [
             "newsletter-submit"
         ],
         "props": {
-            "blockClass":"footer_container--newsletter"
+            "width":"10%",
+            "blockClass":"footer_container--submit"
         }
       },
       "newsletter-input-email":{

@@ -9,12 +9,11 @@
     background-color: #ebebeb;
 }
 
-/* .flexColChild--footer__col--social--copyright:first-child{
-   width: 99%;
-   border-bottom: 1px gray solid;
-} */
-
 .flexCol--footer__col--menu{
     margin-left: 0.6rem;
     margin-right: 0.6rem;
+}
+
+.flexCol--mobile__footer--col-suscription :global(.vtex-button){
+    width: 7rem;
 }

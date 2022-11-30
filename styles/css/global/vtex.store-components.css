@@ -3,16 +3,16 @@
     height: 20rem;
 }
 
-.autoCompleteOuterContainer,:global(.vtex-input-prefix__group){
+/* .autoCompleteOuterContainer,:global(.vtex-input-prefix__group){
     border:none;
     border-radius: 0;
     margin-right: 5px;
     background-color: transparent;
-}
+} */
 
-:global(.vtex-input__suffix){
+/* :global(.vtex-input__suffix){
     background-color: transparent;
-}
+} */
 
 .imageElement--image__mujer--header{
    margin: 0 auto;

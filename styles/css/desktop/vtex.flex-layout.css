@@ -24,8 +24,21 @@
 padding:1.5rem 3.5rem 0.8rem 3.5rem;
 }
 
-.flexRowContent--footer_container--newsletter .stretchChildrenWidth:first-child{
-    width: calc(100%-3rem)!important;
-    border:solid black 2px;
-    height: 2.3rem;
+.flexColChild--footer_container--input :global(.vtex-input-prefix__group){
+border-color: black;
+border-radius: 0;
 }
+.flexCol--footer__rowOne--containerThree :global(.vtex-checkbox__label){
+    width: 25vw;
+}
+
+.flexCol--footer__rowOne--containerThree{
+    margin-right: 6rem;
+}
+.flexRowContent--footer_container--newsletter .stretchChildrenWidth:first-child{
+   width: calc(100%-9rem);
+}
+.flexRowContent--footer_container--newsletter .stretchChildrenWidth:last-child{
+    width: 9rem;
+}
+

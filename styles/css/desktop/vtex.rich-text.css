@@ -2,6 +2,11 @@
     justify-content: end;
 }
 
+
+.container--footer__rowOne--textOne .paragraph{
+    font-size: 2.55vw;
+}
+
 .link--footer__rowThree--textOne,
 .paragraph--footer__rowThree--textTwo,
 .paragraph--footer__rowThree--textThree{

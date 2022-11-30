@@ -8,7 +8,8 @@
             "horizontalAlign": "center",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
-            "preserveLayoutOnMobile": true
+            "preserveLayoutOnMobile": true,
+            "blockClass":"mobile__footer--row-suscription"
         }
     },
     "flex-layout.col#footer__container--suscription":{
@@ -21,7 +22,16 @@
         "preventVerticalStretch": true,
         "verticalAlign": "middle",
         "horizontalAlign": "center",
-        "width": "100%"
+        "width": "100%",
+        "blockClass":"mobile__footer--col-suscription"
     }
     }
+    // "flex-layout.row#mobile__suscription":{
+    //     "children": [
+    //         "newsletter-form"
+    //     ],
+    //     "props": {
+    //         "blockClass":"mobile__footer--container-form"
+    //     }
+    // }
 }
