@@ -30,3 +30,17 @@
 .paragraph--msgSend__empty--minicart{
  font-weight: 700;
 }
+
+.paragraph--footer-menu-title{
+  font-weight: 900;
+}
+.container--mobile__footer--textOne{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  font-size: 0.8rem;
+  padding:2.5rem;
+}
+.container--mobile__footer--textTwo{
+  padding: 2rem  3rem 4.5rem 3rem;
+  font-size: 0.7rem;
+}

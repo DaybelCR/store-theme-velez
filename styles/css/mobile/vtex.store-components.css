@@ -1,0 +1,7 @@
+.searchBarInnerContainer--searchBar_mobile{
+    position: absolute;
+    left: 0.3rem;
+    margin-top: 1.3rem;
+    width: 100%;
+    background-color: white;
+}

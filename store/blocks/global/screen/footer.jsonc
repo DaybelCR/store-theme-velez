@@ -1,24 +1,10 @@
 {
   "footer": {
     "title": "Footer",
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": { 
-    "title": "Footer desktop",
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "footer-layout.mobile": { 
-    "title": "Footer Mobile",
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "title": "Row Container",
-    "children": [
-      "image"
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
     ]
   }
+  
 }

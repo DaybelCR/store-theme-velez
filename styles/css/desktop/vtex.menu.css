@@ -22,3 +22,20 @@
 .styledLinkContent--category__mujer--item:hover{
     padding-left: 0.2rem;
 }
+
+.menuContainer--footer__rowTwo--menuOne 
+.styledLinkContent,
+.menuContainer--footer__rowTwo--menuTwo 
+.styledLinkContent,
+.menuContainer--footer__rowTwo--menuThree 
+.styledLinkContent,
+.menuContainer--footer__rowTwo--menuFour 
+.styledLinkContent,
+.menuContainer--footer__rowTwo--menuFive 
+.styledLinkContent{
+font-size: 0.8rem;
+}
+
+.styledLinkContent--footer__rowTwo--title{
+    font-weight: 900;
+}

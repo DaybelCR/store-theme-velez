@@ -36,10 +36,10 @@
     "submenu.accordion#departament-Mujer--submenu":{
         "title":"SubMenu Departament Woman",
         "children":[
-           "menu#nuevo--mujer"
+           "menu#departament-Mujer--submenu"
         ]
        },
-       "menu#nuevo--mujer":{
+       "menu#departament-Mujer--submenu":{
         "title":"Menu container Woman",
        "children":[
            "menu-item#nuevo--mujer",

@@ -1,0 +1,73 @@
+{
+    "flex-layout.row#desktop__footer--rowThree":{
+            "title": "Footer Desktop Row Three",
+            "children": [
+               "flex-layout.col#footer_containerCol--textComplaints",
+               "flex-layout.col#footer_containerCol--rights"
+            ],
+            "props": {
+                "blockClass": "desktop__footer--rowThree"
+                
+            }
+    },
+    "flex-layout.col#footer_containerCol--textComplaints":{
+        "title": "Container col complaints",
+        "children": [
+           "flex-layout.row#footer_containerRow--textComplaints"
+        ],
+        "props": {
+            "preventVerticalStretch":true
+        }
+    },
+    "flex-layout.row#footer_containerRow--textComplaints":{
+        "title": "Container row complaints",
+        "children": [
+            "image#footer__rowthree--image",
+            "rich-text#footer__rowThree--textOne",
+            "rich-text#footer__rowThree--textTwo"
+        ],
+        "props": {
+            "colSizing":"auto"
+        }
+    },
+    "image#footer__rowthree--image":{
+        "title": "Image book",
+        "props": {
+            "src": "assets/image/desktop/footer_libro_reclamaciones.png",
+            "maxHeight": 90,
+            "maxWidth": 120
+          }
+    },
+    "rich-text#footer__rowThree--textOne":{
+        "title": "text book",
+            "props": {
+                "blockClass":"footer__rowThree--textOne",
+                "textAlignment": "CENTER",
+                "text": "[LIBRO DE RECLAMACIONES](https://daysic--itgloberspartnercl.myvtex.com/)"
+            }
+    },
+    "rich-text#footer__rowThree--textTwo":{
+        "title": "text complaints",
+        "props": {
+            "blockClass":"footer__rowThree--textTwo",
+            "textAlignment": "CENTER",
+            "text": "Conforme a lo establecido en el Código de protección y defensa del consumidor este establecimiento cuenta con un libro de reclamaciones virtual a tu disposición. Haz clic aquí para registrar una queja o reclamo"
+        }
+    },
+    "flex-layout.col#footer_containerCol--rights":{
+        "title": "Container Col rigths",
+        "children": [
+            "rich-text#footer__rowThree--textThree"
+        ],
+        "props": {
+            "preventVerticalStretch":true
+        }
+    },
+    "rich-text#footer__rowThree--textThree":{
+        "title": "text copyrigth",
+        "props": {
+            "text": "TODOS LOS DERECHOS RESERVADOS INVERMODA SAC 2021",
+            "blockClass":"footer__rowThree--textThree"
+        }
+    }
+}

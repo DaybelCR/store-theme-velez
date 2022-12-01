@@ -1,0 +1,285 @@
+{
+    "flex-layout.row#desktop__footer--rowTwo":{
+        "title": "Footer Desktop Row Two",
+        "children": [
+            "menu#footer__rowTwo--menuOne",
+            "menu#footer__rowTwo--menuTwo",
+             "menu#footer__rowTwo--menuThree",
+             "menu#footer__rowTwo--menuFour",
+             "menu#footer__rowTwo--menuFive"
+        ],
+        "props": {
+            "blockClass": "desktop__footer--rowTwo",
+            "horizontalAlign":"center",
+            "colJustify":"around",
+            "preventVerticalStretch":true
+        }
+    },
+    "menu#footer__rowTwo--menuOne":{
+      "title": "Footer Menu One",
+       "children":[
+        "menu-item#footer__container-colOne--titleOne",
+        "menu-item#footer__container-colOne--linkOne",
+        "menu-item#footer__container-colOne--linkTwo",
+        "menu-item#footer__container-colOne--linkThree"
+       ],
+       "props":{
+        "orientation":"vertical",
+        "blockClass":"footer__rowTwo--menuOne"
+       }
+    }, 
+    "menu-item#footer__container-colOne--titleOne":{
+        "props": {
+            "id": "menu-item-colOne-titleOne",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "footer__rowTwo--title",
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "sobre-nosotros",
+              "text": "NOSOTROS"
+            }
+    }},
+    "menu-item#footer__container-colOne--linkOne":{
+        "props": {
+            "id": "menu-item-colOne-linkOne",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "programa-puntos",
+              "text": "Programa puntos"
+            }
+    }}, 
+    "menu-item#footer__container-colOne--linkTwo":{
+        "props": {
+            "id": "menu-item-colOne-linkTwo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "nuestras-políticas",
+              "text":"Nuestras Políticas"
+            }
+    }
+}, 
+    "menu-item#footer__container-colOne--linkThree":{
+        "props": {
+            "id": "menu-item-colOne-linkOne",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "términos-y-condiciones",
+              "text":"Términos y condiciones"
+            }
+    }
+    },
+    "menu#footer__rowTwo--menuTwo":{
+      "title": "Footer Menu Two",
+        "children":[
+            "menu-item#footer__container-colTwo--titleTwo",
+            "menu-item#footer__container-colTwo--linkOne",
+            "menu-item#footer__container-colTwo--linkTwo"
+           ],
+           "props":{
+            "orientation":"vertical",
+            "blockClass": "footer__rowTwo--menuTwo"
+           }
+    },
+    "menu-item#footer__container-colTwo--titleTwo":{
+        "props": {
+            "id": "menu-item-colTwo-titleTwo",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "footer__rowTwo--title",
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "te-ayudamos",
+              "text": "TE AYUDAMOS"
+            }
+    } 
+    },
+    "menu-item#footer__container-colTwo--linkOne":{
+        "props": {
+            "id": "menu-item-colTwo-linkOne",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "dónde-está-mi-pedido?",
+              "text": "¿Dónde está mi pedido?"
+            }
+    } 
+    },
+    "menu-item#footer__container-colTwo--linkTwo":{
+        "props": {
+            "id": "menu-item-colTwo-linkTwo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "consulta-tu-factura",
+              "text": "Consulta tu factura"
+            }
+    } 
+    },
+    "menu#footer__rowTwo--menuThree":{
+      "title": "Footer Menu Three",
+        "children":[
+            "menu-item#footer__container-colThree--titleThree",
+            "menu-item#footer__container-colThree--linkOne"
+           ],
+           "props":{
+            "orientation":"vertical",
+            "blockClass": "footer__rowTwo--menuThree"
+           }
+    },
+    "menu-item#footer__container-colThree--titleThree":{
+        "props": {
+            "id": "menu-item-colThree-titleThree",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "footer__rowTwo--title",
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "nuestras-tiendas",
+              "text": "NUESTRAS TIENDAS"
+            }
+    } 
+    },
+    "menu-item#footer__container-colThree--linkOne":{
+        "props": {
+            "id": "menu-item-colThree-titleThree",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "ciudad-lima",
+              "text": "Ciudad de Lima"
+            }
+    } 
+    },
+    "menu#footer__rowTwo--menuFour":{
+      "title": "Footer Menu Four",
+        "children":[
+            "menu-item#footer__container-colFour--titleFour",
+            "menu-item#footer__container-colFour--linkOne"
+           ],
+           "props":{
+            "orientation":"vertical",
+            "blockClass": "footer__rowTwo--menuFour"
+           }
+    },
+    "menu-item#footer__container-colFour--titleFour":{
+        "props": {
+            "id": "menu-item-colFour-titleFour",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "footer__rowTwo--title",
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "métodos-pagos",
+              "text": "MÉTODOS DE PAGO"
+            }
+    } 
+    },
+    "menu-item#footer__container-colFour--linkOne":{
+        "props": {
+            "id": "menu-item-colFour-linkOne",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "medios-pagos",
+              "text": "Medios de pago"
+            }
+    } 
+    },
+    "menu#footer__rowTwo--menuFive":{
+      "title": "Footer Menu Five",
+        "children":[
+            "menu-item#footer__container-colFive--titleFive",
+            "menu-item#footer__container-colFive--linkOne",
+            "menu-item#footer__container-colFive--linkTwo",
+            "menu-item#footer__container-colFive--linkThree",
+            "menu-item#footer__container-colFive--linkFour",
+            "social-networks"
+           ],
+           "props":{
+            "orientation":"vertical",
+            "blockClass": "footer__rowTwo--menuFive"
+           }
+    },
+    "menu-item#footer__container-colFive--titleFive":{
+        "props": {
+            "id": "menu-item-colFive-titleFive",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "footer__rowTwo--title",
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "contáctanos",
+              "text": "CONTÁCTANOS"
+            }
+    } 
+    },
+    "menu-item#footer__container-colFive--linkOne":{
+        "props": {
+            "id": "menu-item-colFive-linkOne",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "compra-whatsapp",
+              "text": "Comprar por Whatsapp +51 980712057"
+            }
+    } 
+    },
+    "menu-item#footer__container-colFive--linkTwo":{
+        "props": {
+            "id": "menu-item-colFive-linkTwo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "servicio-cliente",
+              "text": "Servicio al cliente +57 3213361960"
+            }
+    } 
+    },
+    "menu-item#footer__container-colFive--linkThree":{
+        "props": {
+            "id": "menu-item-colFive-linkThree",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "actualiza-datos",
+              "text": "Actualiza tus datos"
+            }
+    } 
+    },
+    "menu-item#footer__container-colFive--linkFour":{
+        "props": {
+            "id": "menu-item-colFive-linkFour",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "tagTitle": "escríbenos",
+              "text": "Escríbenos"
+            }
+    } 
+    },
+    "social-networks": {
+      "title": "Footer Social Networks",
+        "props": {
+          "socialNetworks": [
+            { "url": "https://facebook.com/", "name": "Facebook" },
+            { "url": "https://instagram.com/", "name": "Instagram" },
+            { "url": "https://youtube.com/", "name": "Youtube" }
+          ]
+        }
+      }
+}

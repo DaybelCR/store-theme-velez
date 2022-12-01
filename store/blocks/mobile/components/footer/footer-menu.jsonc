@@ -1,0 +1,223 @@
+{
+    "flex-layout.row#footer__container--menu": {
+        "children": [
+            "flex-layout.col#footer__col--menu"
+        ]
+    },
+    "flex-layout.col#footer__col--menu": {
+        "children": [
+            "disclosure-layout#about-us",
+            "disclosure-layout#help-you",
+            "disclosure-layout#our-stores",
+            "disclosure-layout#payment",
+            "disclosure-layout#contact-us"
+        ],
+        "props": {
+            "blockClass": "footer__col--menu"
+        }
+    },
+    "icon#arrow-up-icon": {
+        "title": "Arrow Up Icon",
+        "props": {
+            "id": "arrow-up"
+        }
+    },
+    "icon#arrow-down-icon": {
+        "title": "Arrow Down Icon",
+        "props": {
+            "id": "arrow-down"
+        }
+    },
+    //////////////////////////////////////////////////////////////////////////////////////////
+    "disclosure-layout#about-us": {
+        "children": [
+            "disclosure-trigger#about-us",
+            "disclosure-content#about-us"
+        ]
+    },
+    "disclosure-trigger#about-us": {
+        "children": [
+            "rich-text#about-us",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "footer-disclosure--title"
+        }
+    },
+    "rich-text#about-us": {
+        "props": {
+            "text": "NOSOTROS",
+            "blockClass": "footer-menu-title"
+        }
+    },
+    "disclosure-content#about-us": {
+        "children": [
+            "menu#about-us"
+        ]
+    },
+    "disclosure-state-indicator": {
+        "props": {
+            "Show": "icon#arrow-down-icon",
+            "Hide": "icon#arrow-up-icon"
+        }
+    },
+    "menu#about-us": {
+        "children": [
+            "menu-item#footer__container-colOne--linkOne",
+            "menu-item#footer__container-colOne--linkTwo",
+            "menu-item#footer__container-colOne--linkThree"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "footer-menu-item"
+        }
+    },
+    ////////////////////////////////////////////////////////////////////////////////////////
+    "disclosure-layout#help-you": {
+        "children": [
+            "disclosure-trigger#help-you",
+            "disclosure-content#help-you"
+        ]
+    },
+    "disclosure-trigger#help-you": {
+        "children": [
+            "rich-text#help-you",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "footer-disclosure--title"
+        }
+    },
+    "rich-text#help-you": {
+        "props": {
+            "text": "TE AYUDAMOS",
+            "blockClass": "footer-menu-title"
+        }
+    },
+    "disclosure-content#help-you": {
+        "children": [
+            "menu#help-you"
+        ]
+    },
+    "menu#help-you": {
+        "children": [
+            "menu-item#footer__container-colTwo--linkOne",
+            "menu-item#footer__container-colTwo--linkTwo"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "footer-menu-item"
+        }
+    },
+    ///////////////////////////////////////////////////////////////////////////////////////
+    "disclosure-layout#our-stores": {
+        "children": [
+            "disclosure-trigger#our-stores",
+            "disclosure-content#our-stores"
+        ]
+    },
+    "disclosure-trigger#our-stores": {
+        "children": [
+            "rich-text#our-stores",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "footer-disclosure--title"
+        }
+    },
+    "rich-text#our-stores": {
+        "props": {
+            "text": "NUESTRAS TIENDAS",
+            "blockClass": "footer-menu-title"
+        }
+    },
+    "disclosure-content#our-stores": {
+        "children": [
+            "menu#our-stores"
+        ]
+    },
+    "menu#our-stores": {
+        "children": [
+            "menu-item#footer__container-colThree--linkOne"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "footer-menu-item"
+        }
+    },
+    ///////////////////////////////////////////////////////////////////////////////////////
+    "disclosure-layout#payment": {
+        "children": [
+            "disclosure-trigger#payment",
+            "disclosure-content#payment"
+        ]
+    },
+    "disclosure-trigger#payment": {
+        "children": [
+            "rich-text#payment",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "footer-disclosure--title"
+        }
+    },
+    "rich-text#payment": {
+        "props": {
+            "text": "MÉTODOS DE PAGO",
+            "blockClass": "footer-menu-title"
+        }
+    },
+    "disclosure-content#payment": {
+        "children": [
+            "menu#payment"
+        ]
+    },
+    "menu#payment": {
+        "children": [
+            "menu-item#footer__container-colFour--linkOne"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "footer-menu-item"
+        }
+    },
+    //////////////////////////////////////////////////////////////////////////////////////
+    "disclosure-layout#contact-us": {
+        "children": [
+            "disclosure-trigger#contact-us",
+            "disclosure-content#contact-us"
+        ]
+    },
+    "disclosure-trigger#contact-us": {
+        "children": [
+            "rich-text#contact-us",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "footer-disclosure--title"
+        }
+    },
+    "rich-text#contact-us": {
+        "props": {
+            "text": "CONTÁCTANOS",
+            "blockClass": "footer-menu-title"
+        }
+    },
+    "disclosure-content#contact-us": {
+        "children": [
+            "menu#contact-us"
+        ]
+    },
+    "menu#contact-us": {
+        "children": [
+            "menu-item#footer__container-colFive--linkOne",
+            "menu-item#footer__container-colFive--linkTwo",
+            "menu-item#footer__container-colFive--linkThree",
+            "menu-item#footer__container-colFive--linkFour"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "footer-menu-item"
+        }
+    }
+}

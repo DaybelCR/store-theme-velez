@@ -1,20 +1,4 @@
 {
-    "header-row#header__middleMobile":{
-        "title":"Header Middle Mobile ",
-        "children":[
-            "drawer#header__mobile--drawer",
-            "header-spacer",
-            "link#logo--mobile",
-            "header-spacer",
-            "login",
-            "minicart.v2"
-           ],
-           "props":{
-            "fullWidth": true,
-            "sticky":true,
-            "blockClass":"header__middleMobile"
-           }
-    },
     "drawer#header__mobile--drawer":{
         "title":"Component Drawer Menu Mobile",
        
@@ -99,13 +83,5 @@
             },
             "iconToTheRight": true
           }
-    },
-    "link#logo--mobile":{
-      "title": "Link Logo Mobile",
-    "props":{
-        "label":  "VÉLEZ",
-        "blockClass":"logo--mobile",
-        "href": "/"
-       }
-   }
+    }
 }

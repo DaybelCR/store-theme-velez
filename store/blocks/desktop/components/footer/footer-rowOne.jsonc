@@ -1,0 +1,119 @@
+{
+    "flex-layout.row#desktop__footer--rowOne":{
+        "title":"Footer Desktop Row One",
+        "children": [
+            "flex-layout.col#footer__rowOne--containerOne",
+            "flex-layout.col#footer__rowOne--containerTwo",
+            "flex-layout.col#footer__rowOne--containerThree"
+        ],
+        "props": {
+            "blockClass": "desktop__footer--rowOne",
+            "horizontalAlign": "center",
+            "colGap":7
+        }
+    },
+    "flex-layout.col#footer__rowOne--containerOne":{
+        "title": "Container One",
+        "children": [
+            "rich-text#footer__rowOne--textOne"
+        ],
+        "props": {
+            "width": "25%"
+        }
+
+    },
+    "rich-text#footer__rowOne--textOne":{
+        "title": "title Newletter",
+        "props": {
+            "text": "NEWSLETTER",
+            "font": "t-heading-2",
+            "blockClass":"footer__rowOne--textOne"
+        }
+    },
+    "flex-layout.col#footer__rowOne--containerTwo":{
+        "title": "Container Two",
+     "children": [
+        "rich-text#footer__rowOne--textTwo"
+     ],
+     "props": {
+        "width": "25%",
+        "verticalAlign": "middle"
+    }
+    },
+    "rich-text#footer__rowOne--textTwo":{
+        "title": "text suscription",
+        "props": {
+            "textPosition": "CENTER",
+            "font": "t-heading-6",
+            "text": "Suscríbete y recibe contenido Exclusivo de vélez"
+        }
+    },
+    "flex-layout.col#footer__rowOne--containerThree":{
+        "title": "Container Three",
+        "children": [
+            "newsletter-form"
+        ],
+        "props": {
+            "width": "50%",
+            "verticalAlign": "middle",
+            "blockClass": "footer__rowOne--containerThree"
+        }
+    },
+    "newsletter-form": {
+        "title": "Newsletter Form",
+        "children": [
+          "flex-layout.row#footer_container--newsletter",
+          "newsletter-checkbox-confirmation"
+        ]
+      },
+      "flex-layout.row#footer_container--newsletter":{
+        "title": "Container row newsletter",
+        "children": [
+            "flex-layout.col#footer_container--input",
+            "flex-layout.col#footer_container--submit"
+        ],
+        "props": {
+            "paddingBottom":3,
+            "blockClass":"footer_container--newsletter"
+        }
+      },
+      "flex-layout.col#footer_container--input":{
+        "title": "Container input",
+        "children": [
+            "newsletter-input-email"
+        ],
+        "props": {
+            "width":"90%",
+            "blockClass":"footer_container--input"
+        }
+      },
+      "flex-layout.col#footer_container--submit":{
+        "title": "Container submit",
+        "children": [
+            "newsletter-submit"
+        ],
+        "props": {
+            "width":"10%",
+            "blockClass":"footer_container--submit"
+        }
+      },
+      "newsletter-input-email":{
+        "title": "Input Email",
+        "props": {
+            "placeholderText": "Escribe tu correo electrónico"
+        }
+      },
+      "newsletter-submit":{
+        "title": "Button submit",
+        "props": {
+            "submitButtonLabel":"ENVIAR>>"
+        }
+      },
+      "newsletter-checkbox-confirmation":{
+        "title":"Checkbox confirmation",
+        "props":{
+        "checkboxLabel":"Autorizo el tratamiento de mis datos personales de acuerdo con la Política de Protección de datos personales disponible aquí"
+        }
+      }
+      
+}

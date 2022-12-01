@@ -8,3 +8,12 @@
 .flexRow--containerSocial__mobile--menu{
     background-color: #ebebeb;
 }
+
+.flexCol--footer__col--menu{
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+}
+
+.flexCol--mobile__footer--col-suscription :global(.vtex-button){
+    width: 7rem;
+}
