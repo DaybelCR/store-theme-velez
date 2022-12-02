@@ -1,7 +1,7 @@
 {
     "flex-layout.row#footer__container--suscription":{
         "children": [
-            "flex-layout.col#footer__container--suscription"
+         "flex-layout.col#footer__container--suscription"
         ],
         "props": {
             "fullWidth": true,
@@ -9,13 +9,15 @@
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
             "preserveLayoutOnMobile": true,
+            "paddingBottom": 8,
+            "marginBottom":6,
             "blockClass":"mobile__footer--row-suscription"
         }
     },
     "flex-layout.col#footer__container--suscription":{
     "children": [
-        "rich-text#footer__rowOne--textOne",
-        "rich-text#footer__rowOne--textTwo",
+        "rich-text#footer__main--title",
+        "rich-text#footer__main--description",
         "newsletter-form"
     ],
     "props": {
@@ -23,15 +25,24 @@
         "verticalAlign": "middle",
         "horizontalAlign": "center",
         "width": "100%",
+        "paddingLeft":8,
+        "paddingRight":8,
         "blockClass":"mobile__footer--col-suscription"
     }
+    },
+    "rich-text#footer__main--title":{
+        "props": {
+            "text": "NEWSLETTER",
+            "font": "t-heading-1",
+            "blockClass":"footer__main--title"
+        }
+    },
+    "rich-text#footer__main--description":{
+        "props": {
+            "font": "t-heading-6",
+            "textAlignment": "CENTER",
+            "text": "Suscríbite y recibe contenido Exlusivo de vélez",
+            "blockClass":"footer__main--description"
+        }
     }
-    // "flex-layout.row#mobile__suscription":{
-    //     "children": [
-    //         "newsletter-form"
-    //     ],
-    //     "props": {
-    //         "blockClass":"mobile__footer--container-form"
-    //     }
-    // }
 }

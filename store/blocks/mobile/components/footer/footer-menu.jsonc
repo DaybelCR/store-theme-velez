@@ -1,10 +1,12 @@
 {
     "flex-layout.row#footer__container--menu": {
+        "title":"Container Row Menu mobile",
         "children": [
             "flex-layout.col#footer__col--menu"
         ]
     },
     "flex-layout.col#footer__col--menu": {
+        "title":"Container Col Menu mobile",
         "children": [
             "disclosure-layout#about-us",
             "disclosure-layout#help-you",
@@ -30,6 +32,7 @@
     },
     //////////////////////////////////////////////////////////////////////////////////////////
     "disclosure-layout#about-us": {
+        "title": "Component Disclosure-about us",
         "children": [
             "disclosure-trigger#about-us",
             "disclosure-content#about-us"
@@ -51,6 +54,7 @@
         }
     },
     "disclosure-content#about-us": {
+        "title": "Component disclosure-content",
         "children": [
             "menu#about-us"
         ]
@@ -62,6 +66,7 @@
         }
     },
     "menu#about-us": {
+        "title": "Menu mobile - About us",
         "children": [
             "menu-item#footer__container-colOne--linkOne",
             "menu-item#footer__container-colOne--linkTwo",
@@ -74,6 +79,7 @@
     },
     ////////////////////////////////////////////////////////////////////////////////////////
     "disclosure-layout#help-you": {
+        "title": "Component Disclosure-help you",
         "children": [
             "disclosure-trigger#help-you",
             "disclosure-content#help-you"
@@ -100,6 +106,7 @@
         ]
     },
     "menu#help-you": {
+        "title": "Menu mobile - Help you",
         "children": [
             "menu-item#footer__container-colTwo--linkOne",
             "menu-item#footer__container-colTwo--linkTwo"
@@ -111,6 +118,7 @@
     },
     ///////////////////////////////////////////////////////////////////////////////////////
     "disclosure-layout#our-stores": {
+        "title": "Component Disclosure-Our stores",
         "children": [
             "disclosure-trigger#our-stores",
             "disclosure-content#our-stores"
@@ -137,6 +145,7 @@
         ]
     },
     "menu#our-stores": {
+        "title": "Menu mobile - our stores",
         "children": [
             "menu-item#footer__container-colThree--linkOne"
         ],
@@ -147,6 +156,7 @@
     },
     ///////////////////////////////////////////////////////////////////////////////////////
     "disclosure-layout#payment": {
+        "title": "Component Disclosure-payment",
         "children": [
             "disclosure-trigger#payment",
             "disclosure-content#payment"
@@ -173,6 +183,7 @@
         ]
     },
     "menu#payment": {
+        "title": "Menu mobile-payment",
         "children": [
             "menu-item#footer__container-colFour--linkOne"
         ],
@@ -183,6 +194,7 @@
     },
     //////////////////////////////////////////////////////////////////////////////////////
     "disclosure-layout#contact-us": {
+        "title": "Component Disclosure-contact us",
         "children": [
             "disclosure-trigger#contact-us",
             "disclosure-content#contact-us"
@@ -209,6 +221,7 @@
         ]
     },
     "menu#contact-us": {
+        "title": "Menu mobile-Contact us",
         "children": [
             "menu-item#footer__container-colFive--linkOne",
             "menu-item#footer__container-colFive--linkTwo",
