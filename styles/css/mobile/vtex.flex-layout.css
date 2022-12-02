@@ -17,3 +17,9 @@
 .flexCol--mobile__footer--col-suscription :global(.vtex-button){
     width: 7rem;
 }
+/* .flexRowContent--mobile__footer--row-suscription{
+flex-direction: column;
+} */
+.flexRowContent--mobile__footer--row-suscription{
+    border-bottom: solid gray 1px;
+}

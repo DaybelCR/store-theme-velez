@@ -44,3 +44,21 @@
   padding: 2rem  3rem 4.5rem 3rem;
   font-size: 0.7rem;
 }
+/* .flexColChild--mobile__footer--col-suscription .paragraph{
+  width:18rem;
+  text-align: center;
+  background-color: pink;
+} */
+.paragraph--footer__main--title{
+  font-size: 8vw;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.paragraph--footer__main--description{
+color: #000;
+width:  18rem;
+padding-top: 0.5rem;
+margin-top: 0;
+}

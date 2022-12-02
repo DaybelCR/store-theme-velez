@@ -45,7 +45,8 @@
         "props": {
             "textPosition": "CENTER",
             "font": "t-heading-6",
-            "text": "Suscríbete y recibe contenido Exclusivo de vélez"
+            "text": "Suscríbete y recibe contenido Exclusivo de vélez",
+            "blockClass":"footer__rowOne--textTwo"
         }
     },
     "flex-layout.col#footer__rowOne--containerThree":{
