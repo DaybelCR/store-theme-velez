@@ -9,6 +9,7 @@
         "props": {
             "blockClass": "desktop__footer--rowOne",
             "horizontalAlign": "center",
+            "fullWidth": true,
             "colGap":7
         }
     },

@@ -9,19 +9,19 @@
 }
 
 .flexRow--desktop__footer--rowTwo{
-    padding:1rem 3.5rem;
-}
-.flexRowContent--desktop__footer--rowTwo{
+    width: 92%;
+    margin: 2rem auto auto;
+    padding: 2rem 0;
     border-top:solid gray 0.5px;
     border-bottom:solid gray 0.5px;
-    padding: 3.5rem 0;
 }
+.flexRowContent--desktop__footer--rowTwo{
+    padding: 1.5rem 0 0.6rem 0;
+}
+.flexRowContent--desktop__footer--rowOne,
 .flexRowContent--desktop__footer--rowThree{
-    padding:1rem 3.5rem 3.5rem 3.5rem;
-}
-
-.flexRowContent--desktop__footer--rowOne{
-padding:1.5rem 3.5rem 0.8rem 3.5rem;
+    width:92%;
+    margin:2.5rem  auto;
 }
 
 .flexColChild--footer_container--input :global(.vtex-input-prefix__group){

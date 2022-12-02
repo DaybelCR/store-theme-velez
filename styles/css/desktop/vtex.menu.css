@@ -34,8 +34,16 @@
 .menuContainer--footer__rowTwo--menuFive 
 .styledLinkContent{
 font-size: 0.8rem;
+line-height: 1.2rem;
 }
 
 .styledLinkContent--footer__rowTwo--title{
+    font-size: 1rem!important;
     font-weight: 900;
+}
+.menuContainer--footer__rowTwo--menuFive
+.styledLinkContent{
+overflow: hidden;
+text-overflow: ellipsis;
+display: block;
 }

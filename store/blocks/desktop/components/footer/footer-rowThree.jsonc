@@ -6,6 +6,7 @@
                "flex-layout.col#footer_containerCol--rights"
             ],
             "props": {
+                "fullWidth": true,
                 "blockClass": "desktop__footer--rowThree"
                 
             }

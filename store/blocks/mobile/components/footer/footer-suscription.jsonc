@@ -18,7 +18,7 @@
     "children": [
         "rich-text#footer__main--title",
         "rich-text#footer__main--description",
-        "newsletter-form"
+        "flex-layout.row#mobile__footer--container-form"
     ],
     "props": {
         "preventVerticalStretch": true,
@@ -43,6 +43,14 @@
             "textAlignment": "CENTER",
             "text": "Suscríbite y recibe contenido Exlusivo de vélez",
             "blockClass":"footer__main--description"
+        } 
+    },
+    "flex-layout.row#mobile__footer--container-form":{
+        "children":[
+            "newsletter-form"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--container-form"
         }
     }
 }
