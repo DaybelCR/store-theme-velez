@@ -1,0 +1,12 @@
+{
+    "footer-layout.mobile": { 
+        "title": "Footer Mobile",
+        "children": [
+         "flex-layout.row#footer__container--suscription",
+         "flex-layout.row#footer__container--menu",
+         "flex-layout.row#footer__container--social",
+         "rich-text#mobile__footer--textOne",
+         "rich-text#mobile__footer--textTwo"
+        ]
+      }
+}

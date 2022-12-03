@@ -1,0 +1,14 @@
+.label{
+    display:none;
+}
+.container{
+    margin: 0;
+}
+
+.container :global(.vtex-button):hover{
+background-color: transparent;
+}
+
+.container :global(.vtex-button__label){
+    padding:0.5rem;
+}

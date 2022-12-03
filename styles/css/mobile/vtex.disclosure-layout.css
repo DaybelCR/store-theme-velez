@@ -1,0 +1,21 @@
+.content--searchBar-content--visible{
+    background-color: red;
+}
+.trigger--searchBar-trigger{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+
+.trigger--footer-disclosure--title{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #979899;
+    cursor: pointer;
+    height: 2.5rem;
+}

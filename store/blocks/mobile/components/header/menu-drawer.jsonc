@@ -1,0 +1,87 @@
+{
+    "drawer#header__mobile--drawer":{
+        "title":"Component Drawer Menu Mobile",
+       
+        "children":["flex-layout.row#container__mobile--menu",
+                    "flex-layout.row#container__mobile--social"
+    ],
+        "props":{
+            "blockClass": "header__mobile--menu"
+        }
+    },
+    "flex-layout.row#container__mobile--menu":{
+        "title":"Row Container Menu Departament",
+        "children": ["menu#header__menu--mobile"],
+        "props": {
+            "blockClass": "container__mobile--menu"
+        }
+    },
+    "flex-layout.row#container__mobile--social":{
+      "title":"Row Container Social ",
+      "children": ["menu#items-social--menu"],
+      "props": {
+        "blockClass": "containerSocial__mobile--menu"
+    }
+    },
+    "menu#items-social--menu":{
+        "title":"Menu Items Social",
+        "children": [
+            "menu-item#facebook--menu",
+            "menu-item#instagram-menu",
+            "menu-item#youtube-menu"
+          ],
+          "props":{
+            "blockClass": "items-social--menu"
+          }
+    },
+    "menu-item#facebook--menu":{
+        "props": {
+            "id": "menu-item-facebook",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#"
+            },
+            "iconProps": {
+              "id": "logo-facebook",
+              "size": 16,
+              "viewBox": "0 0 16 16"
+            }
+          }
+    },
+    "menu-item#instagram-menu":{
+        "props": {
+            "id": "menu-item-instagram",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#"
+            },
+            "iconProps": {
+              "id": "logo-instagram",
+              "size": 16,
+              "viewBox": "0 0 16 16"
+            },
+            "iconToTheRight": true
+          }
+    },
+    "menu-item#youtube-menu":{
+        "props": {
+            "id": "menu-item-youtube",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#"
+            },
+            "iconProps": {
+              "id": "logo-youtube",
+              "size": 20,
+              "viewBox": "0 0 16 16"
+            },
+            "iconToTheRight": true
+          }
+    }
+}

@@ -1,0 +1,15 @@
+.container--footer__rowThree--textThree{
+    justify-content: end;
+}
+.container--footer__rowOne--textOne .paragraph{
+    font-size: 2.55vw;
+    color: #000;
+}
+.container--footer__rowOne--textTwo .paragraph{
+    color: #000;
+}
+.link--footer__rowThree--textOne,
+.paragraph--footer__rowThree--textTwo,
+.paragraph--footer__rowThree--textThree{
+    font-size: 0.8rem;
+}

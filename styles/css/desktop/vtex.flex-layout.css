@@ -1,0 +1,44 @@
+.flexRowContent--row-menuItems--mujer{
+    width: 95vw;
+    padding-bottom:2.5rem ;
+}
+.flexColChild--container__col--menu{
+ margin-left: -5.5rem;
+ padding-right: 2.5rem;
+ border-right: solid 1px #d4d4d4;
+}
+
+.flexRow--desktop__footer--rowTwo{
+    width: 92%;
+    margin: 2rem auto auto;
+    padding: 2rem 0;
+    border-top:solid gray 0.5px;
+    border-bottom:solid gray 0.5px;
+}
+.flexRowContent--desktop__footer--rowTwo{
+    padding: 1.5rem 0 0.6rem 0;
+}
+.flexRowContent--desktop__footer--rowOne,
+.flexRowContent--desktop__footer--rowThree{
+    width:92%;
+    margin:2.5rem  auto;
+}
+
+.flexColChild--footer_container--input :global(.vtex-input-prefix__group){
+border-color: black;
+border-radius: 0;
+}
+.flexCol--footer__rowOne--containerThree :global(.vtex-checkbox__label){
+    width: 25vw;
+}
+
+.flexCol--footer__rowOne--containerThree{
+    margin-right: 6rem;
+}
+.flexRowContent--footer_container--newsletter .stretchChildrenWidth:first-child{
+   width: calc(100%-9rem);
+}
+.flexRowContent--footer_container--newsletter .stretchChildrenWidth:last-child{
+    width: 9rem;
+}
+

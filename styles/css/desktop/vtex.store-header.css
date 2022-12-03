@@ -1,0 +1,11 @@
+.headerRowContainer--header__middleDesktop{
+    /* position:absolute;
+    top:0px; */
+    background-color: #ffffff;
+    padding: 0 3rem 0 2.5rem;
+}
+
+/* .headerRowContainer--header__middleDesktop:hover{
+    background-color: #ffffff;
+    color: #000000;
+} */

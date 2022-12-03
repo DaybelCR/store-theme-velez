@@ -1,0 +1,61 @@
+{
+    "flex-layout.row#footer__container--suscription":{
+        "title": "Container mobile row Suscription",
+        "children": [
+         "flex-layout.col#footer__container--suscription"
+        ],
+        "props": {
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "paddingBottom": 8,
+            "marginBottom":6,
+            "blockClass":"mobile__footer--row-suscription"
+        }
+    },
+    "flex-layout.col#footer__container--suscription":{
+        "title": "Container mobile col suscription",
+    "children": [
+        "rich-text#footer__main--title",
+        "rich-text#footer__main--description",
+        "flex-layout.row#mobile__footer--container-form"
+    ],
+    "props": {
+        "preventVerticalStretch": true,
+        "verticalAlign": "middle",
+        "horizontalAlign": "center",
+        "width": "100%",
+        "paddingLeft":8,
+        "paddingRight":8,
+        "blockClass":"mobile__footer--col-suscription"
+    }
+    },
+    "rich-text#footer__main--title":{
+        "title": "text newsletter",
+        "props": {
+            "text": "NEWSLETTER",
+            "font": "t-heading-1",
+            "blockClass":"footer__main--title"
+        }
+    },
+    "rich-text#footer__main--description":{
+        "title": "text description",
+        "props": {
+            "font": "t-heading-6",
+            "textAlignment": "CENTER",
+            "text": "Suscríbite y recibe contenido Exlusivo de vélez",
+            "blockClass":"footer__main--description"
+        } 
+    },
+    "flex-layout.row#mobile__footer--container-form":{
+        "title": "Container mobile form",
+        "children":[
+            "newsletter-form"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--container-form"
+        }
+    }
+}

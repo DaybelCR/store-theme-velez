@@ -1,5 +1,6 @@
 {
     "rich-text#home__descriptionOne--five":{
+        "title": "Component Text",
         "props":{
             "textAlignment": "CENTER",
             "textPosition": "CENTER",

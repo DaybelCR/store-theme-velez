@@ -1,6 +1,6 @@
 {
     "slider-layout#home__slider--one": {
-        "title":"Home Slider Phone",
+        "title":"Home Slider Main",
         "props": {
           "itemsPerPage": {
             "desktop": 1,
@@ -22,16 +22,19 @@
           "image#home__slider--mobileThree"]
       },
       "image#home__slider--mobileOne":{
+        "title": "Component Image One",
         "props":{
           "src":"assets/image/mobile/home__1-slider-mobile.png"
         }
       },
       "image#home__slider--mobileTwo":{
+        "title": "Component Image Two",
             "props":{
               "src":"assets/image/mobile/home__1-slider-mobile.png"
             }
       },
       "image#home__slider--mobileThree":{
+        "title": "Component Image Three",
             "props":{
               "src":"assets/image/mobile/home__1-slider-mobile.png"
             }

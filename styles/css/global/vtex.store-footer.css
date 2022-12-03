@@ -1,0 +1,19 @@
+.socialNetworksContainer{
+   padding-left: 1.5rem;
+   padding-top: 0.5rem;
+}
+.socialNetworkImage--facebook{
+    width: 1.3rem;
+    height: 1.3rem;
+    content: url(assets/svg/facebook.svg);
+}
+.socialNetworkImage--instagram{
+    width: 1.3rem;
+    height: 1.3rem;
+    content: url(assets/svg/instagram.svg);
+}
+.socialNetworkImage--youtube{
+    width: 1.4rem;
+    height: 1.4rem;
+    content: url(assets/svg/youtube.svg);
+}
