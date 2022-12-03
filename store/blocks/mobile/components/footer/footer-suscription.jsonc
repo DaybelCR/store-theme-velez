@@ -1,5 +1,6 @@
 {
     "flex-layout.row#footer__container--suscription":{
+        "title": "Container mobile row Suscription",
         "children": [
          "flex-layout.col#footer__container--suscription"
         ],
@@ -15,6 +16,7 @@
         }
     },
     "flex-layout.col#footer__container--suscription":{
+        "title": "Container mobile col suscription",
     "children": [
         "rich-text#footer__main--title",
         "rich-text#footer__main--description",
@@ -31,6 +33,7 @@
     }
     },
     "rich-text#footer__main--title":{
+        "title": "text newsletter",
         "props": {
             "text": "NEWSLETTER",
             "font": "t-heading-1",
@@ -38,6 +41,7 @@
         }
     },
     "rich-text#footer__main--description":{
+        "title": "text description",
         "props": {
             "font": "t-heading-6",
             "textAlignment": "CENTER",
@@ -46,6 +50,7 @@
         } 
     },
     "flex-layout.row#mobile__footer--container-form":{
+        "title": "Container mobile form",
         "children":[
             "newsletter-form"
         ],
