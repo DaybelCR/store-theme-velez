@@ -39,6 +39,7 @@
         ]
     },
     "disclosure-trigger#about-us": {
+        "title": "Component disclosure trigger - about us",
         "children": [
             "rich-text#about-us",
             "disclosure-state-indicator"
@@ -48,18 +49,20 @@
         }
     },
     "rich-text#about-us": {
+        "title": "title menu one",
         "props": {
             "text": "NOSOTROS",
             "blockClass": "footer-menu-title"
         }
     },
     "disclosure-content#about-us": {
-        "title": "Component disclosure-content",
+        "title": "Component disclosure-content about us",
         "children": [
             "menu#about-us"
         ]
     },
     "disclosure-state-indicator": {
+        "title": "component state-indicator icons",
         "props": {
             "Show": "icon#arrow-down-icon",
             "Hide": "icon#arrow-up-icon"
@@ -86,6 +89,7 @@
         ]
     },
     "disclosure-trigger#help-you": {
+        "title": "Component disclosure trigger - help you",
         "children": [
             "rich-text#help-you",
             "disclosure-state-indicator"
@@ -95,12 +99,14 @@
         }
     },
     "rich-text#help-you": {
+        "title": "title menu two",
         "props": {
             "text": "TE AYUDAMOS",
             "blockClass": "footer-menu-title"
         }
     },
     "disclosure-content#help-you": {
+        "title": "Component disclosure-content help you",
         "children": [
             "menu#help-you"
         ]
@@ -125,6 +131,7 @@
         ]
     },
     "disclosure-trigger#our-stores": {
+        "title": "Component disclosure trigger - our stores",
         "children": [
             "rich-text#our-stores",
             "disclosure-state-indicator"
@@ -134,12 +141,14 @@
         }
     },
     "rich-text#our-stores": {
+        "title": "title menu third",
         "props": {
             "text": "NUESTRAS TIENDAS",
             "blockClass": "footer-menu-title"
         }
     },
     "disclosure-content#our-stores": {
+        "title": "Component disclosure-content our stores",
         "children": [
             "menu#our-stores"
         ]
@@ -163,6 +172,7 @@
         ]
     },
     "disclosure-trigger#payment": {
+        "title": "Component disclosure trigger - payment",
         "children": [
             "rich-text#payment",
             "disclosure-state-indicator"
@@ -172,12 +182,14 @@
         }
     },
     "rich-text#payment": {
+        "title": "title menu fourth",
         "props": {
             "text": "MÉTODOS DE PAGO",
             "blockClass": "footer-menu-title"
         }
     },
     "disclosure-content#payment": {
+        "title": "Component disclosure-content payment",
         "children": [
             "menu#payment"
         ]
@@ -201,6 +213,7 @@
         ]
     },
     "disclosure-trigger#contact-us": {
+        "title": "Component disclosure trigger - contact us",
         "children": [
             "rich-text#contact-us",
             "disclosure-state-indicator"
@@ -210,12 +223,14 @@
         }
     },
     "rich-text#contact-us": {
+        "title": "title menu fifth",
         "props": {
             "text": "CONTÁCTANOS",
             "blockClass": "footer-menu-title"
         }
     },
     "disclosure-content#contact-us": {
+        "title": "Component disclosure-content contact us",
         "children": [
             "menu#contact-us"
         ]
