@@ -1,0 +1,56 @@
+{
+    "flex-layout.row#desktop__home--sectionOne":{
+        "children": [
+            "flex-layout.col#home__sectionOne--containerOne",
+            "flex-layout.col#home__sectionOne--containerTwo"
+        ],
+        "props": {
+            "fullWidth": true,
+            "marginTop": 8,
+            "blockClass": "desktop__home--sectionOne"
+        }
+    },
+    "flex-layout.col#home__sectionOne--containerOne":{
+     "children": [
+        "image#home__sectionOne--imageOne",
+        "rich-text#home__sectionOne--linksOne"
+     ],
+     "props": {
+         "width":"61%",
+        "blockClass": "home__sectionOne--containerOne"
+     }
+    },
+    "flex-layout.col#home__sectionOne--containerTwo":{
+       "children": [
+        "image#home__sectionOne--imageTwo",
+        "rich-text#home__sectionOne--linksTwo"
+       ],
+       "props": {
+        "width":"39%",
+        "blockClass": "home__sectionOne--containerTwo"
+     }
+    },
+    "image#home__sectionOne--imageOne":{
+        "props": {
+            "src": "assets/image/desktop/home__sectionOne--bannerOne.png"
+          
+          }
+    },
+    "rich-text#home__sectionOne--linksOne":{
+        "props": {
+            "text": "[MUJER](https://daysic--itgloberspartnercl.myvtex.com/)   [HOMBRE](https://daysic--itgloberspartnercl.myvtex.com/)",
+            "blockClass":["home__sectionOne--links","home__sectionOne--linksOne"]
+          }
+    },
+    "image#home__sectionOne--imageTwo":{
+        "props": {
+            "src": "assets/image/desktop/home__sectionOne--bannerTwo.png"
+          }
+    },
+    "rich-text#home__sectionOne--linksTwo":{
+        "props": {
+            "text": "[MUJER](https://daysic--itgloberspartnercl.myvtex.com/)    [HOMBRE](https://daysic--itgloberspartnercl.myvtex.com/)",
+            "blockClass":["home__sectionOne--links","home__sectionOne--linksTwo"]
+          }
+    }
+}

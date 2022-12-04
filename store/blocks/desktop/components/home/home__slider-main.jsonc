@@ -1,39 +1,66 @@
 {
-    "slider-layout#home__desktop--one": {
-        "title":"Home Slider One",
-        "props": {
-          "itemsPerPage": {
-            "desktop": 1,
-            "tablet": 1,
-            "phone": 1
-          },
-          "infinite": true,
-          "showPaginationDots":"never",
-          "showNavigationArrows":"never",
-          "blockClass": "home__slider--main",
-          "autoplay":{
-            "timeout":3000,
-            "stopOnHover":true
-          }
-        },
-        "children": [
-          "image#home__slider--one",
-          "image#home__slider--two",
-          "image#home__slider--three"]
+  "flex-layout.row#desktop__home--containerSlider":{
+    "children": [
+      "slider-layout#desktop__home--slider-main"
+    ],"props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "slider-layout#desktop__home--slider-main":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
       },
-      "image#home__slider--one":{
-        "props":{
-          "src":"assets/image/desktop/home__1-slider-desktop.png"
-        }
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "autoplay":{
+        "timeout": 3000,
+        "stopOnHover": true
       },
-      "image#home__slider--two":{
-            "props":{
-                "src":"assets/image/desktop/home__2-slider-desktop.jpg"
-            }
-      },
-      "image#home__slider--three":{
-            "props":{
-                "src":"assets/image/desktop/home__3-slider-desktop.jpg"
-            }
-      }
+      "blockClass":"desktop__home--slider-main"
+    },
+    "children": [
+      "info-card#desktop__home--sliderOne-main",
+     "info-card#desktop__home--sliderTwo-main",
+      "info-card#desktop__home--sliderThree-main"
+    ]
+  },
+  "info-card#desktop__home--sliderOne-main":{
+    "props": {
+      "id": "info-card-main-One",
+      "isFullModeStyle": true,
+      "imageActionUrl":"/",
+      "textPosition": "right",
+      "imageUrl": "assets/image/desktop/home__sliderOne.png",
+      "callToActionText": "ver nueva colección",
+      "callToActionUrl": "/",
+      "blockClass": "desktop__home--sliderOne-main"
+    }
+  },
+  "info-card#desktop__home--sliderTwo-main":{
+    "props": {
+      "id": "info-card-main-Two",
+      "isFullModeStyle": true,
+      "imageActionUrl":"/",
+      "imageUrl": "assets/image/desktop/home__sliderTwo.png",
+      "callToActionText": "ver nueva colección",
+      "callToActionUrl": "/",
+      "blockClass": "desktop__home--sliderTwo-main"
+    }
+  },
+  "info-card#desktop__home--sliderThree-main":{
+    "props": {
+      "id": "info-card-main-Three",
+      "isFullModeStyle": true,
+      "imageActionUrl":"/",
+      "textPosition": "right",
+      "imageUrl": "assets/image/desktop/home__sliderThree.png",
+      "callToActionText": "ver nueva colección",
+      "callToActionUrl": "/",
+      "blockClass": "desktop__home--sliderThree-main"
+    }
+  }
 }

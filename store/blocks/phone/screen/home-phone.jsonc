@@ -4,7 +4,6 @@
     "children": [
         "slider-layout#home__slider--one",
         "image#home__banner--two",
-        "flex-layout.row#home__banner--three",
         "image#home__banner--four",
         "rich-text#home__descriptionOne--five",
         // "slider-layout#home__slider--six"

@@ -1,3 +1,23 @@
+/* ---------------home -------------------------------*/
+.container--home__sectionOne--links{
+    position: absolute;
+}
+.wrapper--home__sectionOne--linksOne{
+margin-top: -5vw;
+margin-left: 38vw;
+}
+.wrapper--home__sectionOne--linksTwo{
+margin-top: -5vw;
+margin-left: 18vw;
+}
+.link--home__sectionOne--links{
+margin-right: 2rem;
+font-size: 1.2vw;
+}
+.paragraph--home__sectionOne--links{
+    text-decoration: underline;
+}
+/* --------------------------------------------------*/
 .container--footer__rowThree--textThree{
     justify-content: end;
 }
@@ -13,3 +33,4 @@
 .paragraph--footer__rowThree--textThree{
     font-size: 0.8rem;
 }
+

@@ -2,7 +2,8 @@
     "responsive-layout.desktop": { 
     "title":"Home Responsive Desktop",
     "children": [
-        "slider-layout#home__desktop--one"
+        "flex-layout.row#desktop__home--containerSlider",
+        "flex-layout.row#desktop__home--sectionOne"
     ]
     }
 }

@@ -1,0 +1,6 @@
+.infoCardContainer--desktop__home--sliderOne-main,
+.infoCardContainer--desktop__home--sliderTwo-main,
+.infoCardContainer--desktop__home--sliderThree-main{
+    height: 90vh;
+    width: 100vw;
+}
