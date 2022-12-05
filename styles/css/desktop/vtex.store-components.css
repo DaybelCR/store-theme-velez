@@ -4,3 +4,9 @@
     height: 90vh;
     width: 100vw;
 }
+
+.imageElement--home__sectionTwo--image,
+.imageElement--home__sectionThree--banner,
+.imageElement--home__sectionFour--image{
+    width: 100%;
+}

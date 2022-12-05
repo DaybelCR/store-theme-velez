@@ -1,0 +1,149 @@
+{
+    "flex-layout.row#desktop__home--sectionSix": {
+        "children": [
+            "tab-layout#desktop__home--sectionSix"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "desktop__home--sectionSix"
+        }
+    },
+    "tab-layout#desktop__home--sectionSix": {
+        "children": [
+            "tab-list#home__sectionSix--tabList",
+            "tab-content#home__sectionSix--tabContent"
+        ],
+        "props": {
+            "blockClass": "home__sectionSix--tabLayout"
+        }
+    },
+    "tab-list#home__sectionSix--tabList": {
+        "children": [
+            "tab-list.item#sectionSix--online",
+            "tab-list.item#sectionSix--store"
+        ]
+    },
+    "tab-list.item#sectionSix--online": {
+        "props": {
+            "tabId": "buy__online",
+            "label": "COMPRAR ONLINE",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#sectionSix--store": {
+        "props": {
+            "tabId": "buy__store",
+            "label": "COMPRAR EN TIENDAS"
+        }
+    },
+    "tab-content#home__sectionSix--tabContent": {
+        "children": [
+            "tab-content.item#sectionSix--online",
+            "tab-content.item#sectionSix--store"
+        ]
+    },
+    "tab-content.item#sectionSix--online": {
+        "children": [
+            "flex-layout.row#home__rowContainer--tabOne"
+        ],
+        "props": {
+            "tabId": "buy__online"
+        }
+    },
+    "flex-layout.row#home__rowContainer--tabOne":{
+        "children": [
+            "slider-layout#sectionSix__container--sliderOne"
+        ],
+        "props": {
+            "blockClass": "home__row--tabOne"
+        }
+    },
+    "tab-content.item#sectionSix--store": {
+        "children": [
+            "slider-layout#sectionSix__container--sliderTwo"
+        ],
+        "props": {
+            "tabId": "buy__store"
+        }
+    },
+    "slider-layout#sectionSix__container--sliderOne": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "never",
+          "showPaginationDots": "mobileOnly"
+        },
+        "children": [
+            "rich-text#sectionSix__sliderOne--itemOne", 
+            "rich-text#sectionSix__sliderOne--itemTwo",
+            "rich-text#sectionSix__sliderOne--itemThree",
+            "rich-text#sectionSix__sliderOne--itemFour"
+        ]
+      },
+      "rich-text#sectionSix__sliderOne--itemOne": {
+        "props": {
+          "text": "Selecciona \n tu producto"
+        }
+      },
+      "rich-text#sectionSix__sliderOne--itemTwo": {
+        "props": {
+          "text": "Agrégalo \n al carrito"
+        }
+      },
+      "rich-text#sectionSix__sliderOne--itemThree": {
+        "props": {
+          "text": "Finaliza \n tu compra"
+        }
+      },
+      "rich-text#sectionSix__sliderOne--itemFour": {
+        "props": {
+          "text": "Recíbelo \n en casa"
+        }
+      },
+      "slider-layout#sectionSix__container--sliderTwo":{
+        "props": {
+            "itemsPerPage": {
+              "desktop": 2,
+              "tablet": 2,
+              "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "always"
+          },
+          "children": [
+              "rich-text#sectionSix__sliderTwo--itemOne", 
+              "rich-text#sectionSix__sliderTwo--itemTwo",
+              "rich-text#sectionSix__sliderTwo--itemThree",
+              "rich-text#sectionSix__sliderTwo--itemFour"
+          ]
+      },
+      "rich-text#sectionSix__sliderTwo--itemOne":{
+       "props": {
+        "textAlignment": "CENTER",
+        "text": "PLAZA SAN MIGUEL\n L-S 10am a 10pm | D 10am a 10pm\n [913 002 878](https://daysic--itgloberspartnercl.myvtex.com/)"
+       }
+      },
+      "rich-text#sectionSix__sliderTwo--itemTwo":{
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "LARCOMAR\n L-S 10am a 10pm | D 10am a 10pm \n [913 002 870](https://daysic--itgloberspartnercl.myvtex.com/)"
+           }
+      },
+      "rich-text#sectionSix__sliderTwo--itemThree":{
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "SALAVERRY\n L-S 10am a 10pm | D 10am a 10pm\n [913 002 873](https://daysic--itgloberspartnercl.myvtex.com/)"
+           }
+      },
+      "rich-text#sectionSix__sliderTwo--itemFour":{
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "JOCKEY PLAZA\n L-S 10am a 10pm | D 10am a 10pm \n [913 002 871](https://daysic--itgloberspartnercl.myvtex.com/)"
+           }
+      }
+}

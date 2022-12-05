@@ -17,6 +17,17 @@ font-size: 1.2vw;
 .paragraph--home__sectionOne--links{
     text-decoration: underline;
 }
+.container--home__sectionThree--link{
+    margin-top:-21vw;
+    margin-left: 75vw;
+    padding-left: 25px;
+}
+.link--home__sectionThree--link{
+    background-color: hsla(0,0%,100%,.29);
+    color: white !important;
+    padding:0.5vw 4vw 0.5vw 4vw;
+    font-size: 0.8vw;
+}
 /* --------------------------------------------------*/
 .container--footer__rowThree--textThree{
     justify-content: end;

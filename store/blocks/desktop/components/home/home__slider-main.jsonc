@@ -1,12 +1,15 @@
 {
-  "flex-layout.row#desktop__home--containerSlider":{
+  "flex-layout.row#desktop__home--containerSlider": {
+    "title": "Container Slider Main",
     "children": [
       "slider-layout#desktop__home--slider-main"
-    ],"props": {
+    ],
+    "props": {
       "preventVerticalStretch": true
     }
   },
-  "slider-layout#desktop__home--slider-main":{
+  "slider-layout#desktop__home--slider-main": {
+    "title": "Slider Main",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -16,23 +19,24 @@
       "infinite": true,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
-      "autoplay":{
+      "autoplay": {
         "timeout": 3000,
         "stopOnHover": true
       },
-      "blockClass":"desktop__home--slider-main"
+      "blockClass": "desktop__home--slider-main"
     },
     "children": [
       "info-card#desktop__home--sliderOne-main",
-     "info-card#desktop__home--sliderTwo-main",
+      "info-card#desktop__home--sliderTwo-main",
       "info-card#desktop__home--sliderThree-main"
     ]
   },
-  "info-card#desktop__home--sliderOne-main":{
+  "info-card#desktop__home--sliderOne-main": {
+    "title": "Banner One",
     "props": {
       "id": "info-card-main-One",
       "isFullModeStyle": true,
-      "imageActionUrl":"/",
+      "imageActionUrl": "/",
       "textPosition": "right",
       "imageUrl": "assets/image/desktop/home__sliderOne.png",
       "callToActionText": "ver nueva colección",
@@ -40,22 +44,24 @@
       "blockClass": "desktop__home--sliderOne-main"
     }
   },
-  "info-card#desktop__home--sliderTwo-main":{
+  "info-card#desktop__home--sliderTwo-main": {
+    "title": "Banner Two",
     "props": {
       "id": "info-card-main-Two",
       "isFullModeStyle": true,
-      "imageActionUrl":"/",
+      "imageActionUrl": "/",
       "imageUrl": "assets/image/desktop/home__sliderTwo.png",
       "callToActionText": "ver nueva colección",
       "callToActionUrl": "/",
       "blockClass": "desktop__home--sliderTwo-main"
     }
   },
-  "info-card#desktop__home--sliderThree-main":{
+  "info-card#desktop__home--sliderThree-main": {
+    "title": "Banner Three",
     "props": {
       "id": "info-card-main-Three",
       "isFullModeStyle": true,
-      "imageActionUrl":"/",
+      "imageActionUrl": "/",
       "textPosition": "right",
       "imageUrl": "assets/image/desktop/home__sliderThree.png",
       "callToActionText": "ver nueva colección",

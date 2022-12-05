@@ -1,0 +1,22 @@
+{
+    "flex-layout.row#desktop__home--sectionTwo": {
+        "title": "Container Section Two",
+        "children": [
+            "image#home__sectionTwo--image"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "image#home__sectionTwo--image": {
+        "title": "image Section Two",
+        "props": {
+            "alt": "bannerSectionTwo",
+            "blockClass": "home__sectionTwo--image",
+            "src": "assets/image/desktop/home__sectionTwo--image.png",
+            "link": {
+                "url": "/"
+            }
+        }
+    }
+}
