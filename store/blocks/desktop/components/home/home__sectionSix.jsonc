@@ -1,0 +1,187 @@
+{
+    "flex-layout.row#desktop__home--sectionSix": {
+      "title": "Container section deals",
+        "children": [
+            "tab-layout#desktop__home--sectionSix"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "desktop__home--sectionSix"
+        }
+    },
+    "tab-layout#desktop__home--sectionSix": {
+      "title": "Component tab layout deals",
+        "children": [
+            "tab-list#home__sectionSix--tabList",
+            "tab-content#home__sectionSix--tabContent"
+        ],
+        "props": {
+            "blockClass": "home__sectionSix--tabLayout"
+        }
+    },
+    "tab-list#home__sectionSix--tabList": {
+      "title": "Component tab-list section deals",
+        "children": [
+            "tab-list.item#sectionSix--online",
+            "tab-list.item#sectionSix--store"
+        ]
+    },
+    "tab-list.item#sectionSix--online": {
+      "title": "Component tab-list-item online",
+        "props": {
+            "tabId": "buy__online",
+            "label": "COMPRAR ONLINE",
+            "defaultActiveTab": true,
+            "blockClass":"sectionSix--online"
+        }
+    },
+    "tab-list.item#sectionSix--store": {
+      "title": "Component tab-list-item store",
+        "props": {
+            "tabId": "buy__store",
+            "label": "COMPRAR EN TIENDAS",
+            "blockClass":"sectionSix--store"
+        }
+    },
+    "tab-content#home__sectionSix--tabContent": {
+      "title": "Component tab-content section deals",
+        "children": [
+            "tab-content.item#sectionSix--online",
+            "tab-content.item#sectionSix--store"
+        ]
+    },
+    "tab-content.item#sectionSix--online": {
+      "title": "Component tab-content-item online",
+        "children": [
+            "flex-layout.row#home__rowContainer--tabOne"
+        ],
+        "props": {
+            "tabId": "buy__online"
+        }
+    },
+    "flex-layout.row#home__rowContainer--tabOne":{
+      "title": "Container tab content online",
+        "children": [
+            "slider-layout#sectionSix__container--sliderOne"
+        ],
+        "props": {
+            "blockClass": "home__row--tabOne"
+        }
+    },
+    "tab-content.item#sectionSix--store": {
+      "title": "Component tab-content-item store",
+        "children": [
+            "slider-layout#sectionSix__container--sliderTwo"
+        ],
+        "props": {
+            "tabId": "buy__store"
+        }
+    },
+    "slider-layout#sectionSix__container--sliderOne": {
+      "title": "Component slider One -section deals ",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "never",
+          "showPaginationDots": "mobileOnly"
+        },
+        "children": [
+            "rich-text#sectionSix__sliderOne--itemOne", 
+            "rich-text#sectionSix__sliderOne--itemTwo",
+            "rich-text#sectionSix__sliderOne--itemThree",
+            "rich-text#sectionSix__sliderOne--itemFour"
+        ]
+      },
+      "rich-text#sectionSix__sliderOne--itemOne": {
+        "title": "first text- slider One ",
+        "props": {
+          "text": "Selecciona \n tu producto",
+          "textPosition": "CENTER",
+          "blockClass":"sectionSix__sliderOne--itemOne"
+        }
+      },
+      "rich-text#sectionSix__sliderOne--itemTwo": {
+        "title": "second text- slider One ",
+        "props": {
+          "text": "Agrégalo \n al carrito",
+          "textPosition": "CENTER",
+          "blockClass":"sectionSix__sliderOne--itemTwo"
+        }
+      },
+      "rich-text#sectionSix__sliderOne--itemThree": {
+        "title": "third text- slider One ",
+        "props": {
+          "text": "Finaliza \n tu compra",
+          "textPosition": "CENTER",
+          "blockClass":"sectionSix__sliderOne--itemThree"
+        }
+      },
+      "rich-text#sectionSix__sliderOne--itemFour": {
+        "title": "fourth text- slider One ",
+        "props": {
+          "text": "Recíbelo \n en casa",
+          "textPosition": "CENTER",
+          "blockClass":"sectionSix__sliderOne--itemFour"
+        }
+      },
+      "slider-layout#sectionSix__container--sliderTwo":{
+        "title": "Component slider Two -section deals ",
+        "props": {
+            "itemsPerPage": {
+              "desktop": 2,
+              "tablet": 2,
+              "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "always",
+            "blockClass":"sectionSix__container--sliderTwo"
+          },
+          "children": [
+              "rich-text#sectionSix__sliderTwo--itemOne", 
+              "rich-text#sectionSix__sliderTwo--itemTwo",
+              "rich-text#sectionSix__sliderTwo--itemThree",
+              "rich-text#sectionSix__sliderTwo--itemFour"
+          ]
+      },
+      "rich-text#sectionSix__sliderTwo--itemOne":{
+        "title": "first text- slider Two ",
+       "props": {
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "text": "PLAZA SAN MIGUEL\n L-S 10am a 10pm | D 10am a 10pm\n 913 002 878",
+        "blockClass":"sectionSix__sliderTwo--itemOne"
+    }
+      },
+      "rich-text#sectionSix__sliderTwo--itemTwo":{
+        "title": "second text- slider Two ",
+        "props": {
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "text": "LARCOMAR\n L-S 10am a 10pm | D 10am a 10pm \n 913 002 870",
+            "blockClass":"sectionSix__sliderTwo--itemTwo"
+           }
+      },
+      "rich-text#sectionSix__sliderTwo--itemThree":{
+        "title": "third text- slider Two ",
+        "props": {
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "text": "SALAVERRY\n L-S 10am a 10pm | D 10am a 10pm\n 913 002 873",
+            "blockClass":"sectionSix__sliderTwo--itemThree"
+           }
+      },
+      "rich-text#sectionSix__sliderTwo--itemFour":{
+        "title": "fourth text- slider Two ",
+        "props": {
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "text": "JOCKEY PLAZA\n L-S 10am a 10pm | D 10am a 10pm \n 913 002 871",
+            "blockClass":"sectionSix__sliderTwo--itemFour"
+           }
+      }
+}

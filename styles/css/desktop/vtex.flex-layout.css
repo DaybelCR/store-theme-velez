@@ -7,6 +7,27 @@
  padding-right: 2.5rem;
  border-right: solid 1px #d4d4d4;
 }
+  /*------------ Home------------------- */
+
+.flexRow--desktop__home--sectionOne{
+    background-image: url(assets/image/desktop/home__sectionOne--background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.flexCol--home__sectionOne--containerOne{
+    margin: 8.1vw 0.9vw 4vw 3vw;
+}
+.flexCol--home__sectionOne--containerTwo{
+    margin: 8.2vw 4vw 4vw 0;
+}
+.flexCol--desktop__home--sectionThree:last-child{
+position: absolute;
+}
+.flexRowContent--home__row--tabOne{
+    max-width: 900px;
+    margin:20px auto;
+}
+   /*-------------------------------------- */
 
 .flexRow--desktop__footer--rowTwo{
     width: 92%;

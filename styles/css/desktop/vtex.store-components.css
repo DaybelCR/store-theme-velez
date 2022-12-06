@@ -1,0 +1,39 @@
+.infoCardContainer--desktop__home--sliderOne-main,
+.infoCardContainer--desktop__home--sliderTwo-main,
+.infoCardContainer--desktop__home--sliderThree-main{
+    height: 90vh;
+    width: 100vw;
+}
+
+.imageElement--home__sectionOne--imageOne,
+.imageElement--home__sectionOne--imageTwo,
+.imageElement--home__sectionTwo--image,
+.imageElement--home__sectionThree--banner,
+.imageElement--home__sectionFour--image{
+    width: 100%;
+}
+.infoCardCallActionContainer--desktop__home--sliderOne-main :global(.vtex-button),
+.infoCardCallActionContainer--desktop__home--sliderTwo-main :global(.vtex-button),
+.infoCardCallActionContainer--desktop__home--sliderThree-main :global(.vtex-button){
+    background-color: hsla(0,0%,100%,.29);
+    color: white !important;
+    padding:0.2vw 3vw 0.2vw 3vw;
+    font-size: 0.7rem;
+    border: none;
+    border-radius: 0;
+}
+.infoCardCallActionContainer--desktop__home--sliderOne-main :global(.vtex-button):hover,
+.infoCardCallActionContainer--desktop__home--sliderTwo-main :global(.vtex-button):hover,
+.infoCardCallActionContainer--desktop__home--sliderThree-main :global(.vtex-button):hover{
+    background-color: hsla(0,0%,100%,.29);
+}
+
+.infoCardCallActionContainer--desktop__home--sliderOne-main :global(.vtex-button),
+.infoCardCallActionContainer--desktop__home--sliderThree-main :global(.vtex-button){
+    top:7vw;
+    left:63vw;
+}
+.infoCardCallActionContainer--desktop__home--sliderTwo-main :global(.vtex-button){
+    top:12vw;
+    left:38vw;
+}

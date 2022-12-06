@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#desktop__home--sectionFive": {
+        "title": "Container shelf products",
+        "children": [
+            "flex-layout.col#desktop__home--sectionFive"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#desktop__home--sectionFive": {
+        "title": "Container col - shelf products",
+        "children": [
+            "rich-text#home__sectionFive--title",
+            "shelf#home__sectionFive--shelf"
+        ]
+    },
+    "rich-text#home__sectionFive--title": {
+        "title": "title shelf ",
+        "props": {
+            "text": "LOS MÁS VISTOS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "shelf#home__sectionFive--shelf":{
+        "title": "Component shelf",
+        "blocks":[
+            "product-summary.shelf"
+        ]
+    },
+    "product-summary.shelf": {
+        "children": [
+          "product-summary-image",
+          "product-summary-add-to-list-button",
+          "product-summary-name",
+          // "product-rating-inline",
+          "product-summary-space",
+          "product-summary-price",
+          // "product-identifier.summary",
+          "add-to-cart-button"
+        ]
+      }
+}

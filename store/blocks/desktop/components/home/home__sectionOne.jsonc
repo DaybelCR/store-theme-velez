@@ -1,0 +1,70 @@
+{
+    "flex-layout.row#desktop__home--sectionOne": {
+        "title": "Container section one",
+        "children": [
+            "flex-layout.col#home__sectionOne--containerOne",
+            "flex-layout.col#home__sectionOne--containerTwo"
+        ],
+        "props": {
+            "fullWidth": true,
+            "marginTop": 8,
+            "blockClass": "desktop__home--sectionOne"
+        }
+    },
+    "flex-layout.col#home__sectionOne--containerOne": {
+        "title": "Container one - col- section one ",
+        "children": [
+            "image#home__sectionOne--imageOne",
+            "rich-text#home__sectionOne--linksOne"
+        ],
+        "props": {
+            "width": "61%",
+            "blockClass": "home__sectionOne--containerOne"
+        }
+    },
+    "flex-layout.col#home__sectionOne--containerTwo": {
+        "title": "Container two - col- section one ",
+        "children": [
+            "image#home__sectionOne--imageTwo",
+            "rich-text#home__sectionOne--linksTwo"
+        ],
+        "props": {
+            "width": "39%",
+            "blockClass": "home__sectionOne--containerTwo"
+        }
+    },
+    "image#home__sectionOne--imageOne": {
+        "title": "image one - section one ",
+        "props": {
+            "src": "assets/image/desktop/home__sectionOne--bannerOne.png",
+            "blockClass": "home__sectionOne--imageOne"
+        }
+    },
+    "rich-text#home__sectionOne--linksOne": {
+        "title": "linksOne - section one ",
+        "props": {
+            "text": "[MUJER](https://daysic--itgloberspartnercl.myvtex.com/)   [HOMBRE](https://daysic--itgloberspartnercl.myvtex.com/)",
+            "blockClass": [
+                "home__sectionOne--links",
+                "home__sectionOne--linksOne"
+            ]
+        }
+    },
+    "image#home__sectionOne--imageTwo": {
+        "title": "image two - section one ",
+        "props": {
+            "src": "assets/image/desktop/home__sectionOne--bannerTwo.png",
+            "blockClass": "home__sectionOne--imageTwo"
+        }
+    },
+    "rich-text#home__sectionOne--linksTwo": {
+        "title": "links two - section one ",
+        "props": {
+            "text": "[MUJER](https://daysic--itgloberspartnercl.myvtex.com/)    [HOMBRE](https://daysic--itgloberspartnercl.myvtex.com/)",
+            "blockClass": [
+                "home__sectionOne--links",
+                "home__sectionOne--linksTwo"
+            ]
+        }
+    }
+}
