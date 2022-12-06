@@ -1,13 +1,4 @@
 {
-  "flex-layout.row#desktop__home--containerSlider": {
-    "title": "Container Slider Main",
-    "children": [
-      "slider-layout#desktop__home--slider-main"
-    ],
-    "props": {
-      "preventVerticalStretch": true
-    }
-  },
   "slider-layout#desktop__home--slider-main": {
     "title": "Slider Main",
     "props": {
@@ -17,6 +8,7 @@
         "phone": 1
       },
       "infinite": true,
+      "fullWidth": true,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
       "autoplay": {
@@ -37,8 +29,8 @@
       "id": "info-card-main-One",
       "isFullModeStyle": true,
       "imageActionUrl": "/",
-      "textPosition": "right",
       "imageUrl": "assets/image/desktop/home__sliderOne.png",
+      "mobileImageUrl":"assets/image/mobile/home__sliderOne.png",
       "callToActionText": "ver nueva colección",
       "callToActionUrl": "/",
       "blockClass": "desktop__home--sliderOne-main"
@@ -51,6 +43,7 @@
       "isFullModeStyle": true,
       "imageActionUrl": "/",
       "imageUrl": "assets/image/desktop/home__sliderTwo.png",
+      "mobileImageUrl":"assets/image/mobile/home__sliderTwo.png",
       "callToActionText": "ver nueva colección",
       "callToActionUrl": "/",
       "blockClass": "desktop__home--sliderTwo-main"
@@ -62,8 +55,8 @@
       "id": "info-card-main-Three",
       "isFullModeStyle": true,
       "imageActionUrl": "/",
-      "textPosition": "right",
       "imageUrl": "assets/image/desktop/home__sliderThree.png",
+      "mobileImageUrl":"assets/image/mobile/home__sliderThree.png",
       "callToActionText": "ver nueva colección",
       "callToActionUrl": "/",
       "blockClass": "desktop__home--sliderThree-main"

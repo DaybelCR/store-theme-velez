@@ -36,7 +36,8 @@
     "image#home__sectionOne--imageOne": {
         "title": "image one - section one ",
         "props": {
-            "src": "assets/image/desktop/home__sectionOne--bannerOne.png"
+            "src": "assets/image/desktop/home__sectionOne--bannerOne.png",
+            "blockClass": "home__sectionOne--imageOne"
         }
     },
     "rich-text#home__sectionOne--linksOne": {
@@ -52,7 +53,8 @@
     "image#home__sectionOne--imageTwo": {
         "title": "image two - section one ",
         "props": {
-            "src": "assets/image/desktop/home__sectionOne--bannerTwo.png"
+            "src": "assets/image/desktop/home__sectionOne--bannerTwo.png",
+            "blockClass": "home__sectionOne--imageTwo"
         }
     },
     "rich-text#home__sectionOne--linksTwo": {
