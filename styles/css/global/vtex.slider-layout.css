@@ -1,3 +1,18 @@
 .sliderLayoutContainer--desktop__home--slider-main{
     height: 80vh;
 }
+
+.sliderLayoutContainer--sectionSix__container--sliderTwo{
+margin-top: 0;
+max-width: 1100px;
+margin:0.5rem auto;
+}
+.caretIcon--sectionSix__container--sliderTwo{
+    color: #6b6b6b;
+}
+.paginationDot--sectionSix__container--sliderTwo{
+    background-color: #e0e0e0;
+}
+.paginationDot--sectionSix__container--sliderTwo--isActive{
+    background-color: #cacbcc;
+}

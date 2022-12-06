@@ -27,13 +27,15 @@
         "props": {
             "tabId": "buy__online",
             "label": "COMPRAR ONLINE",
-            "defaultActiveTab": true
+            "defaultActiveTab": true,
+            "blockClass":"sectionSix--online"
         }
     },
     "tab-list.item#sectionSix--store": {
         "props": {
             "tabId": "buy__store",
-            "label": "COMPRAR EN TIENDAS"
+            "label": "COMPRAR EN TIENDAS",
+            "blockClass":"sectionSix--store"
         }
     },
     "tab-content#home__sectionSix--tabContent": {
@@ -86,22 +88,30 @@
       },
       "rich-text#sectionSix__sliderOne--itemOne": {
         "props": {
-          "text": "Selecciona \n tu producto"
+          "text": "Selecciona \n tu producto",
+          "textPosition": "CENTER",
+          "blockClass":"sectionSix__sliderOne--itemOne"
         }
       },
       "rich-text#sectionSix__sliderOne--itemTwo": {
         "props": {
-          "text": "Agrégalo \n al carrito"
+          "text": "Agrégalo \n al carrito",
+          "textPosition": "CENTER",
+          "blockClass":"sectionSix__sliderOne--itemTwo"
         }
       },
       "rich-text#sectionSix__sliderOne--itemThree": {
         "props": {
-          "text": "Finaliza \n tu compra"
+          "text": "Finaliza \n tu compra",
+          "textPosition": "CENTER",
+          "blockClass":"sectionSix__sliderOne--itemThree"
         }
       },
       "rich-text#sectionSix__sliderOne--itemFour": {
         "props": {
-          "text": "Recíbelo \n en casa"
+          "text": "Recíbelo \n en casa",
+          "textPosition": "CENTER",
+          "blockClass":"sectionSix__sliderOne--itemFour"
         }
       },
       "slider-layout#sectionSix__container--sliderTwo":{
@@ -113,7 +123,8 @@
             },
             "infinite": true,
             "showNavigationArrows": "desktopOnly",
-            "showPaginationDots": "always"
+            "showPaginationDots": "always",
+            "blockClass":"sectionSix__container--sliderTwo"
           },
           "children": [
               "rich-text#sectionSix__sliderTwo--itemOne", 
@@ -124,26 +135,34 @@
       },
       "rich-text#sectionSix__sliderTwo--itemOne":{
        "props": {
+        "textPosition": "CENTER",
         "textAlignment": "CENTER",
-        "text": "PLAZA SAN MIGUEL\n L-S 10am a 10pm | D 10am a 10pm\n [913 002 878](https://daysic--itgloberspartnercl.myvtex.com/)"
-       }
+        "text": "PLAZA SAN MIGUEL\n L-S 10am a 10pm | D 10am a 10pm\n 913 002 878",
+        "blockClass":"sectionSix__sliderTwo--itemOne"
+    }
       },
       "rich-text#sectionSix__sliderTwo--itemTwo":{
         "props": {
+            "textPosition": "CENTER",
             "textAlignment": "CENTER",
-            "text": "LARCOMAR\n L-S 10am a 10pm | D 10am a 10pm \n [913 002 870](https://daysic--itgloberspartnercl.myvtex.com/)"
+            "text": "LARCOMAR\n L-S 10am a 10pm | D 10am a 10pm \n 913 002 870",
+            "blockClass":"sectionSix__sliderTwo--itemTwo"
            }
       },
       "rich-text#sectionSix__sliderTwo--itemThree":{
         "props": {
+            "textPosition": "CENTER",
             "textAlignment": "CENTER",
-            "text": "SALAVERRY\n L-S 10am a 10pm | D 10am a 10pm\n [913 002 873](https://daysic--itgloberspartnercl.myvtex.com/)"
+            "text": "SALAVERRY\n L-S 10am a 10pm | D 10am a 10pm\n 913 002 873",
+            "blockClass":"sectionSix__sliderTwo--itemThree"
            }
       },
       "rich-text#sectionSix__sliderTwo--itemFour":{
         "props": {
+            "textPosition": "CENTER",
             "textAlignment": "CENTER",
-            "text": "JOCKEY PLAZA\n L-S 10am a 10pm | D 10am a 10pm \n [913 002 871](https://daysic--itgloberspartnercl.myvtex.com/)"
+            "text": "JOCKEY PLAZA\n L-S 10am a 10pm | D 10am a 10pm \n 913 002 871",
+            "blockClass":"sectionSix__sliderTwo--itemFour"
            }
       }
 }
