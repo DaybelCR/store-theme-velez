@@ -1,0 +1,8 @@
+{
+    "responsive-layout.tablet":{
+        "title":"Home Responsive Tablet",
+        "children": [
+            "flex-layout.row#mobile__home--sectionSix"
+        ]
+    }
+}
