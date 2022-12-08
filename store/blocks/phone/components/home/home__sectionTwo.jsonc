@@ -1,0 +1,22 @@
+{
+    "flex-layout.row#phone__home--sectionTwo":{
+        "title": "Container section two",
+        "children": [
+            "image#phone__home-sectionTwo--image"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "image#phone__home-sectionTwo--image":{
+        "title": "image Section Two",
+        "props": {
+            "alt": "bannerSectionTwo",
+            "blockClass": "phone__home-sectionTwo--image",
+            "src": "assets/image/mobile/home__sectionTwo.png",
+            "link": {
+                "url": "/"
+            }
+        }
+    }
+}
