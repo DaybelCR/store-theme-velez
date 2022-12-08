@@ -1,3 +1,14 @@
+/*----------------- home--------------------- */
+.flexRow--mobile__home--sectionSix{
+    background-color: #f0f0f0;
+}
+.flexRow--phone__home--sectionOne{
+    background-image: url(assets/image/mobile/home__sectionOne-background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*-------------------------------------------*/
+
 .flexRowContent--container__mobile--menu{
     padding-left:1rem;
 }

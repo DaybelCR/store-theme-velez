@@ -1,37 +1,22 @@
 /*----home------*/
 .paragraph--sectionSix__sliderOne--itemOne::before{
-    content: " ";
     background: url(assets/image/desktop/home__sectionSix--tabOne1.png) no-repeat;
-    display: block;
-    width: 2rem;
-    height: 2rem;
-    position: absolute;
-    top: 1.5rem;
-    left: 2.5rem;
 }   
 .paragraph--sectionSix__sliderOne--itemTwo::before{
-    content: " ";
-    background: url(assets/image/desktop/home__sectionSix--tabOne2.png)no-repeat ;
-    display: block;
-    width: 2rem;
-    height: 2rem;
-    position: absolute;
-    top: 1.5rem;
-    left: 2.5rem;
+    background: url(assets/image/desktop/home__sectionSix--tabOne2.png) no-repeat ;
 }
 .paragraph--sectionSix__sliderOne--itemThree::before{
-    content: " ";
     background: url(assets/image/desktop/home__sectionSix--tabOne3.png) no-repeat;
-    display: block;
-    width: 2rem;
-    height: 2rem;
-    position: absolute;
-    top: 1.5rem;
-    left: 2.5rem;
 }
 .paragraph--sectionSix__sliderOne--itemFour::before{
-    content: " ";
     background: url(assets/image/desktop/home__sectionSix--tabOne4.png) no-repeat;
+   
+}
+.paragraph--sectionSix__sliderOne--itemOne::before,
+.paragraph--sectionSix__sliderOne--itemTwo::before,
+.paragraph--sectionSix__sliderOne--itemThree::before,
+.paragraph--sectionSix__sliderOne--itemFour::before{
+    content: " ";
     display: block;
     width: 2rem;
     height: 2rem;
@@ -47,7 +32,9 @@
 }
 .container--sectionSix__sliderOne--itemOne::after,
 .container--sectionSix__sliderOne--itemTwo::after,
-.container--sectionSix__sliderOne--itemThree::after{
+.container--sectionSix__sliderOne--itemThree::after,
+.container--sectionSix__sliderTwo--itemOne::after,
+.container--sectionSix__sliderTwo--itemThree::after{
     content: "";
     background: #000000;
     position: absolute;
@@ -63,37 +50,17 @@
 .container--sectionSix__sliderTwo--itemFour{
     width: 100%;
 }
-.container--sectionSix__sliderTwo--itemOne::after,
-.container--sectionSix__sliderTwo--itemThree::after{
-    content: "";
-    background: #000000;
-    position: absolute;
-    height: 50%;
-    width: 1px;
-    top:20%;
-    right: 0;
-}
-.paragraph--sectionSix__sliderTwo--itemOne::before,
-.paragraph--sectionSix__sliderTwo--itemTwo::before,
-.paragraph--sectionSix__sliderTwo--itemThree::before,
-.paragraph--sectionSix__sliderTwo--itemFour::before{
+
+.paragraph--sectionSix__sliderTwo--itemOne::after,
+.paragraph--sectionSix__sliderTwo--itemTwo::after,
+.paragraph--sectionSix__sliderTwo--itemThree::after,
+.paragraph--sectionSix__sliderTwo--itemFour::after{
     content: "wtsp";
     background-image: url(assets/image/desktop/home__sectionSix--tabTwo.png);
     background-size: contain;
     background-repeat: no-repeat;
     color: transparent;
     width:1rem;
-    position: absolute;
+    margin-left: 0.5rem;
 }
-.paragraph--sectionSix__sliderTwo--itemOne::before{
-    bottom:14%; 
-}
-.paragraph--sectionSix__sliderTwo--itemTwo::before,
-.paragraph--sectionSix__sliderTwo--itemThree::before,
-.paragraph--sectionSix__sliderTwo--itemFour::before{
-    bottom:14%; 
-    left: 36%;
-}
-
-
 /*--------------*/

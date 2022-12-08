@@ -1,0 +1,13 @@
+{
+    "responsive-layout.phone":{
+        "title":"Home Responsive phone",
+        "children":[
+            "list-context.image-list#mobile__home--sectionSix",
+            "flex-layout.row#phone__home--sectionOne",
+            "flex-layout.row#phone__home--sectionTwo",
+            "flex-layout.row#phone__home--sectionThree",
+            "flex-layout.row#phone__home--sectionFour",
+            "flex-layout.row#mobile__home--sectionSix"
+        ]
+    }
+}

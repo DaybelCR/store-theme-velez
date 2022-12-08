@@ -1,0 +1,30 @@
+{
+    "flex-layout.row#phone__home--sectionThree":{
+        "title": "Container section Three",
+        "children": [
+            "image#phone__home--sectionThree",
+            "rich-text#phone__home--sectionThree"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "image#phone__home--sectionThree":{
+        "title": "image section Three",
+       "props": {
+        "src": "assets/image/mobile/home__sectionThree.png",
+        "blockClass": "phone__home--sectionThree",
+        "link": {
+            "url": "/"
+        }
+       }
+    },
+    "rich-text#phone__home--sectionThree":{
+        "title": "text section Three",
+        "props": {
+            "blockClass":"phone__home--sectionThree",
+            "textPosition": "CENTER",
+            "text": "[ver **nuevas referencias>>**](https://daysic--itgloberspartnercl.myvtex.com/)"
+        }
+    }
+}

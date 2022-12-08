@@ -5,3 +5,23 @@
     width: 100%;
     background-color: white;
 }
+
+
+.imageElement--phone__home-sectionTwo--image,
+.imageElement--phone__home-sectionFour--image,
+.imageElement--phone__home--sectionThree{
+    width: 100%;
+}
+
+.imageElement--phone__home-sectionOne--bannerOne,
+.imageElement--phone__home-sectionOne--bannerTwo{
+    width: 80%;
+    display: block;
+}
+.imageElement--phone__home-sectionOne--bannerOne{
+    margin: 20% auto auto;
+}
+.imageElement--phone__home-sectionOne--bannerTwo{
+    margin:5% auto 5%;
+}
+

@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#phone__home--sectionOne":{
+        "title": "Container section one",
+        "children": [
+          "flex-layout.col#phone__home-sectionOne--bannerOne",
+          "flex-layout.col#phone__home-sectionOne--bannerTwo"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "phone__home--sectionOne"
+        }
+    },
+    "flex-layout.col#phone__home-sectionOne--bannerOne":{
+        "title": "Container col bannerOne",
+      "children": [
+         "image#phone__home-sectionOne--bannerOne",
+         "rich-text#phone__home-sectionOne--bannerOne"
+      ]
+    },
+    "image#phone__home-sectionOne--bannerOne":{
+        "title": "bannerOne",
+        "props": {
+            "src": "assets/image/mobile/home__sectionOne-1.png",
+            "blockClass":"phone__home-sectionOne--bannerOne"
+          }
+    },
+    "rich-text#phone__home-sectionOne--bannerOne":{
+        "title": "bannerOne-text",
+        "props": {
+            "blockClass": "phone__home-sectionOne--bannerOne",
+            "textPosition": "CENTER",
+            "text": "[MUJER](https://daysic--itgloberspartnercl.myvtex.com/)   [HOMBRE](https://daysic--itgloberspartnercl.myvtex.com/)"
+        }
+    },
+    "flex-layout.col#phone__home-sectionOne--bannerTwo":{
+        "title": "container col bannerTwo",
+        "children": [
+            "image#phone__home-sectionOne--bannerTwo",
+            "rich-text#phone__home-sectionOne--bannerTwo"
+        ]
+    },
+    "image#phone__home-sectionOne--bannerTwo":{
+        "title": "bannerTwo",
+        "props": {
+            "src": "assets/image/mobile/home__sectionOne-2.png",
+            "blockClass":"phone__home-sectionOne--bannerTwo"
+          }
+    },
+    "rich-text#phone__home-sectionOne--bannerTwo":{
+        "title": "bannerTwo-text",
+        "props": {
+            "blockClass": "phone__home-sectionOne--bannerTwo",
+            "textPosition": "CENTER",
+            "text": "[MUJER](https://daysic--itgloberspartnercl.myvtex.com/)   [HOMBRE](https://daysic--itgloberspartnercl.myvtex.com/)"
+        }
+    }
+}

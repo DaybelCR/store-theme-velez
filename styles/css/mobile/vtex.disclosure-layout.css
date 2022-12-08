@@ -8,14 +8,22 @@
 }
 
 
-.trigger--footer-disclosure--title{
+.trigger--footer-disclosure--title,
+.trigger--home__buy-online,
+.trigger--home__buy-store{
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
     border: none;
     background: transparent;
-    border-bottom: 1px solid #979899;
     cursor: pointer;
+}
+.trigger--footer-disclosure--title{
+    border-bottom: 1px solid #979899;
     height: 2.5rem;
+}
+
+.trigger--home__buy-store{
+    border-top:0.1rem solid #848484;
 }

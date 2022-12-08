@@ -7,7 +7,7 @@
         ],
         "props": {
             "fullWidth": true,
-            "marginTop": 8,
+            "marginTop": 2,
             "blockClass": "desktop__home--sectionOne"
         }
     },
