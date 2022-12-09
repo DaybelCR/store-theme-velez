@@ -24,4 +24,6 @@
 .imageElement--phone__home-sectionOne--bannerTwo{
     margin:5% auto 5%;
 }
-
+.imageElement--mobile__home-slider{
+    width: 100%;
+}

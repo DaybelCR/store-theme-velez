@@ -14,3 +14,8 @@ margin:0.5rem auto;
 .paginationDot--sectionSix__container--sliderTwo--isActive{
     background-color: #cacbcc;
 }
+
+.slideChildrenContainer--mobile__home--slider-main{
+    height: 100%;
+}
+

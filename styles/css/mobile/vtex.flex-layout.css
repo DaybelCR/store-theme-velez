@@ -20,7 +20,30 @@
 .flexRowContent--tablet__home--sectionThree .stretchChildrenWidth{
     width: 100% !important;
 }
-
+.flexRow--mobile__home--sliderOne-main,
+.flexRow--mobile__home--sliderTwo-main,
+.flexRow--mobile__home--sliderThree-main{
+    width: 100%;
+    height: 100%;
+}
+.flexRowContent--mobile__home--sliderOne-main,
+.flexRowContent--mobile__home--sliderTwo-main,
+.flexRowContent--mobile__home--sliderThree-main,
+.flexRowContent--mobile__home--sliderOne-main :first-child,
+.flexRowContent--mobile__home--sliderTwo-main :first-child,
+.flexRowContent--mobile__home--sliderThree-main :first-child{
+    height: 100%;
+}
+.flexRowContent--mobile__home--sliderOne-main,
+.flexRowContent--mobile__home--sliderTwo-main,
+.flexRowContent--mobile__home--sliderThree-main{
+    flex-direction: column;
+}
+.flexRowContent--mobile__home--sliderOne-main .stretchChildrenWidth,
+.flexRowContent--mobile__home--sliderTwo-main .stretchChildrenWidth,
+.flexRowContent--mobile__home--sliderThree-main .stretchChildrenWidth{
+    width: 100% !important;
+}
 /*-------------------------------------------*/
 
 .flexRowContent--container__mobile--menu{

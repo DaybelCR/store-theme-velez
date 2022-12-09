@@ -1,29 +1,6 @@
 {
-  "list-context.image-list#mobile__home--sectionSix": {
-    "title": "Component list of Images",
-    "children": [
-      "slider-layout#demo-images"
-    ],
-    "props": {
-      "height": 650,
-      "images": [
-        {
-          "image": "assets/image/mobile/home__sliderOne.png",
-          "description": "something something"
-        },
-        {
-          "image": "assets/image/mobile/home__sliderTwo.png",
-          "description": "something something"
-        },
-        {
-          "image": "assets/image/mobile/home__sliderThree.png",
-          "description": "something something"
-        }
-      ]
-    }
-  },
-  "slider-layout#demo-images": {
-    "title": "slider main phone",
+  "slider-layout#mobile__home--slider-main": {
+    "title": "Slider Main Mobile",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -31,12 +8,97 @@
         "phone": 1
       },
       "infinite": true,
+      "fullWidth": true,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
       "autoplay": {
         "timeout": 3000,
         "stopOnHover": true
-      }
+      },
+      "blockClass": "mobile__home--slider-main"
+    },
+    "children": [
+      "flex-layout.row#mobile__home--sliderOne-main",
+      "flex-layout.row#mobile__home--sliderTwo-main",
+      "flex-layout.row#mobile__home--sliderThree-main"
+    ]
+  },
+  "flex-layout.row#mobile__home--sliderOne-main": {
+    "title": "Container main sliderOne",
+    "children": [
+      "image#mobile__home--imageOne-slider",
+      "rich-text#mobile__home--textOne-slider"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "mobile__home--sliderOne-main"
+    }
+  },
+  "image#mobile__home--imageOne-slider": {
+    "title": "image sliderOne",
+    "props": {
+      "src": "assets/image/mobile/home__sliderOne.png",
+      "blockClass":"mobile__home-slider"
+    }
+  },
+  "rich-text#mobile__home--textOne-slider": {
+    "title": "text slider One",
+    "props": {
+      "textPosition": "CENTER",
+      "text": "[ver **nueva colección>>**](/)",
+      "blockClass":"mobile__home-text"
+    }
+  },
+  "flex-layout.row#mobile__home--sliderTwo-main": {
+    "title": "Container main sliderTwo",
+    "children": [
+      "image#mobile__home--imageTwo-slider",
+      "rich-text#mobile__home--textTwo-slider"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "mobile__home--sliderTwo-main"
+    }
+  },
+  "image#mobile__home--imageTwo-slider": {
+    "title": "image sliderTwo",
+    "props": {
+      "src": "assets/image/mobile/home__sliderTwo.png",
+      "blockClass":"mobile__home-slider"
+    }
+  },
+  "rich-text#mobile__home--textTwo-slider": {
+    "title": "text slider Two",
+    "props": {
+      "textPosition": "CENTER",
+      "text": "[ver **nueva colección>>**](/)",
+      "blockClass":"mobile__home-text"
+    }
+  },
+  "flex-layout.row#mobile__home--sliderThree-main": {
+    "title": "Container main sliderThree",
+    "children": [
+      "image#mobile__home--imageThree-slider",
+      "rich-text#mobile__home--textThree-slider"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "mobile__home--sliderThree-main"
+    }
+  },
+  "image#mobile__home--imageThree-slider": {
+    "title": "image sliderThree",
+    "props": {
+      "src": "assets/image/mobile/home__sliderThree.png",
+      "blockClass":"mobile__home-slider"
+    }
+  },
+  "rich-text#mobile__home--textThree-slider": {
+    "title": "text slider Three",
+    "props": {
+      "textPosition": "CENTER",
+      "text": "[ver **nueva colección>>**](/)",
+      "blockClass":"mobile__home-text"
     }
   }
 }

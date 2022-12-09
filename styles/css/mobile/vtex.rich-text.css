@@ -60,12 +60,16 @@
 .wrapper--phone__home--sectionThree{
   margin-top: -35%;
 }
-.link--phone__home--sectionThree{
+.link--phone__home--sectionThree,
+.link--mobile__home-text{
   color:#fff ;
   text-decoration: none;
   background-color: hsla(0,0%,100%,.29);
   font-size: 3vw;
   padding:2.5vw 3vw;
+}
+.wrapper--mobile__home-text{
+  margin-top: -55%;
 }
 /*------------------------------------------------- */
 .paragraph--footer-menu-title{
