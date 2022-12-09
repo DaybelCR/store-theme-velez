@@ -20,3 +20,11 @@
    object-fit: cover;
 }
 
+/* ---------------home ---------------*/
+.discountInsideContainer{
+    background-color: #931505 ;
+    transform: rotate(-90deg);
+    margin-block-start: 0.6em;
+    font-size: 0.8rem;
+}
+/* ---------------------------------- */
