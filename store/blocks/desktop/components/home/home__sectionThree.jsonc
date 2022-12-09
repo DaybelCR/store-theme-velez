@@ -32,6 +32,7 @@
     "rich-text#home__sectionThree--link": {
         "title": "link Section Three",
         "props": {
+            "textPosition": "RIGHT",
             "text": "[ver **nuevas referencias**>>](https://daysic--itgloberspartnercl.myvtex.com/)",
             "blockClass": "home__sectionThree--link"
         }

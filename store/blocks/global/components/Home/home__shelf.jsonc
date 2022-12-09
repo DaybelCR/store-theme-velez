@@ -1,0 +1,46 @@
+{
+    "flex-layout.row#global__home--sectionFive":{
+        "children": [
+            "flex-layout.col#global__home--sectionFive"
+        ],
+        "props": {
+            "fullWidth": true,
+            "marginBottom":7
+        }
+    } ,
+    "flex-layout.col#global__home--sectionFive":{
+        "children": [
+            "rich-text#global__home--sectionFive",
+            "list-context.product-list#global__home--sectionFive"
+        ]
+    },
+    "rich-text#global__home--sectionFive":{
+       "props": {
+        "textPosition": "CENTER",
+        "text": "LOS MÁS VISTOS"
+       } 
+    },
+      "list-context.product-list#global__home--sectionFive": {
+        "blocks": ["product-summary.shelf#demo1"],
+        "children": ["slider-layout#demo-products"]
+      },
+      "product-summary.shelf#demo1": {
+        "children": [
+            "product-summary-image",
+            "product-summary-description",
+            "product-selling-price"
+        ]
+      },
+      "slider-layout#demo-products": {
+            "props": {
+             "itemsPerPage": {
+               "desktop": 5,
+               "tablet": 3,
+               "phone": 2
+             },
+          "showNavigationArrows": "always",
+          "showPaginationDots": "always"
+            }
+        }
+
+}

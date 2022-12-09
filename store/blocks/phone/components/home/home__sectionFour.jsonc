@@ -1,18 +1,18 @@
 {
-    "flex-layout.row#phone__home--sectionFour":{
+    "flex-layout.row#mobile__home--sectionFour":{
         "title": "Container section Four",
         "children": [
-            "image#phone__home-sectionFour--image"
+            "image#mobile__home-sectionFour--image"
         ],
         "props": {
             "fullWidth": true
         }
     },
-    "image#phone__home-sectionFour--image":{
+    "image#mobile__home-sectionFour--image":{
         "title": "image Section Four",
         "props": {
             "alt": "bannerSectionFour",
-            "blockClass": "phone__home-sectionFour--image",
+            "blockClass": "mobile__home-sectionFour--image",
             "src": "assets/image/mobile/home__sectionFour.png",
             "link": {
                 "url": "/"

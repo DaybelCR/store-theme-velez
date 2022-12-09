@@ -2,11 +2,25 @@
 .flexRow--mobile__home--sectionSix{
     background-color: #f0f0f0;
 }
-.flexRow--phone__home--sectionOne{
+.flexRow--phone__home--sectionOne,
+.flexRow--tablet__home--sectionOne{
     background-image: url(assets/image/mobile/home__sectionOne-background.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
+.flexRowContent--tablet__home--sectionOne{
+    flex-direction: column;
+}
+.flexColChild--tablet__home-sectionOne--bannerOne{
+    width: 100%;
+}
+.flexRowContent--tablet__home--sectionThree{
+    flex-direction: column;
+}
+.flexRowContent--tablet__home--sectionThree .stretchChildrenWidth{
+    width: 100% !important;
+}
+
 /*-------------------------------------------*/
 
 .flexRowContent--container__mobile--menu{
