@@ -14,3 +14,27 @@ margin:0.5rem auto;
 .paginationDot--sectionSix__container--sliderTwo--isActive{
     background-color: #cacbcc;
 }
+
+.slideChildrenContainer--mobile__home--slider-main{
+    height: 100%;
+}
+
+.paginationDot--global__home--shelf{
+    background-color: #e0e0e0;
+}
+.paginationDot--global__home--shelf--isActive{
+    background-color: #cacbcc;
+}
+
+.sliderLayoutContainer--global__home--shelf{
+    max-width: 93%;
+    width: 93%;
+    margin: 0 auto;
+}
+
+.sliderTrackContainer--global__home--shelf{
+    margin:0 2rem 1rem ;
+}
+.caretIcon--global__home--shelf{
+    color: rgb(63, 54, 48)
+}

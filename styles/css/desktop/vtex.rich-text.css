@@ -1,7 +1,5 @@
 /* ---------------home -------------------------------*/
-.container--home__sectionOne--links{
-    position: absolute;
-}
+
 .wrapper--home__sectionOne--linksOne{
 margin-top: -5vw;
 margin-left: 38vw;
@@ -13,20 +11,18 @@ margin-left: 18vw;
 .link--home__sectionOne--links{
 margin-right: 2rem;
 font-size: 1.2vw;
+color: #fff;
 }
-.paragraph--home__sectionOne--links{
-    text-decoration: underline;
-}
+
 .container--home__sectionThree--link{
-    margin-top:-21vw;
-    margin-left: 75vw;
-    padding-left: 25px;
+    margin: -21vw 5vw  0 75vw;
 }
 .link--home__sectionThree--link{
     background-color: hsla(0,0%,100%,.29);
-    color: white !important;
-    padding:0.5vw 4vw 0.5vw 4vw;
+    padding:0.5vw 3.5vw 0.5vw 3.5vw;
     font-size: 0.8vw;
+    color: #fff;
+    text-decoration: none;
 }
 /* --------------------------------------------------*/
 .container--footer__rowThree--textThree{

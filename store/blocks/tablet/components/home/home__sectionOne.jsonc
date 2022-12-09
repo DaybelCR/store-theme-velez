@@ -1,0 +1,37 @@
+{
+    "flex-layout.row#tablet__home--sectionOne":{
+        "title": "Container section one",
+        "children": [
+          "flex-layout.col#tablet__home-sectionOne--bannerOne",
+          "flex-layout.col#tablet__home-sectionOne--bannerTwo"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "tablet__home--sectionOne"
+        }
+    },
+    "flex-layout.col#tablet__home-sectionOne--bannerOne":{
+        "title": "Container col bannerOne",
+      "children": [
+        "image#phone__home-sectionOne--bannerOne",
+        "rich-text#phone__home-sectionOne--bannerOne"
+      ],
+      "props": {
+        "width": "100%",
+        "horizontalAlign": "center",
+        "blockClass": "tablet__home-sectionOne--bannerOne"
+      }
+    },
+    "flex-layout.col#tablet__home-sectionOne--bannerTwo":{
+        "title": "container col bannerTwo",
+        "children": [
+            "image#phone__home-sectionOne--bannerTwo",
+            "rich-text#phone__home-sectionOne--bannerTwo"
+        ],
+        "props": {
+            "width": "100%",
+            "horizontalAlign": "center",
+            "blockClass": "tablet__home-sectionOne--bannerOne"
+          }
+    }
+}
