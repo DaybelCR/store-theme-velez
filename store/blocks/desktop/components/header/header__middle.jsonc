@@ -1,12 +1,12 @@
 {
-    "header-row#header__middleDesktop":{
+    "header-row#desktop__header--middle":{
         "title":"Header Middle Desktop ",
         "children":[
-            "menu#header---menuDesktop",
+            "menu#desktop__header--menu",
             "header-spacer",
             "link#logo--desktop",
             "header-spacer",
-            "search-bar#desktop--search",
+            "search-bar#desktop__header--search",
             "login",
             "minicart.v2"
            ],
@@ -40,7 +40,7 @@
             "href": "/"
            }
     },
-    "menu#header---menuDesktop":{
+    "menu#desktop__header--menu":{
         "title":"Menu Main Desktop",
         "children": [
             "menu-item#departament__mujer--one",
@@ -50,10 +50,10 @@
           ],
           "props":{
             "orientation":"horizontal",
-            "blockClass":"container__desktop--menu"
+            "blockClass":"desktop__header--menu-departament"
           }
     },
-    "search-bar#desktop--search":{
+    "search-bar#desktop__header--search":{
         "blocks": ["autocomplete-result-list.v2"],
         "props":{
             "autocompleteAlignment": "center",

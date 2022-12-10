@@ -3,7 +3,6 @@
         "props": {
             "id": "departament-mujer--one",
             "type": "custom",
-            "highlight": false,
             "itemProps": {
               "type": "internal",
               "href": "/products",
@@ -19,7 +18,7 @@
       "children":["menu#departament__mujer--one"],
       "props":{
         "onMountBehahior":"open",
-        "blockClass":"container__mujer--submenu"
+        "blockClass":"desktop__header--categories-submenu"
       }
     },
     "menu#departament__mujer--one":{
@@ -41,12 +40,8 @@
           "flex-layout.col#politica_condiciones"
       ],
       "props":{
-        "colSizing":"auto",
-        "colJustify":"around",
-       " horizontalAlign": "center",
-        "preventHorizontalStretch":true,
-        "preventVerticalStretch":true,
-        "blockClass": "row-menuItems--mujer"
+       "horizontalAlign": "center",
+        "blockClass": "header__container-rowTop"
       }
     },
     "flex-layout.col#imgMujer":{
@@ -54,7 +49,6 @@
      "children":["image#image__mujer--header","rich-text#caption--mujer"],
      "props":{
       "blockClass": "container__col--img",
-      "preventVerticalStretch":true,
       "horizontalAlign":"center"
      }
     },
@@ -63,6 +57,7 @@
       "children":[ "rich-text#politica_condiciones"],
       "props":{
         "verticalAlign":"bottom",
+        "horizontalAlign":"center",
          "blockClass":"container__col--conditions"
       }
     },
@@ -95,10 +90,10 @@
     "rich-text#buy_on_wtsp":{
       "title":"Component Text Buy On WHATSAPP",
    "props":{
-    "text": "*[COMPRA POR WHATSAPP 51934389699>>](https://wa.me/51934389699)*.",
+    "text": "*[COMPRA POR WHATSAPP 51980712057>>](https://wa.me/51934389699)*.",
     "textAlignment": "CENTER",
     "textPosition": "CENTER",
-    "blockClass": "buy_on_wtsp"
+    "blockClass": "desktop__header--text-buyOnWtsp"
    }
     },
     "flex-layout.col#categories__mujer":{
@@ -119,9 +114,6 @@
       "rich-text#category__mujer--items"
     ],
       "props":{
-        "colsizing": "auto",
-        "horizontalAlign":"left",
-        "preventVerticalStretch":true,
         "blockClass":"container__col--menu"
       }
     },
@@ -333,7 +325,7 @@
       "children":["menu#departament__hombre--two"],
       "props":{
         "onMountBehahior":"open",
-        "blockClass":"container__hombre--submenu"
+        "blockClass":"desktop__header--categories-submenu"
       }
     },
     
@@ -355,11 +347,7 @@
           "flex-layout.col#politica_condiciones"
       ],
       "props":{
-        "colSizing":"auto",
-        "colJustify":"around",
-       " horizontalAlign": "center",
-        "preventHorizontalStretch":true,
-        "preventVerticalStretch":true,
+        "horizontalAlign": "center",
         "blockClass": "row-menuItems--mujer"
       }
     },
@@ -368,7 +356,6 @@
       "children":["image#image__hombre--header","rich-text#caption--mujer"],
       "props":{
        "blockClass": "container__col--img",
-       "preventVerticalStretch":true,
        "horizontalAlign":"center"
       }
      },
@@ -384,10 +371,9 @@
         "props": {
             "id": "departament-sale--three",
             "type": "custom",
-            "highlight": false,
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/",
               "noFollow": false,
               "tagTitle": "Sale",
               "text": "SALE"
@@ -400,7 +386,7 @@
       "children":["menu#departament__sale--three"],
       "props":{
         "onMountBehahior":"open",
-        "blockClass":"container__sale--submenu"
+        "blockClass":"desktop__header--categories-submenu"
       }
     },
     "menu#departament__sale--three":{
@@ -421,11 +407,7 @@
         "flex-layout.col#politica_condiciones"
     ],
     "props":{
-      "colSizing":"auto",
-      "colJustify":"around",
      " horizontalAlign": "center",
-      "preventHorizontalStretch":true,
-      "preventVerticalStretch":true,
       "blockClass": "row-menuItems--mujer"
     }
     },
@@ -433,9 +415,6 @@
       "title":"Col Container Categories Sale",
       "children":["rich-text#category__sale--text"],
       "props": {
-        "colsizing": "auto",
-        "horizontalAlign":"left",
-        "preventVerticalStretch":true,
         "blockClass":"container__col--menu"
       }
     },
@@ -451,7 +430,6 @@
       "children":["image#image__sale--header","rich-text#caption--sale"],
       "props":{
        "blockClass": "container__col--img",
-       "preventVerticalStretch":true,
        "horizontalAlign":"center"
       }
      },
@@ -477,10 +455,9 @@
         "props": {
             "id": "departament-flyUp--four",
             "type": "custom",
-            "highlight": false,
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/",
               "noFollow": false,
               "tagTitle": "Fly Up",
               "text": "FLY UP"

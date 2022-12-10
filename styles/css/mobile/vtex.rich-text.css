@@ -1,7 +1,3 @@
-.container--buy_on_wtsp{
-  width:100vw;
-  background-color: #d4d4d4;
-}
 .paragraph--category__mujer--items{
   font-size: 0.8rem;
   padding-left: 1.3rem;
@@ -71,7 +67,7 @@
 .wrapper--mobile__home-text{
   margin-top: -55%;
 }
-/*------------------------------------------------- */
+/*-----------------------footer-------------------------- */
 .paragraph--footer-menu-title{
   font-weight: 900;
 }

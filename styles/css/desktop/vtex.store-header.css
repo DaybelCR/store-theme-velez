@@ -9,3 +9,10 @@
     background-color: #ffffff;
     color: #000000;
 } */
+.headerRowContainer--header__middleDesktop :global(.vtex-input-prefix__group){
+   border: none;
+}
+.headerRowContainer--header__middleDesktop :global(.vtex-styleguide-9-x-input){
+border-bottom: solid black 1px;
+}
+
