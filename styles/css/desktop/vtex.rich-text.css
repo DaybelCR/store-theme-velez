@@ -39,5 +39,7 @@ color: #fff;
 .paragraph--footer__rowThree--textTwo,
 .paragraph--footer__rowThree--textThree{
     font-size: 0.8rem;
+    text-decoration: none;
+    color: #000;
 }
 

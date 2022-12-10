@@ -114,7 +114,7 @@
       "newsletter-checkbox-confirmation":{
         "title":"Checkbox confirmation",
         "props":{
-        "checkboxLabel":"Autorizo el tratamiento de mis datos personales de acuerdo con la Política de Protección de datos personales disponible aquí"
+        "checkboxLabel":"Autorizo el tratamiento de mis datos personales de acuerdo con la Política de Protección de datos personales disponible aqui"
         }
       }
       

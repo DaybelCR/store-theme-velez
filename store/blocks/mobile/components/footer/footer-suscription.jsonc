@@ -7,7 +7,6 @@
         "props": {
             "fullWidth": true,
             "horizontalAlign": "center",
-            "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
             "preserveLayoutOnMobile": true,
             "paddingBottom": 8,
