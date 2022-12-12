@@ -5,11 +5,16 @@
 .submenu--desktop__header--categories-submenu .menuContainerNav{
     width: 100%;
 }
-
 .submenuContainer--desktop__header--categories-submenu{
     position: initial;
 }
-
+.menuContainerNav--desktop__header--menu-departament .styledLinkContent{
+font-size: 0.8rem;
+}
+.styledLinkContent--category__mujer--item:hover{
+    padding-left: 0.1rem;
+    color: #000;
+}
 /*------------------------ footer----------------------*/
 
 .menuContainer--footer__rowTwo--menuOne 

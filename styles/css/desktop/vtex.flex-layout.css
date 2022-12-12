@@ -1,3 +1,8 @@
+ .flexRowContent--header__subMenu-rowTop{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 /*------------ Home------------------- */
 
 .flexRow--desktop__home--sectionOne{

@@ -3,7 +3,11 @@
 .infoCardContainer--desktop__home--sliderThree-main{
     height: 90vh;
     width: 100vw;
-}
+}.imageElement--image__mujer--header{
+    margin: 0 auto;
+    max-width: 15rem;
+    object-fit: cover;
+ }
 
 .imageElement--home__sectionOne--imageOne,
 .imageElement--home__sectionOne--imageTwo,

@@ -1,104 +1,112 @@
 {
-    "menu-item#departament__mujer--one":{
-        "props": {
-            "id": "departament-mujer--one",
-            "type": "custom",
-            "itemProps": {
-              "type": "internal",
-              "href": "/products",
-              "noFollow": false,
-              "tagTitle": "Mujer",
-              "text": "MUJER"
-            }
-    },
-    "blocks":["submenu#departament__mujer--one"]
-    },
-    "submenu#departament__mujer--one":{
-      "title":"SubMenu Departament Woman",
-      "children":["menu#departament__mujer--one"],
-      "props":{
-        "onMountBehahior":"open",
-        "blockClass":"desktop__header--categories-submenu"
+  "menu-item#departament__mujer--one": {
+    "props": {
+      "id": "departament-mujer--one",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/products",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "MUJER"
       }
     },
-    "menu#departament__mujer--one":{
-      "title":"Menu Container Woman",
-      "children":[
-        "flex-layout.row#departament__mujer--one",
-        "rich-text#buy_on_wtsp"
-      ],
-      "props":{
-        "orientation":"vertical",
-        "blockClass":"container_Woman--menu"
-      }
-    },
-    "flex-layout.row#departament__mujer--one":{
-      "title":"Row Container Woman",
-      "children":[
-          "flex-layout.col#categories__mujer",
-          "flex-layout.col#imgMujer",
-          "flex-layout.col#politica_condiciones"
-      ],
-      "props":{
-       "horizontalAlign": "center",
-        "blockClass": "header__container-rowTop"
-      }
-    },
-    "flex-layout.col#imgMujer":{
-      "title":"Col Container Image",
-     "children":["image#image__mujer--header","rich-text#caption--mujer"],
-     "props":{
+    "blocks": [
+      "submenu#departament__mujer--one"
+    ]
+  },
+  "submenu#departament__mujer--one": {
+    "title": "SubMenu Departament Woman",
+    "children": [
+      "menu#departament__mujer--one"
+    ],
+    "props": {
+      "onMountBehahior": "open",
+      "blockClass": "desktop__header--categories-submenu"
+    }
+  },
+  "menu#departament__mujer--one": {
+    "title": "Menu Container Woman",
+    "children": [
+      "flex-layout.row#departament__mujer--one",
+      "rich-text#buy_on_wtsp"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container_Woman--menu"
+    }
+  },
+  "flex-layout.row#departament__mujer--one": {
+    "title": "Row Container Woman",
+    "children": [
+      "flex-layout.col#categories__mujer",
+      "flex-layout.col#imgMujer",
+      "flex-layout.col#politica_condiciones"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "header__subMenu-rowTop"
+    }
+  },
+  "flex-layout.col#imgMujer": {
+    "title": "Col Container Image",
+    "children": [
+      "image#image__mujer--header",
+      "rich-text#caption--mujer"
+    ],
+    "props": {
       "blockClass": "container__col--img",
-      "horizontalAlign":"center"
-     }
-    },
-    "flex-layout.col#politica_condiciones":{
-      "title":"Col Container Conditions",
-      "children":[ "rich-text#politica_condiciones"],
-      "props":{
-        "verticalAlign":"bottom",
-        "horizontalAlign":"center",
-         "blockClass":"container__col--conditions"
-      }
-    },
-    "rich-text#politica_condiciones":{
-      "title":"Component Text",
-        "props":{
-        "textAlignment": "LEFT",
-        "text": "[-PROGRAMA DE PUNTOS](/)\n[-NUESTRAS POLÍTICAS](/)\n[-TÉRMINOS Y CONDICIONES](/)",
-        "textColor": "c-on-emphasis",
-        "blockClass":"menu__conditions--text"
-      }   
-    },
-    "image#image__mujer--header":{
-      "title":"Component Image Woman",
-     "props":{
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#politica_condiciones": {
+    "title": "Col Container Conditions",
+    "children": [
+      "rich-text#politica_condiciones"
+    ],
+    "props": {
+      "verticalAlign": "bottom",
+      "horizontalAlign": "center",
+      "blockClass": "container__col--conditions"
+    }
+  },
+  "rich-text#politica_condiciones": {
+    "title": "Component Text",
+    "props": {
+      "textAlignment": "LEFT",
+      "text": "[-PROGRAMA DE PUNTOS](/)\n[-NUESTRAS POLÍTICAS](/)\n[-TÉRMINOS Y CONDICIONES](/)",
+      "textColor": "c-on-emphasis",
+      "blockClass": "menu__conditions--text"
+    }
+  },
+  "image#image__mujer--header": {
+    "title": "Component Image Woman",
+    "props": {
       "src": "assets/image/desktop/header__menu-mujer.png",
       "blockClass": "image__mujer--header"
-     }
-    },
-    "rich-text#caption--mujer":{
-      "title":"Component Text",
-      "props":{
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "[NUEVA COLECCIÓN](https://daysic--itgloberspartnercl.myvtex.com/)",
-        "textColor": "c-on-emphasis",
-        "font": "t-heading-5"
-      }
-    },
-    "rich-text#buy_on_wtsp":{
-      "title":"Component Text Buy On WHATSAPP",
-   "props":{
-    "text": "*[COMPRA POR WHATSAPP 51980712057>>](https://wa.me/51934389699)*.",
-    "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "blockClass": "desktop__header--text-buyOnWtsp"
-   }
-    },
-    "flex-layout.col#categories__mujer":{
-      "title":"Col Container Categories Woman",
-      "children":[
+    }
+  },
+  "rich-text#caption--mujer": {
+    "title": "Component Text",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[NUEVA COLECCIÓN](/)",
+      "blockClass": "desktop__submenuMiddle--text"
+    }
+  },
+  "rich-text#buy_on_wtsp": {
+    "title": "Component Text Buy On WHATSAPP",
+    "props": {
+      "text": "[COMPRA POR WHATSAPP 51980712057>>](https://wa.me/51934389699)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "desktop__header--text-buyOnWtsp"
+    }
+  },
+  "flex-layout.col#categories__mujer": {
+    "title": "Col Container Categories Woman",
+    "children": [
       "menu-item#category__mujer--one",
       "menu-item#category__mujer--two",
       "menu-item#category__mujer--three",
@@ -113,355 +121,369 @@
       "menu-item#category__mujer--twelve",
       "rich-text#category__mujer--items"
     ],
-      "props":{
-        "blockClass":"container__col--menu"
+    "props": {
+      "blockClass": "container__col--menu"
+    }
+  },
+  "menu-item#category__mujer--one": {
+    "props": {
+      "id": "category-mujer--one",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "category__mujer--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "NUEVO"
+      }
+    }
+  },
+  "menu-item#category__mujer--two": {
+    "props": {
+      "id": "category-mujer--two",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "category__mujer--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "ZAPATILLAS"
+      }
+    }
+  },
+  "menu-item#category__mujer--three": {
+    "props": {
+      "id": "category-mujer--three",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "category__mujer--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "ZAPATOS"
+      }
+    }
+  },
+  "menu-item#category__mujer--four": {
+    "props": {
+      "id": "category-mujer--four",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "category__mujer--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "MOCHILAS"
+      }
+    }
+  },
+  "menu-item#category__mujer--five": {
+    "props": {
+      "id": "category-mujer--five",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "category__mujer--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "BOLSOS"
+      }
+    }
+  },
+  "menu-item#category__mujer--six": {
+    "props": {
+      "id": "category-mujer--six",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "category__mujer--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "CASACAS"
+      }
+    }
+  },
+  "menu-item#category__mujer--seven": {
+    "props": {
+      "id": "category-mujer--seven",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "category__mujer--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "CORREAS"
+      }
+    }
+  },
+  "menu-item#category__mujer--eight": {
+    "props": {
+      "id": "category-mujer--eight",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "category__mujer--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "BILLETERAS"
+      }
+    }
+  },
+  "menu-item#category__mujer--nine": {
+    "props": {
+      "id": "category-mujer--nine",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "category__mujer--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "ACCESORIOS"
+      }
+    }
+  },
+  "menu-item#category__mujer--ten": {
+    "props": {
+      "id": "category-mujer--ten",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "category__mujer--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "ROPA"
+      }
+    }
+  },
+  "menu-item#category__mujer--eleven": {
+    "props": {
+      "id": "category-mujer--eleven",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "category__mujer--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "VIAJES"
+      }
+    }
+  },
+  "menu-item#category__mujer--twelve": {
+    "props": {
+      "id": "category-mujer--twelve",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "category__mujer--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "VER TODO"
+      }
+    }
+  },
+  "rich-text#category__mujer--items": {
+    "title": "Component Text Extra Categories",
+    "props": {
+      "text": "[**-ICONOS**](/)\n[**-CUIDADOS DEL CUERO**](/)\n[**-GUIA DE REGALOS**](/)\n[**-ESPECIAL CASACAS**](/)",
+      "blockClass": "category__mujer--items"
+    }
+  },
+  ///////////////////////////////////////////////////////////////////////////////
+  "menu-item#departament__hombre--two": {
+    "props": {
+      "id": "departament-hombre--two",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Hombre",
+        "text": "HOMBRE"
       }
     },
-    "menu-item#category__mujer--one":{
-      "props": {
-        "id": "category-mujer--one",
-        "type": "custom",
-        "highlight": false,
-        "blockClass": "category__mujer--item",
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Mujer",
-          "text": "NUEVO"
-        }
-}
-    },
-    "menu-item#category__mujer--two":{
-      "props": {
-        "id": "category-mujer--two",
-        "type": "custom",
-        "highlight": false,
-        "blockClass": "category__mujer--item",
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Mujer",
-          "text": "ZAPATILLAS"
-        }
-}
-    },
-    "menu-item#category__mujer--three":{
-      "props": {
-        "id": "category-mujer--three",
-        "type": "custom",
-        "highlight": false,
-        "blockClass": "category__mujer--item",
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Mujer",
-          "text": "ZAPATOS"
-        }
-}
-    },
-    "menu-item#category__mujer--four":{
-      "props": {
-        "id": "category-mujer--four",
-        "type": "custom",
-        "highlight": false,
-        "blockClass": "category__mujer--item",
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Mujer",
-          "text": "MOCHILAS"
-        }
-}
-    },
-    "menu-item#category__mujer--five":{
-      "props": {
-        "id": "category-mujer--five",
-        "type": "custom",
-        "highlight": false,
-        "blockClass": "category__mujer--item",
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Mujer",
-          "text": "BOLSOS"
-        }
-}
-    },
-    "menu-item#category__mujer--six":{
-      "props": {
-        "id": "category-mujer--six",
-        "type": "custom",
-        "highlight": false,
-        "blockClass": "category__mujer--item",
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Mujer",
-          "text": "CASACAS"
-        }
-}
-    },
-    "menu-item#category__mujer--seven":{
-      "props": {
-        "id": "category-mujer--seven",
-        "type": "custom",
-        "highlight": false,
-        "blockClass": "category__mujer--item",
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Mujer",
-          "text": "CORREAS"
-        }
-}
-    },
-    "menu-item#category__mujer--eight":{
-      "props": {
-        "id": "category-mujer--eight",
-        "type": "custom",
-        "highlight": false,
-        "blockClass": "category__mujer--item",
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Mujer",
-          "text": "BILLETERAS"
-        }
-}
-    },
-    "menu-item#category__mujer--nine":{
-      "props": {
-        "id": "category-mujer--nine",
-        "type": "custom",
-        "highlight": false,
-        "blockClass": "category__mujer--item",
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Mujer",
-          "text": "ACCESORIOS"
-        }
-}
-    },
-    "menu-item#category__mujer--ten":{
-      "props": {
-        "id": "category-mujer--ten",
-        "type": "custom",
-        "highlight": false,
-        "blockClass": "category__mujer--item",
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Mujer",
-          "text": "ROPA"
-        }
-}
-    },
-    "menu-item#category__mujer--eleven":{
-      "props": {
-        "id": "category-mujer--eleven",
-        "type": "custom",
-        "highlight": false,
-        "blockClass": "category__mujer--item",
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Mujer",
-          "text": "VIAJES"
-        }
-}
-    },
-    "menu-item#category__mujer--twelve":{
-      "props": {
-        "id": "category-mujer--twelve",
-        "type": "custom",
-        "highlight": false,
-        "blockClass": "category__mujer--item",
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Mujer",
-          "text": "VER TODO"
-        }
-}
-    },
-    "rich-text#category__mujer--items":{
-      "title":"Component Text Extra Categories",
-      "props": {
-        "text": "[**-ICONOS**](/)\n[**-CUIDADOS DEL CUERO**](/)\n[**-GUIA DE REGALOS**](/)\n[**-ESPECIAL CASACAS**](/)",
-        "blockClass": "category__mujer--items"
-}
-    },
-    ///////////////////////////////////////////////////////////////////////////////
-    "menu-item#departament__hombre--two":{
-        "props": {
-            "id": "departament-hombre--two",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-              "type": "internal",
-              "href": "#",
-              "noFollow": false,
-              "tagTitle": "Hombre",
-              "text": "HOMBRE"
-            }
-    },
-    "blocks":["submenu#departament__hombre--two"]
-    },
-    "submenu#departament__hombre--two":{
-      "title":"SubMenu Departament Man",
-      "children":["menu#departament__hombre--two"],
-      "props":{
-        "onMountBehahior":"open",
-        "blockClass":"desktop__header--categories-submenu"
-      }
-    },
-    
-    "menu#departament__hombre--two":{
-      "title":"Menu Container Man",
-      "children":[
-        "flex-layout.row#departament__hombre--two",
-        "rich-text#buy_on_wtsp"
-      ],
-      "props":{
-        "orientation":"vertical"
-      }
-    },
-    "flex-layout.row#departament__hombre--two":{
-      "title":"Row Container Man",
-      "children":[
-          "flex-layout.col#categories__mujer",
-          "flex-layout.col#imgHombre",
-          "flex-layout.col#politica_condiciones"
-      ],
-      "props":{
-        "horizontalAlign": "center",
-        "blockClass": "row-menuItems--mujer"
-      }
-    },
-    "flex-layout.col#imgHombre":{
-      "title":"Col Container Image",
-      "children":["image#image__hombre--header","rich-text#caption--mujer"],
-      "props":{
-       "blockClass": "container__col--img",
-       "horizontalAlign":"center"
-      }
-     },
-     "image#image__hombre--header":{
-      "title":"Component Image Man",
-      "props":{
-        "src": "assets/image/desktop/header__menu-hombre.png",
-        "blockClass": "image__mujer--header"
-       }
-     },
-     /////////////////////////////////////////////////////////////////////////////
-    "menu-item#departament__sale--three":{
-        "props": {
-            "id": "departament-sale--three",
-            "type": "custom",
-            "itemProps": {
-              "type": "internal",
-              "href": "/",
-              "noFollow": false,
-              "tagTitle": "Sale",
-              "text": "SALE"
-            }
-    },
-    "blocks":["submenu#departament__sale--three"]
-    },
-    "submenu#departament__sale--three":{
-      "title":"SubMenu Departament Sale",
-      "children":["menu#departament__sale--three"],
-      "props":{
-        "onMountBehahior":"open",
-        "blockClass":"desktop__header--categories-submenu"
-      }
-    },
-    "menu#departament__sale--three":{
-      "title":"Menu Container Sale",
-      "children":[
-        "flex-layout.row#departament__sale--three",
-        "rich-text#buy_on_wtsp"
-      ],
-      "props":{
-        "orientation":"vertical"
-      }
-    },
-    "flex-layout.row#departament__sale--three":{
-      "title":"Row Container Sale",
-      "children":[
-        "flex-layout.col#categories__sale",
-        "flex-layout.col#imgSale",
-        "flex-layout.col#politica_condiciones"
+    "blocks": [
+      "submenu#departament__hombre--two"
+    ]
+  },
+  "submenu#departament__hombre--two": {
+    "title": "SubMenu Departament Man",
+    "children": [
+      "menu#departament__hombre--two"
     ],
-    "props":{
-     " horizontalAlign": "center",
-      "blockClass": "row-menuItems--mujer"
+    "props": {
+      "onMountBehahior": "open",
+      "blockClass": "desktop__header--categories-submenu"
     }
-    },
-    "flex-layout.col#categories__sale":{
-      "title":"Col Container Categories Sale",
-      "children":["rich-text#category__sale--text"],
-      "props": {
-        "blockClass":"container__col--menu"
-      }
-    },
-    "rich-text#category__sale--text":{
-      "title":"Component Text Categories Sale",
-      "props":{
-        "text": "[MUJER](/)\n[HOMBRE](/)\n[VER TODO](/)",
-        "blockClass":"items__sale--text"
-      }
-    },
-    "flex-layout.col#imgSale":{
-      "title":"Col Container Image",
-      "children":["image#image__sale--header","rich-text#caption--sale"],
-      "props":{
-       "blockClass": "container__col--img",
-       "horizontalAlign":"center"
-      }
-     },
-     "image#image__sale--header":{
-      "title":"Component Image Sale",
-      "props":{
-        "src": "assets/image/desktop/header__menu-sale.png",
-        "blockClass": "image__mujer--header"
-       }
-     },
-     "rich-text#caption--sale":{
-      "title":"Component Text",
-      "props":{
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "[VER MÁS](https://daysic--itgloberspartnercl.myvtex.com/)",
-        "textColor": "c-on-emphasis",
-        "font": "t-heading-5"
-      }
-     },
-     //////////////////////////////////////////////////////////////////////////////
-    "menu-item#departament__flyUp--four":{
-        "props": {
-            "id": "departament-flyUp--four",
-            "type": "custom",
-            "itemProps": {
-              "type": "internal",
-              "href": "/",
-              "noFollow": false,
-              "tagTitle": "Fly Up",
-              "text": "FLY UP"
-            }
+  },
+  "menu#departament__hombre--two": {
+    "title": "Menu Container Man",
+    "children": [
+      "flex-layout.row#departament__hombre--two",
+      "rich-text#buy_on_wtsp"
+    ],
+    "props": {
+      "orientation": "vertical"
     }
+  },
+  "flex-layout.row#departament__hombre--two": {
+    "title": "Row Container Man",
+    "children": [
+      "flex-layout.col#categories__mujer",
+      "flex-layout.col#imgHombre",
+      "flex-layout.col#politica_condiciones"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "header__subMenu-rowTop"
     }
+  },
+  "flex-layout.col#imgHombre": {
+    "title": "Col Container Image",
+    "children": [
+      "image#image__hombre--header",
+      "rich-text#caption--mujer"
+    ],
+    "props": {
+      "blockClass": "container__col--img",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#image__hombre--header": {
+    "title": "Component Image Man",
+    "props": {
+      "src": "assets/image/desktop/header__menu-hombre.png",
+      "blockClass": "image__mujer--header"
+    }
+  },
+  /////////////////////////////////////////////////////////////////////////////
+  "menu-item#departament__sale--three": {
+    "props": {
+      "id": "departament-sale--three",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Sale",
+        "text": "SALE"
+      }
+    },
+    "blocks": [
+      "submenu#departament__sale--three"
+    ]
+  },
+  "submenu#departament__sale--three": {
+    "title": "SubMenu Departament Sale",
+    "children": [
+      "menu#departament__sale--three"
+    ],
+    "props": {
+      "onMountBehahior": "open",
+      "blockClass": "desktop__header--categories-submenu"
+    }
+  },
+  "menu#departament__sale--three": {
+    "title": "Menu Container Sale",
+    "children": [
+      "flex-layout.row#departament__sale--three",
+      "rich-text#buy_on_wtsp"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#departament__sale--three": {
+    "title": "Row Container Sale",
+    "children": [
+      "flex-layout.col#categories__sale",
+      "flex-layout.col#imgSale",
+      "flex-layout.col#politica_condiciones"
+    ],
+    "props": {
+      " horizontalAlign": "center",
+      "blockClass": "header__subMenu-rowTop"
+    }
+  },
+  "flex-layout.col#categories__sale": {
+    "title": "Col Container Categories Sale",
+    "children": [
+      "rich-text#category__sale--text"
+    ],
+    "props": {
+      "blockClass": "container__col--menu"
+    }
+  },
+  "rich-text#category__sale--text": {
+    "title": "Component Text Categories Sale",
+    "props": {
+      "text": "[MUJER](/)\n[HOMBRE](/)\n[VER TODO](/)",
+      "blockClass": "items__sale--text"
+    }
+  },
+  "flex-layout.col#imgSale": {
+    "title": "Col Container Image",
+    "children": [
+      "image#image__sale--header",
+      "rich-text#caption--sale"
+    ],
+    "props": {
+      "blockClass": "container__col--img",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#image__sale--header": {
+    "title": "Component Image Sale",
+    "props": {
+      "src": "assets/image/desktop/header__menu-sale.png",
+      "blockClass": "image__mujer--header"
+    }
+  },
+  "rich-text#caption--sale": {
+    "title": "Component Text",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[VER MÁS](https://daysic--itgloberspartnercl.myvtex.com/)",
+      "blockClass": "desktop__submenuMiddle--text"
+    }
+  },
+  //////////////////////////////////////////////////////////////////////////////
+  "menu-item#departament__flyUp--four": {
+    "props": {
+      "id": "departament-flyUp--four",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Fly Up",
+        "text": "FLY UP"
+      }
+    }
+  }
 }

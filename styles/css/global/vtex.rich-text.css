@@ -54,7 +54,8 @@
 .paragraph--sectionSix__sliderTwo--itemOne::after,
 .paragraph--sectionSix__sliderTwo--itemTwo::after,
 .paragraph--sectionSix__sliderTwo--itemThree::after,
-.paragraph--sectionSix__sliderTwo--itemFour::after{
+.paragraph--sectionSix__sliderTwo--itemFour::after,
+.link--desktop__header--text-buyOnWtsp::after{
     content: "wtsp";
     background-image: url(assets/image/desktop/home__sectionSix--tabTwo.png);
     background-size: contain;
