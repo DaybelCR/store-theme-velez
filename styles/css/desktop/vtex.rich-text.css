@@ -1,3 +1,45 @@
+.container--desktop__header--text-buyOnWtsp{
+    background-color: #d4d4d4;
+  }
+  .paragraph--category__mujer--items{
+    font-size: 0.8rem;
+    padding-left: 1.3rem;
+    margin-top: 0;
+    line-height: 1.5rem;
+  }
+  .strong--category__mujer--items:hover{
+    padding-left: 0.1rem;
+    color:#000;
+  }
+  .link--category__mujer--items{
+    text-decoration: none;
+    color: #4d4d4d;
+  }
+  .link--menu__conditions--text,.link--items__sale--text{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #4d4d4d;
+  }
+  .link--menu__conditions--text:hover{
+    padding-left: 0.1rem;
+    color: #000;
+  }
+  .link--items__sale--text:hover{
+    padding-left: 0.2rem;
+  }
+  .wrapper--items__sale--text{
+    padding-right: 5.5rem;
+    padding-left: 1.4rem;
+  }
+  .paragraph--msgSend__empty--minicart{
+   font-weight: 700;
+  }
+  .link--desktop__submenuMiddle--text,
+  .link--desktop__header--text-buyOnWtsp{
+    color: #4d4d4d;
+    text-decoration: none;
+  }
+ 
 /* ---------------home -------------------------------*/
 
 .wrapper--home__sectionOne--linksOne{

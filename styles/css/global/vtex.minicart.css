@@ -1,45 +1,79 @@
 .openIconContainer{
-   padding: 0;
-}
-.minicartWrapperContainer{
+    padding: 0;
+ }
+.minicartWrapperContainer {
     height: 3.8rem;
 }
-.minicartWrapperContainer:hover{
-    background-color:#f1f1f1 ;
-}
-.minicartWrapperContainer :global(.vtex-button__label){
-padding: 0 0.7rem 0 0.2rem;
-margin-top: 0.7rem;
-}
-.minicartWrapperContainer :global(.vtex-button__label):hover{
+.minicartQuantityBadge {
     background-color: transparent;
+    color: #3c3838;
 }
-.closeIconContainer{
-    float: right;
+.minicartWrapperContainer:hover {
+    background-color: #f1f1f1;
+}
+.minicartWrapperContainer :global(.vtex-button__label) {
+    padding: 0 0.7rem 0 0.2rem;
+    margin-top: 0.7rem;
 }
 
-.minicartTitle::before{
+.minicartContainer :global(.vtex-button):hover,
+.minicartWrapperContainer :global(.vtex-button__label):hover {
+    background-color: transparent;
+}
+.closeIconButton {
+    position: absolute;
+    right: 0;
+    color: gray;
+}
+.minicartTitle {
+    padding-bottom: 0.7rem;
+    border-bottom: solid 1px #d4d4d4;
+    color:transparent;
+}
+.minicartTitle::before {
     content: "";
     display: inline-block;
-    width: 4rem;
-    height: 2rem;
-    background-image: url(assets/svg/bag_shopping.svg);
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(assets/image/global/bag-title-minicart.png);
     background-repeat: no-repeat;
     background-size: contain;
-    color:#575651
+    color: #575651
 }
-.minicartTitle::after{
+.minicartTitle::after {
     content: "BOLSA DE COMPRAS";
     position: absolute;
-    left:3.4rem;
-    top:0.9rem;
+    left:2.7rem;
     color:#575651;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     background-color: #fff;
     font-weight: 200;
+    padding:0.5rem;
 }
-.minicartEmptyStateContainer--minicart-empty{
+
+.minicartEmptyStateContainer--minicart-empty {
     width: 20.6rem;
-    border-top: solid 1px gray;
     padding-top: 3rem;
+}
+.minicartCheckoutButton :global(.vtex-button__label){
+    color:transparent;
+}
+.minicartCheckoutButton :global(.vtex-button__label)::before {
+    content: "";
+    background: url(assets/image/global/bag-minicart.png) no-repeat;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+}
+.minicartCheckoutButton :global(.vtex-button__label)::after {
+    content: "IR A PAGAR";
+    position: absolute;
+    margin-left: 1rem;
+    color: #fff;
+}
+.minicartCheckoutButton :global(.vtex-button) {
+    background-color: #000;
+    border: none;
+    border-radius: 0;
 }

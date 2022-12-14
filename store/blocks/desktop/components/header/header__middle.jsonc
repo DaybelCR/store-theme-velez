@@ -1,0 +1,37 @@
+{
+    "header-row#desktop__header--middle":{
+        "title":"Header Middle Desktop ",
+        "children":[
+            "menu#desktop__header--menu",
+            "header-spacer",
+            "link#logo--desktop",
+            "header-spacer",
+            "search-bar#desktop__header--search",
+            "login",
+            "minicart.v2"
+           ],
+           "props":{
+            "fullWidth": true,
+            "sticky":true,
+            "blockClass":"header__middleDesktop"
+           }
+    },
+    "link#logo--desktop":{
+        "title":"Component Link Logo",
+        "props":{
+            "label":  "VÉLEZ",
+            "blockClass":"logo--desktop",
+            "href": "/"
+           }
+    },
+    "search-bar#desktop__header--search":{
+        "title":"component searchBar desktop",
+        "blocks": ["autocomplete-result-list.v2"],
+        "props":{
+            "autocompleteAlignment": "center",
+            "placeholder": "¿QUE BUSCAS?",
+            "openAutocompleteOnFocus": true,
+            "maxWidth":350
+        }
+    }
+}

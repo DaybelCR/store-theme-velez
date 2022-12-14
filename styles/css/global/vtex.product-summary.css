@@ -4,3 +4,9 @@
 .description{
     color: #2e2e2e;
 }
+.buyButton :global(.vtex-button){
+background-color: #000;
+border: none;
+border-radius: 0;
+}
+

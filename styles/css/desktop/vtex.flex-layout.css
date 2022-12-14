@@ -1,13 +1,9 @@
-.flexRowContent--row-menuItems--mujer{
-    width: 95vw;
-    padding-bottom:2.5rem ;
+ .flexRowContent--header__subMenu-rowTop{
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
-.flexColChild--container__col--menu{
- margin-left: -5.5rem;
- padding-right: 2.5rem;
- border-right: solid 1px #d4d4d4;
-}
-  /*------------ Home------------------- */
+
+/*------------ Home------------------- */
 
 .flexRow--desktop__home--sectionOne{
     background-image: url(assets/image/desktop/home__sectionOne--background.png);
@@ -26,7 +22,7 @@
     max-width: 900px;
     margin:20px auto;
 }
-   /*-------------------------------------- */
+   /*-------------footer------------------------- */
 
 .flexRow--desktop__footer--rowTwo{
     width: 92%;

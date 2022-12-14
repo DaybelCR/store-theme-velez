@@ -1,0 +1,12 @@
+.availabilityMessageTextContainer{
+    background-color:#000;
+    color: #fff;
+    font-size: 0.6rem;
+}
+
+.productListUnavailableItemsMessage{
+    color: #fff;
+    background-color: #000;
+    border-bottom-style: none;
+    font-size: 0.8rem;
+}
