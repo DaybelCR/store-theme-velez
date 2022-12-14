@@ -1,0 +1,30 @@
+.popper {
+    width: 100%;
+}
+
+.container {
+    border: none;
+    border-radius: 0;
+}
+
+.container :global(.vtex-store-components-3-x-searchBarContainer) {
+    max-width: 100%;
+    padding: 0;
+}
+
+.container :global(.vtex-styleguide-9-x-input) {
+    font-size: 0.8rem;
+}
+
+.container :global(.vtex-input-prefix__group) {
+    border: none;
+    border-bottom: solid #727273 1px;
+    border-radius: 0;
+    align-items: center;
+    margin: auto 1rem;
+}
+
+.container :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
+    width: 80vw;
+    margin-top: -3.7rem;
+}

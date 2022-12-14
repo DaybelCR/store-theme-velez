@@ -1,58 +1,58 @@
 {
-    "header-row#header__middleMobile":{
-        "title":"Header Middle Mobile ",
-        "children":[
-            "drawer#header__mobile--drawer",
-            "disclosure-layout#search",
-            "header-spacer",
-            "link#logo--mobile",
-            "header-spacer",
-            "login",
-            "minicart.v2"
-           ],
-           "props":{
-            "fullWidth": true,
-            "sticky":true,
-            "blockClass":"header__middleMobile"
-           }
-    },
-    "disclosure-layout#search":{
-      "children": ["disclosure-trigger#searchBar-trigger","disclosure-content#searchBar-content"]
-    },
-    "disclosure-trigger#searchBar-trigger":{
-      "children": ["icon#search-icon"],
-      "props": {
-        "blockClass": "searchBar-trigger"
-      }
-    },
-    "disclosure-content#searchBar-content":{
-      "children": ["search-bar#searchBar_mobile"],
-      "props":{
-        "blockClass":"searchBar-content"
-      }
-    },
-    "search-bar#searchBar_mobile": {
-      "blocks": ["autocomplete-result-list.v2"],
-      "props":{
-          "autocompleteAlignment": "center",
-          "placeholder": "¿QUE BUSCAS?",
-          "openAutocompleteOnFocus": true,
-          "blockClass":"searchBar_mobile"
-      }
-    },
-    "icon#search-icon":{
-      "title":"Search Bar Icon",
-      "props":{
-        "id": "hpa-search",
-        "blockclass":"header--iconSearch"
-      }
-    },
-    "link#logo--mobile":{
-      "title": "Link Logo Mobile",
-    "props":{
-        "label":  "VÉLEZ",
-        "blockClass":"logo--mobile",
-        "href": "/"
-       }
-   }
+  "header-row#header__middleMobile": {
+    "title": "Header Middle Mobile ",
+    "children": [
+      "drawer#header__mobile--drawer",
+      "overlay-trigger#mobile__header--search",
+      "header-spacer",
+      "link#logo--mobile",
+      "header-spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "fullWidth": true,
+      "sticky": true,
+      "blockClass": "header__middleMobile"
+    }
+  },
+  "overlay-trigger#mobile__header--search": {
+    "title": "component overlay-trigguer search",
+    "children": [
+      "icon#search-icon",
+      "overlay-layout#mobile__header--search"
+    ]
+  },
+  "overlay-layout#mobile__header--search": {
+    "title": "component overlay-layout search",
+    "children": [
+      "search-bar#searchBar_mobile"
+    ]
+  },
+  "search-bar#searchBar_mobile": {
+    "title": "component searchBar mobile",
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "autocompleteAlignment": "center",
+      "placeholder": "¿QUE BUSCAS?",
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "icon#search-icon": {
+    "title": "Search Bar Icon",
+    "props": {
+      "id": "hpa-search",
+      "blockclass": "header--iconSearch"
+    }
+  },
+  "link#logo--mobile": {
+    "title": "Link Logo Mobile",
+    "props": {
+      "label": "VÉLEZ",
+      "blockClass": "logo--mobile",
+      "href": "/"
+    }
+  }
 }

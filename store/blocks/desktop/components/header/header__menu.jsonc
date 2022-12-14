@@ -1,4 +1,17 @@
 {
+  "menu#desktop__header--menu": {
+    "title": "Menu Main Desktop",
+    "children": [
+      "menu-item#departament__mujer--one",
+      "menu-item#departament__hombre--two",
+      "menu-item#departament__sale--three",
+      "menu-item#departament__flyUp--four"
+    ],
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "desktop__header--menu-departament"
+    }
+  },
   "menu-item#departament__mujer--one": {
     "props": {
       "id": "departament-mujer--one",

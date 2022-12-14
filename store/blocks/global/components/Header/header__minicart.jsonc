@@ -1,0 +1,91 @@
+{
+   "icon#miniCart-icon": {
+      "title": "MiniCart Icon",
+      "props": {
+         "id": "bag-shopping",
+         "size": 28,
+         "blockclass": "header--iconCart",
+         "viewBox": "0 0 24 24"
+      }
+   },
+   "minicart.v2": {
+      "props": {
+         "MinicartIcon": "icon#miniCart-icon",
+         "maxDrawerWidth": 330,
+         "itemCountMode": "total"
+      },
+      "children": [
+         "minicart-base-content"
+      ]
+   },
+   "minicart-base-content": {
+      "title": "Component Base For Minicart",
+      "blocks": [
+         "minicart-empty-state"
+      ],
+      "children": [
+         "minicart-product-list",
+         "flex-layout.row#header__minicart-footer"
+      ]
+   },
+   "minicart-empty-state": {
+      "title": "Minicart Empty State",
+      "children": [
+         "flex-layout.row#header__minicartEmpty"
+      ]
+   },
+   "flex-layout.row#header__minicartEmpty": {
+      "title": "Row Container",
+      "children": [
+         "flex-layout.col#header__minicartEmpty"
+      ],
+      "props": {
+         "horizontalAlign": "center"
+      }
+   },
+   "flex-layout.col#header__minicartEmpty": {
+      "title": "Col Container ",
+      "children": [
+         "rich-text#header__minicart--textOne",
+         "rich-text#header__minicart--textTwo"
+      ]
+   },
+   "rich-text#header__minicart--textOne": {
+      "title": "Component Text",
+      "props": {
+         "text": "Tu carrito está vacío",
+         "textAlignment": "CENTER",
+         "textPosition": "CENTER",
+         "blockClass": "message__empty--minicart"
+      }
+   },
+   "rich-text#header__minicart--textTwo": {
+      "title": "Component Text",
+      "props": {
+         "text": "ENVÍO GRATIS DESDE S/399",
+         "textAlignment": "CENTER",
+         "textPosition": "CENTER",
+         "blockClass": "msgSend__empty--minicart"
+      }
+   },
+   "flex-layout.row#header__minicart-footer": {
+      "title": "Container row minicart footer",
+      "children": [
+         "flex-layout.col#header__minicart-footer"
+      ]
+   },
+   "flex-layout.col#header__minicart-footer": {
+      "title": "Container col minicart footer",
+      "children": [
+         "minicart-summary",
+         "minicart-checkout-button",
+         "rich-text#header__minicart--textTwo"
+      ]
+   },
+   "minicart-checkout-button": {
+      "title": "component checkout button",
+      "props": {
+         "text": "IR A PAGAR"
+      }
+   }
+}

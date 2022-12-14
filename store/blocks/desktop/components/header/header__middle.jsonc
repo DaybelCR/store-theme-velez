@@ -16,22 +16,6 @@
             "blockClass":"header__middleDesktop"
            }
     },
-    "icon#miniCart-icon":{
-      "title":"MiniCart Icon",
-      "props":{
-        "id": "bag-shopping",
-        "size": 28,
-        "blockclass":"header--iconCart",
-        "viewBox":"0 0 24 24"
-      }
-    },
-    "minicart.v2":{
-        "props": {
-            "MinicartIcon": "icon#miniCart-icon",
-            "maxDrawerWidth":330
-        },
-        "children": ["minicart-base-content"]
-    },
     "link#logo--desktop":{
         "title":"Component Link Logo",
         "props":{
@@ -40,20 +24,8 @@
             "href": "/"
            }
     },
-    "menu#desktop__header--menu":{
-        "title":"Menu Main Desktop",
-        "children": [
-            "menu-item#departament__mujer--one",
-            "menu-item#departament__hombre--two",
-            "menu-item#departament__sale--three",
-            "menu-item#departament__flyUp--four"
-          ],
-          "props":{
-            "orientation":"horizontal",
-            "blockClass":"desktop__header--menu-departament"
-          }
-    },
     "search-bar#desktop__header--search":{
+        "title":"component searchBar desktop",
         "blocks": ["autocomplete-result-list.v2"],
         "props":{
             "autocompleteAlignment": "center",

@@ -1,4 +1,4 @@
-.headerRowContainer--header__middleDesktop{
+.headerRowContainer--header__middleDesktop {
     /* position:absolute;
     top:0px; */
     background-color: #ffffff;
@@ -9,10 +9,18 @@
     background-color: #ffffff;
     color: #000000;
 } */
-.headerRowContainer--header__middleDesktop :global(.vtex-input-prefix__group){
-   border: none;
-}
-.headerRowContainer--header__middleDesktop :global(.vtex-styleguide-9-x-input){
-border-bottom: solid black 1px;
+.headerRowContainer--header__middleDesktop :global(.vtex-input-prefix__group) {
+    border: none;
 }
 
+.headerRowContainer--header__middleDesktop :global(.vtex-styleguide-9-x-input) {
+    border-bottom: solid black 1px;
+}
+
+.headerRowContainer--header__middleDesktop :global(.vtex-search-2-x-biggy-autocomplete) {
+    right: 10rem
+}
+
+.headerRowContainer--header__middleDesktop :global(.vtex-search-2-x-tileListItem) {
+    margin: 1rem;
+}
