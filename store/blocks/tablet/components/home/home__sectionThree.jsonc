@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#tablet__home--sectionThree":{
+        "title": "Container section Three",
+        "children": [
+            "image#phone__home--sectionThree",
+            "rich-text#phone__home--sectionThree"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "tablet__home--sectionThree"
+        }
+    }
+}

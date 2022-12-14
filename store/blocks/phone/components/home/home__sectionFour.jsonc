@@ -1,0 +1,22 @@
+{
+    "flex-layout.row#mobile__home--sectionFour":{
+        "title": "Container section Four",
+        "children": [
+            "image#mobile__home-sectionFour--image"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "image#mobile__home-sectionFour--image":{
+        "title": "image Section Four",
+        "props": {
+            "alt": "bannerSectionFour",
+            "blockClass": "mobile__home-sectionFour--image",
+            "src": "assets/image/mobile/home__sectionFour.png",
+            "link": {
+                "url": "/"
+            }
+        }
+    }
+}

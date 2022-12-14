@@ -1,0 +1,67 @@
+/*----home------*/
+.paragraph--sectionSix__sliderOne--itemOne::before{
+    background: url(assets/image/desktop/home__sectionSix--tabOne1.png) no-repeat;
+}   
+.paragraph--sectionSix__sliderOne--itemTwo::before{
+    background: url(assets/image/desktop/home__sectionSix--tabOne2.png) no-repeat ;
+}
+.paragraph--sectionSix__sliderOne--itemThree::before{
+    background: url(assets/image/desktop/home__sectionSix--tabOne3.png) no-repeat;
+}
+.paragraph--sectionSix__sliderOne--itemFour::before{
+    background: url(assets/image/desktop/home__sectionSix--tabOne4.png) no-repeat;
+   
+}
+.paragraph--sectionSix__sliderOne--itemOne::before,
+.paragraph--sectionSix__sliderOne--itemTwo::before,
+.paragraph--sectionSix__sliderOne--itemThree::before,
+.paragraph--sectionSix__sliderOne--itemFour::before{
+    content: " ";
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 2.5rem;
+}
+.container--sectionSix__sliderOne--itemOne,
+.container--sectionSix__sliderOne--itemTwo,
+.container--sectionSix__sliderOne--itemThree,
+.container--sectionSix__sliderOne--itemFour{
+   width: 100%;
+}
+.container--sectionSix__sliderOne--itemOne::after,
+.container--sectionSix__sliderOne--itemTwo::after,
+.container--sectionSix__sliderOne--itemThree::after,
+.container--sectionSix__sliderTwo--itemOne::after,
+.container--sectionSix__sliderTwo--itemThree::after{
+    content: "";
+    background: #000000;
+    position: absolute;
+    height: 50%;
+    width: 1px;
+    top:20%;
+    right: 0;
+}
+
+.container--sectionSix__sliderTwo--itemOne,
+.container--sectionSix__sliderTwo--itemTwo,
+.container--sectionSix__sliderTwo--itemThree,
+.container--sectionSix__sliderTwo--itemFour{
+    width: 100%;
+}
+
+.paragraph--sectionSix__sliderTwo--itemOne::after,
+.paragraph--sectionSix__sliderTwo--itemTwo::after,
+.paragraph--sectionSix__sliderTwo--itemThree::after,
+.paragraph--sectionSix__sliderTwo--itemFour::after,
+.link--desktop__header--text-buyOnWtsp::after{
+    content: "wtsp";
+    background-image: url(assets/image/desktop/home__sectionSix--tabTwo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: transparent;
+    width:1rem;
+    margin-left: 0.5rem;
+}
+/*--------------*/

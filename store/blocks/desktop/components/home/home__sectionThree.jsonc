@@ -1,0 +1,40 @@
+{
+    "flex-layout.row#desktop__home--sectionThree": {
+        "title": "Container Section Three",
+        "children": [
+            "flex-layout.col#desktop__home--sectionThree"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#desktop__home--sectionThree": {
+        "title": "Container col Section Three",
+        "children": [
+            "image#home__sectionThree--banner",
+            "rich-text#home__sectionThree--link"
+        ],
+        "props": {
+            "blockClass": "desktop__home--sectionThree"
+        }
+    },
+    "image#home__sectionThree--banner": {
+        "title": "banner Section Three",
+        "props": {
+            "alt": "bannerSectionThree",
+            "blockClass": "home__sectionThree--banner",
+            "src": "assets/image/desktop/home__sectionThree--banner.png",
+            "link": {
+                "url": "https://daysic--itgloberspartnercl.myvtex.com/"
+            }
+        }
+    },
+    "rich-text#home__sectionThree--link": {
+        "title": "link Section Three",
+        "props": {
+            "textPosition": "RIGHT",
+            "text": "[ver **nuevas referencias**>>](https://daysic--itgloberspartnercl.myvtex.com/)",
+            "blockClass": "home__sectionThree--link"
+        }
+    }
+}

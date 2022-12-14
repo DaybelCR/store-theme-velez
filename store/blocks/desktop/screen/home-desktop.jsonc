@@ -1,8 +1,0 @@
-{
-    "responsive-layout.desktop": { 
-    "title":"Home Responsive Desktop",
-    "children": [
-        "slider-layout#home__desktop--one"
-    ]
-    }
-}

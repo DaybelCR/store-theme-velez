@@ -1,7 +1,20 @@
-.searchBarInnerContainer--searchBar_mobile{
-    position: absolute;
-    left: 0.3rem;
-    margin-top: 1.3rem;
+.imageElement--mobile__home-sectionTwo--image,
+.imageElement--mobile__home-sectionFour--image,
+.imageElement--phone__home--sectionThree{
     width: 100%;
-    background-color: white;
+}
+
+.imageElement--phone__home-sectionOne--bannerOne,
+.imageElement--phone__home-sectionOne--bannerTwo{
+    width: 80%;
+    display: block;
+}
+.imageElement--phone__home-sectionOne--bannerOne{
+    margin: 20% auto auto;
+}
+.imageElement--phone__home-sectionOne--bannerTwo{
+    margin:5% auto 5%;
+}
+.imageElement--mobile__home-slider{
+    width: 100%;
 }

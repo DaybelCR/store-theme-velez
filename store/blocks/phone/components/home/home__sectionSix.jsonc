@@ -1,0 +1,92 @@
+{
+    "flex-layout.row#mobile__home--sectionSix":{
+        "title": "Container deals",
+        "children": [
+            "flex-layout.col#mobile__col--sectionSix"
+        ],
+        "props": {
+            "fullWidth": true,
+            "marginTop":5,
+            "blockClass": "mobile__home--sectionSix"
+        }
+    },
+    "flex-layout.col#mobile__col--sectionSix":{
+        "title": "Container col deals ",
+        "children": [
+            "disclosure-layout#home__buy-online",
+            "disclosure-layout#home__buy-store"
+        ],
+        "props": {
+            "blockClass": "mobile__col--sectionSix",
+            "marginLeft":5,
+            "marginRight":5
+        }
+    },
+    "disclosure-layout#home__buy-online": {
+        "title": "Component Disclosure- buy online",
+        "children": [
+            "disclosure-trigger#home__buy-online",
+            "disclosure-content#home__buy-online"
+        ]
+    },
+    "disclosure-trigger#home__buy-online":{
+        "title": "Component disclosure trigger - buyOnline",
+        "children": [
+            "rich-text#buy-online",
+            "disclosure-state-indicator#mobile__disclosure-icon"
+        ],
+        "props": {
+            "blockClass": "home__buy-online"
+        }
+    },
+    "rich-text#buy-online":{
+        "title": "text -buyOnline",
+        "props": {
+            "text": "COMPRAR ONLINE",
+            "blockClass":"buy-online--text"
+        }
+    },
+    "disclosure-state-indicator#mobile__disclosure-icon":{
+        "title":"Component state indicator",
+        "props": {
+            "Show": "icon#arrow-down-icon",
+            "Hide": "icon#arrow-up-icon"
+        }
+    },
+    "disclosure-content#home__buy-online":{
+        "title": "Component content - buyOnline",
+        "children": [
+            "flex-layout.row#home__rowContainer--tabOne"
+        ]
+    },
+    "disclosure-layout#home__buy-store":{
+        "title": "Component Disclosure- buy store",
+        "children": [
+            "disclosure-trigger#home__buy-store",
+            "disclosure-content#home__buy-store"
+        ]
+    },
+    "disclosure-trigger#home__buy-store":{
+        "title": "Component disclosure trigger - buyOnStores",
+        "children": [
+            "rich-text#buy-store",
+            "disclosure-state-indicator#mobile__disclosure-icon"
+        ],
+        "props": {
+            "blockClass": "home__buy-store"
+        }
+    },
+    "rich-text#buy-store":{
+        "title": "text -buyOnStore",
+        "props": {
+            "text": "COMPRAR EN TIENDAS",
+            "blockClass":"buy-store--text"
+        }
+    },
+    "disclosure-content#home__buy-store":{
+        "title": "Component content - buyOnStore",
+     "children": [
+        "slider-layout#sectionSix__container--sliderTwo"
+     ]
+    }
+}
