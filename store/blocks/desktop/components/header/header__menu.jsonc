@@ -18,7 +18,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/products",
+        "href": "/mujer",
         "noFollow": false,
         "tagTitle": "Mujer",
         "text": "MUJER"
@@ -333,7 +333,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/electrodomesticos",
         "noFollow": false,
         "tagTitle": "Hombre",
         "text": "HOMBRE"
@@ -400,7 +400,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/madera",
         "noFollow": false,
         "tagTitle": "Sale",
         "text": "SALE"
@@ -492,7 +492,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/notebook",
         "noFollow": false,
         "tagTitle": "Fly Up",
         "text": "FLY UP"

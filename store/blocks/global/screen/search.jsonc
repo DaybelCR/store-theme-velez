@@ -68,6 +68,7 @@
     ]
   },
   "search-not-found-layout":{
+    "title":"component search-not-found",
     "children":[
       "not-found"
     ]

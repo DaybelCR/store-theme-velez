@@ -14,7 +14,10 @@
     margin-block-start: 0.6em;
     font-size: 0.8rem;
 }
-/* ---------------------------------- */
+/* --------------department-------------------- */
 .container{
     padding: 0;
+}
+.imageElement--global__department--image{
+    width: 100%;
 }
