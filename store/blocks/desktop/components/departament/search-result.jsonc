@@ -34,6 +34,11 @@
       "paddingRight": 7
     }
   },
+  "breadcrumb.search":{
+    "props": {
+      "showOnMobile": true
+    }
+  },
   "flex-layout.row#global__department--container": {
     "title": "container row image",
     "children": [
@@ -46,7 +51,7 @@
   "image#global__department--image": {
     "title": "component image",
     "props": {
-      "src": "assets/image/global/department-man.png",
+      "src": "assets/image/global/department-woman.png",
       "blockClass": "global__department--image"
     }
   },
@@ -109,7 +114,13 @@
       "product-summary-image",
       "product-summary-name",
       "product-summary-space",
-      "product-summary-price"
+      "product-list-price",
+      "product-selling-price"
     ]
+  },
+  "product-summary-name":{
+    "props": {
+      "tag": "h3"
+    }
   }
 }

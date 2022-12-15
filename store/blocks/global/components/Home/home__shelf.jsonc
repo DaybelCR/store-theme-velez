@@ -33,7 +33,7 @@
         "title": "component product summary",
         "children": [
             "product-summary-image#global__home--shelf",
-            "product-summary-description",
+            "product-summary-name",
             "product-selling-price"
         ]
       },

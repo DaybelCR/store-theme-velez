@@ -1,7 +1,18 @@
 .element{
     margin: 0.5rem;
 }
-.description{
+.nameContainer{
+    padding: 0;
+}
+.imageNormal{
+    height: 100% !important;
+    background: #f0f0f0;
+}
+.imageContainer{
+    width:12rem;
+    height:18rem;
+}
+.productBrand{
     color: #2e2e2e;
 }
 .buyButton :global(.vtex-button){
