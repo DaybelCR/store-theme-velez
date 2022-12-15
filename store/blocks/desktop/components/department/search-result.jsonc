@@ -34,7 +34,7 @@
       "paddingRight": 7
     }
   },
-  "breadcrumb.search":{
+  "breadcrumb.search": {
     "props": {
       "showOnMobile": true
     }
@@ -96,14 +96,14 @@
     }
   },
   "search-content": {
-    "title": "component search content",
+    "title": "component search content desktop",
     "blocks": [
       "gallery",
       "not-found"
     ]
   },
   "gallery": {
-    "title":"component gallery",
+    "title": "component gallery desktop",
     "blocks": [
       "product-summary.shelf#department"
     ]
@@ -111,16 +111,74 @@
   "product-summary.shelf#department": {
     "title": "component product summary",
     "children": [
-      "product-summary-image",
+      "stack-layout#container__view",
       "product-summary-name",
-      "product-summary-space",
       "product-list-price",
       "product-selling-price"
     ]
   },
-  "product-summary-name":{
+  "product-summary-name": {
+    "title": "product name",
     "props": {
       "tag": "h3"
     }
+  },
+  "stack-layout#container__view": {
+    "title": "component stack layout",
+    "children": [
+      "product-summary-image",
+      "modal-trigger#container__view"
+    ],
+    "props": {
+      "blockClass": "container__view"
+    }
+  },
+  "modal-trigger#container__view": {
+    "title": "component modal trigger",
+    "children": [
+      "icon-search",
+      "modal-layout#content__detail--product"
+    ],
+    "props": {
+      "blockClass": "container__view"
+    }
+  },
+  "modal-layout#content__detail--product": {
+    "title": "component modal",
+    "children": [
+      "flex-layout.row#modal-content"
+    ],
+    "props": {
+      "blockClass": "container__view"
+    }
+  },
+  "flex-layout.row#modal-content": {
+    "title": "container main modal",
+    "children": [
+      "flex-layout.col#modal-content--left",
+      "flex-layout.col#modal-content--right"
+    ]
+  },
+  "flex-layout.col#modal-content--left": {
+    "title": "container image product",
+    "children": [
+      "product-images"
+    ]
+  },
+  "product-images": {
+    "title": "component image",
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.col#modal-content--right": {
+    "title": "component content items",
+    "children": [
+     "vtex.store-components:product-name",
+      "product-price",
+      "product-quantity",
+      "sku-selector",
+      "product-description"
+    ]
   }
 }

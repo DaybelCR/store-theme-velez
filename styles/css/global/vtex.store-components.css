@@ -21,3 +21,23 @@
 .imageElement--global__department--image{
     width: 100%;
 }
+.figure{
+    display:none;
+}
+.swiperCaretNext .caretIcon,
+.swiperCaretPrev .caretIcon{
+    color:#000;
+    opacity: 0.2;
+}
+
+.productImagesContainer .carouselGaleryCursor{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.swiperBullet{
+    margin: 0 0.5rem;
+}
+.swiperBullet--active{
+    color: #fff;
+}
