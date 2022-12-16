@@ -18,7 +18,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/products",
+        "href": "/mujer",
         "noFollow": false,
         "tagTitle": "Mujer",
         "text": "MUJER"
@@ -111,7 +111,7 @@
   "rich-text#buy_on_wtsp": {
     "title": "Component Text Buy On WHATSAPP",
     "props": {
-      "text": "[COMPRA POR WHATSAPP 51980712057>>](https://wa.me/51934389699)",
+      "text": "[COMPRA POR WHATSAPP 51980712057>>](/)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "desktop__header--text-buyOnWtsp"
@@ -146,7 +146,7 @@
       "blockClass": "category__mujer--item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/electrodomesticos/hierro",
         "noFollow": false,
         "tagTitle": "Mujer",
         "text": "NUEVO"
@@ -161,7 +161,7 @@
       "blockClass": "category__mujer--item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/electrodomesticos/varillas",
         "noFollow": false,
         "tagTitle": "Mujer",
         "text": "ZAPATILLAS"
@@ -176,7 +176,7 @@
       "blockClass": "category__mujer--item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/mujer/zapatos",
         "noFollow": false,
         "tagTitle": "Mujer",
         "text": "ZAPATOS"
@@ -191,7 +191,7 @@
       "blockClass": "category__mujer--item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/electrodomesticos/ladrillos",
         "noFollow": false,
         "tagTitle": "Mujer",
         "text": "MOCHILAS"
@@ -206,7 +206,7 @@
       "blockClass": "category__mujer--item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/queso/cemento",
         "noFollow": false,
         "tagTitle": "Mujer",
         "text": "BOLSOS"
@@ -333,7 +333,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/electrodomesticos",
         "noFollow": false,
         "tagTitle": "Hombre",
         "text": "HOMBRE"
@@ -400,7 +400,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/madera",
         "noFollow": false,
         "tagTitle": "Sale",
         "text": "SALE"
@@ -492,7 +492,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/notebook",
         "noFollow": false,
         "tagTitle": "Fly Up",
         "text": "FLY UP"

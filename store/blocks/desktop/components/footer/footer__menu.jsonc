@@ -46,6 +46,7 @@
             "highlight": false,
             "itemProps": {
               "type": "internal",
+              "href": "/programa-puntos",
               "tagTitle": "programa-puntos",
               "text": "Programa puntos"
             }
@@ -154,6 +155,7 @@
             "highlight": false,
             "itemProps": {
               "type": "internal",
+              "href": "/nuestras-tiendas",
               "tagTitle": "ciudad-lima",
               "text": "Ciudad de Lima"
             }

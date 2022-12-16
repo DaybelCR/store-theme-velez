@@ -5,8 +5,5 @@
 }
 
 .productListUnavailableItemsMessage{
-    color: #fff;
-    background-color: #000;
-    border-bottom-style: none;
-    font-size: 0.8rem;
+    display: none;
 }

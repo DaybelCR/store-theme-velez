@@ -1,0 +1,93 @@
+{
+  "search-result-layout.mobile#department": {
+    "title": "search department mobile",
+    "children": [
+      "flex-layout.row#global__department--container",
+      "flex-layout.row#departament__breadcrumb",
+      "flex-layout.row#department__container-filters",
+      "flex-layout.row#department__numProducts",
+      "flex-layout.row#mobile__department-results"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#department__container-filters": {
+    "title": "container filters and orders",
+    "children": [
+      "order-by.v2",
+      "filter-navigator.v3",
+      "gallery-layout-switcher"
+    ],
+    "props": {
+      "fullWidth": true,
+      "paddingBottom": 5,
+      "paddingTop": 5
+    }
+  },
+  "flex-layout.row#department__numProducts": {
+    "title": "container total products",
+    "children": [
+      "total-products.v2"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#mobile__department-results":{
+    "children": [
+   "search-content#mobile__department"
+    ]
+  },
+  "search-content#mobile__department": {
+    "title": "search content",
+    "blocks": [
+        "gallery#mobile__department",
+        "not-found"
+    ]
+},
+"gallery#mobile__department":{
+  "props": {
+    "layouts": [
+      {
+        "name": "grid-one-column",
+        "component": "OneOrTwoLineSummary",
+        "itemsPerRow": 1
+      },
+      {
+        "name": "grid-two-columns",
+        "component": "OneOrTwoLineSummary",
+        "itemsPerRow": 2
+      }
+    ],
+    "OneOrTwoLineSummary": "product-summary.shelf",
+    "ManyByLineSummary": "product-summary.shelf"
+  }
+},
+  "gallery-layout-switcher": {
+    "title": "component gallery switcher",
+    "children": [
+      "gallery-layout-option#grid__one-column",
+      "gallery-layout-option#grid__two-columns"
+    ]
+  },
+  "gallery-layout-option#grid__one-column": {
+    "title": "component gallery option two",
+    "props": {
+      "name": "grid-one-column"
+    },
+    "children": [
+      "icon-single-grid"
+    ]
+  },
+  "gallery-layout-option#grid__two-columns": {
+    "title": "component gallery option one",
+    "props": {
+      "name": "grid-two-columns"
+    },
+    "children": [
+      "icon-grid"
+    ]
+  }
+}

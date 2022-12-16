@@ -1,0 +1,40 @@
+.filterMessage{
+    display:none
+}
+.filterPopupTitle{
+    color: transparent;
+}
+.orderByText{
+    display: block;
+}
+.filterPopupArrowIcon{
+    position: relative;
+    top:-0.5rem;
+}
+.orderByOptionsContainer{
+    width:fit-content;
+}
+.orderByButton{
+    border: none;
+    width: fit-content;
+}
+.orderByDropdown{
+    position: absolute;
+    right: 0;
+}
+.searchResultContainer{
+    max-width: 100%;
+}
+.gallery{
+    margin: 0;
+}
+.filterTitleSpan{
+    text-transform: uppercase;
+}
+:global(.vtex-slider__base-internal),:global(.vtex-slider__selector){
+    background-color: #000;
+}
+:global(.vtex-breadcrumb-1-x-homeIcon):hover,
+:global(.vtex-breadcrumb-1-x-link):hover{
+color: #000;
+}
