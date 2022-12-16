@@ -41,3 +41,7 @@
 .swiperBullet--active{
     color: #fff;
 }
+/* --------------static-------------------- */
+.imageElement--ourStores--image{
+    width: 100%;
+}

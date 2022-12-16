@@ -1,0 +1,81 @@
+{
+    "store.custom#our-stores": {
+      "title":"component custom",
+      "blocks": [
+        "flex-layout.row#our-stores--image",
+        "flex-layout.row#our-store--map"
+      ]
+    },
+    "flex-layout.row#our-stores--image": {
+      "title":"container imagen one",
+      "children": [
+        "image#our-stores--one"
+      ],
+      "props": {
+        "fullWidth": true,
+        "marginBottom":2
+      }
+    },
+    "image#our-stores--one": {
+      "title": "component image one",
+      "props": {
+        "src": "assets/image/global/page-static-one.png",
+        "alt": "store-velez",
+        "blockClass":"ourStores--image"
+      }
+    },
+    "flex-layout.row#our-store--map":{
+      "title": "container text and map",
+        "children": [
+            "image#our-stores--two",
+            "flex-layout.col#our-store--container"
+        ],
+        "props": {
+          "fullWidth": true
+        }
+    },
+    "image#our-stores--two":{
+      "title": "component image two",
+        "props": {
+            "src": "assets/image/global/page-static-map.png",
+            "alt": "map-google",
+            "blockClass":"ourStores--image"
+          }
+    },
+    "flex-layout.col#our-store--container":{
+      "title": "container col texts",
+        "children": [
+            "rich-text#storeOne",
+            "rich-text#storeTwo",
+            "rich-text#storeThree",
+            "rich-text#storeFour"
+        ],
+        "props": {
+            "width":"30%"
+        }
+    },
+    "rich-text#storeOne":{
+      "title": "text one",
+        "props": {
+            "text": "REAL PLAZA SALAVERRY\n Av .General Felipe Salaverry N° 2370. Tienda 230.CC REAL PLAZA SALAVERRY ,Lima,Lima-150113"
+        }
+    },
+    "rich-text#storeTwo":{
+      "title": "text two",
+        "props": {
+            "text": "JOCKEY PLAZA\n Av.Javier Prado Este N°4200.Tienda 104.CC JOCKEY PLAZA,Lima,Lima-150140"
+        }
+    },
+    "rich-text#storeThree":{
+      "title": "text three",
+        "props": {
+            "text": "PLAZA SAN MIGUEL\n Avenida La Marina 2000 ,Tienda 221-222. CC PLAZA SAN MIGUEL,San Miguel,Lima región-06475"
+        }
+    },
+    "rich-text#storeFour":{
+      "title": "text four",
+        "props": {
+            "text": "LARCOMAR\n Av.Malecón de la reserva 610.Tienda 150.CC LARCOMAR,Arequipa,Arequipa-040101"
+        }
+    }
+   }
