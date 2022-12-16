@@ -42,6 +42,7 @@
     color: #fff;
 }
 /* --------------static-------------------- */
-.imageElement--ourStores--image{
+.imageElement--ourStores--image,
+.imageElement--program-points{
     width: 100%;
 }

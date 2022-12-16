@@ -64,4 +64,7 @@
     width:1rem;
     margin-left: 0.5rem;
 }
-/*--------------*/
+/*--------static------*/
+.wrapper--pageStaticOne-text:hover{
+ background-color:#e3e4e6
+}

@@ -1,5 +1,8 @@
 {
     "store.custom#our-stores":{
         "path": "/nuestras-tiendas"
+    },
+    "store.custom#program-points":{
+        "path": "/programa-puntos"
     }
 }
