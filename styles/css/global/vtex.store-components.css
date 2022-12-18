@@ -21,9 +21,9 @@
 .imageElement--global__department--image{
     width: 100%;
 }
-.figure{
+/* .figure{
     display:none;
-}
+} */
 .swiperCaretNext .caretIcon,
 .swiperCaretPrev .caretIcon{
     color:#000;

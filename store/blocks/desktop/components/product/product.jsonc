@@ -1,0 +1,158 @@
+{ 
+  "flex-layout.row#product-breadcrumb": {
+    "title": "component container breadcrumb",
+    "children": [
+      "flex-layout.col#product-breadcrumb"
+    ]
+  },
+  "flex-layout.col#product-breadcrumb": {
+    "title": "component container col breadcrumb",
+    "children": [
+      "breadcrumb"
+    ]
+  },
+  "breadcrumb":{
+    "title": "breadcrumb",
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  "flex-layout.row#product__info": {
+    "title": "container product info",
+    "children": [
+      "flex-layout.col#container-images",
+      "flex-layout.col#container-info-product"
+    ]
+  },
+  "flex-layout.col#container-images":{
+    "title": "container images",
+    "children":[
+      "product-images#detail-product"
+    ]
+  },
+  "product-images#detail-product":{
+    "title": "component images",
+      "props": {
+        "showPaginationDots": false,
+        "showNavigationArrows": false
+      }
+  },
+  "flex-layout.col#container-info-product":{
+    "title": "container col product info",
+    "children":[
+      "vtex.store-components:product-name",
+      "product-price",
+      "product-identifier.product",
+      "product-separator",
+      "sku-selector",
+      "product-availability",
+      "product-quantity",
+      "add-to-cart-button",
+      "menu#product"
+    ]
+  },
+  "product-availability": {
+    "title":"product availability",
+    "props": {
+      "threshold": 8,
+      "lowStockMessage": "Unidades disponibles : {quantity} "
+    }
+  },
+  "menu#product":{
+    "title":"Menu product instructions",
+    "children": [
+        "menu-item#product-description",
+        "menu-item#product-shipping",
+        "menu-item#product-care"
+    ],
+    "props": {
+        "orientation": "vertical"
+    }
+  },
+  "menu-item#product-description":{
+    "props": {
+      "id": "menu-item-description",
+      "type": "custom",
+      "itemProps": {
+          "type": "internal",
+          "noFollow": true,
+          "tagTitle": "descripción",
+          "text": "DESCRIPCIÓN"
+      }
+  },
+    "blocks":["submenu.accordion#product-description"]
+  },
+  "submenu.accordion#product-description":{
+    "title":"component submenu description product",
+    "children":[
+       "product-description"
+    ]
+   },
+   "menu-item#product-shipping":{
+    "props": {
+      "id": "menu-item-shipping",
+      "type": "custom",
+      "itemProps": {
+          "type": "internal",
+          "noFollow": true,
+          "tagTitle": "shipping",
+          "text": "POLÍTICAS DE ENVÍO"
+      }
+  },
+    "blocks":[ "submenu.accordion#product-shipping"]
+   },
+   "submenu.accordion#product-shipping":{
+    "title":"component submenu shipping product",
+    "children":[
+      "rich-text#product-shipping"
+   ]
+   },
+   "rich-text#product-shipping":{
+    "title": "text shipping product",
+    "props": {
+      "text": "El tiempo de entrega empezará a contar a partir de la confirmación exitosa del pago, que recibirás en el correo electrónico con el cual realizaste tu compra."
+    }
+   },
+   "menu-item#product-care":{
+    "props": {
+      "id": "menu-item-care",
+      "type": "custom",
+      "itemProps": {
+          "type": "internal",
+          "noFollow": true,
+          "tagTitle": "care",
+          "text": "CUIDADOS"
+      }
+  },
+    "blocks":[ "submenu.accordion#product-care"]
+   },
+   "submenu.accordion#product-care":{
+    "title":"component submenu care product",
+    "children":[
+      "rich-text#product-care"
+   ]
+   },
+   "rich-text#product-care":{
+    "title": "text care product",
+    "props": {
+      "text": "No lavar \n No secar en máquina \n No usar blanqueador, ni detergentes"
+    }
+   },
+  "flex-layout.row#product__related":{
+    "title": "container product related",
+      "children": [
+        "shelf.relatedProducts"
+      ]
+  } ,
+  "shelf.relatedProducts": {
+    "title": "component product related",
+    "blocks": [ "product-summary.shelf#global__home--shelf"],
+    "props": {
+        "recommendation": "similars",
+        "productList": {
+            "titleText": "Productos similares",
+            "itemsPerPage": 3
+        }
+    }
+}
+}

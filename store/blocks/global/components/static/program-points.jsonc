@@ -1,6 +1,6 @@
 {
     "store.custom#program-points": {
-      "title": "component custom - program points",
+      "title": "component static - program points",
       "blocks": [
         "flex-layout.row#program-points"
       ]
@@ -16,6 +16,7 @@
        
     },
     "flex-layout.col#program-points":{
+        "title": "container main col- program points",
         "children": [
             "image#imageOne--program-points",
             "rich-text#textOne--program-points",
@@ -40,7 +41,7 @@
     },
 
     "image#imageOne--program-points":{
-        "title": "imagen One",
+        "title": "image One",
         "props": {
             "src": "assets/image/global/page-static-two.png",
            "blockClass":"program-points"
@@ -53,68 +54,81 @@
         }
     },
     "rich-text#titleOne--program-points":{
+        "title": "text two",
         "props": {
             "text": "**INSCRIPCIÓN AL PROGRAMA**"
         }
     },
     "rich-text#textTwo--program-points":{
+        "title": "text three",
         "props": {
             "text":"Cuando realizas una compra Online, aceptas nuestros Términos y Condiciones, quedas automáticamente suscrito a nuestro programa de fidelización Vélez Leather Lovers VIP y en adelante seguirás recibiendo información y promociones exclusivas de nuestra marca."
         }
     },
     "rich-text#textThree--program-points":{
+        "title": "text four",
         "props": {
             "text": " En caso de que te encuentres en una de nuestras tiendas físicas; realiza tus compras e indica al asesor de la tienda que te deseas fidelizar y en adelante podrás seguir participando de todos los beneficios de nuestro programa."
         }
     },
     "rich-text#titleTwo--program-points":{
+        "title": "text five",
         "props": {
             "text": "**PLAN DE BENEFICIOS VIP**"
         }
     },
     "image#imageTwo--program-points":{
+        "title": "image two",
         "props":{
             "src": "assets/image/global/page-static2-two.png",
             "blockClass":"program-points"
         }
     },
     "rich-text#titleThree--program-points":{
+        "title": "text six",
         "props": {
             "text": "**¿CÓMO ACUMULAR PUNTOS?**\n En Perú por cada compra que realices en nuestras tiendas Vélez, acumulas 10 puntos por cada S/.2"
         }
     },
     "image#imageThree--program-points":{
+        "title": "image three",
         "props": {
             "src": "assets/image/global/page-static3-two.png",
             "blockClass":"program-points"
         }
     },
     "rich-text#textFour--program-points":{
+        "title": "text seven",
         "props": {
             "text": "**REGLAMENTO DEL PROGRAMA**\n\n Sólo acumulas puntos por compras realizadas en las tiendas Vélez Perú.\nLos puntos se acumulan y redimen en el país donde está inscrito el cliente.\nLos puntos se acumularán en el momento que realices tu compra."
         }
     },
     "rich-text#textFive--program-points":{
+        "title": "text eight",
         "props": {
             "text": "Los puntos entregados a los miembros del Programa de fidelización Leather Lovers VIP tendrán vigencia por un período de un (1) año a partir de la fecha en que se realizó la compra, cuando se realice una redención, los puntos que se descuenten para dicha transacción serán los de mayor antigüedad, permitiendo así que los puntos que queden disponibles en la cuenta del titular sean los más recientes y por ende los que estén más lejos de la fecha de vencimiento."
         }
     },
     "rich-text#textSix--program-points":{
+        "title": "text nine",
         "props": {
             "text": "Para disfrutar de los beneficios que otorga la membresía, el miembro titular de Leather Lovers VIP es responsable de mantener sus datos generales y de contacto actualizados en la base de datos del programa; dicha actualización puede realizarse acercándose directamente a las tiendas. El miembro titular de la cuenta debe garantizar la exactitud de la información suministrada.\n INVERMODA SAC. se reserva el derecho de asignar descuentos a través de campañas segmentadas a diferentes grupos de clientes por lo cual no será obligatorio otorgar descuentos o beneficios de forma permanente."
         }
     },
     "rich-text#textSeven--program-points":{
+        "title": "text ten",
         "props": {
             "text": "Solo se obtendrá el beneficio de la membresía diligenciando todos los campos obligatorios (nombres, documento de identidad, fecha de nacimiento y correo electrónico).\n El beneficio por descuento de cumpleaños es solo para miembros Leather Lovers VIP, inscritos en el programa hasta el mes anterior al que cumplen años y que posean toda la información registrada en el sistema.\nEl cambio de un producto comprado con el descuento de cumpleaños solo aplica si se solicita durante el mismo mes en el cuál realizó la compra. De lo contrario, no se reconocerá nuevamente el descuento del 20%.\nAl momento de redimir, ten en cuenta que no podrás utilizar el descuento de cumpleaños en la misma factura.\nCuando el valor de la redención es mayor al valor del producto, el cliente deberá renunciar a la diferencia generada al momento de la compra.\nLos puntos no podrán ser redimidos por productos de cuidado del cuero."
         }
     },
     "rich-text#textEight--program-points":{
+        "title": "text eleven",
         "props": {
             "text": "El cliente que haga parte del programa Leather Lovers VIP, autoriza a INVERMODA SAC. de manera expresa y voluntaria para recolectar, almacenar, usar, circular o suprimir la información, procesar, tratar, actualizar y disponer de los datos, así como compartir dicha información de forma parcial o total a sus aliados comerciales estratégicos con fines administrativos, comerciales y/o de mercadeo, también queda autorizado para suministrar esta información a entidades de auditoria o control del Gobierno de Perú cuando mediante requerimiento legal lo soliciten o a empresas relacionadas y asociadas con las cuales INVERMODA SAC. realice acuerdos comerciales, con el objeto de obtener beneficios diferenciales del programa Leather Lovers VIP y para los miembros. Esta autorización se otorga a partir de la inscripción del cliente al programa."
         }
     },
     "rich-text#textNine--program-points":{
+        "title": "text twelve",
         "props": {
             "text": "NO ACUMULAN PUNTOS: pagos realizados con notas crédito, artículos para el cuidado del cuero, pagos realizados con bonos de redención Leather Lovers VIP.\n  Los puntos sólo se podrán redimir por los bonos o artículos que se estipulen en el programa de fidelización Leather Lovers VIP.\n En ningún caso los puntos o bonos regalos serán canjeados por dinero en efectivo o por otros premios diferentes.\n Los puntos son personales e intransferibles y en ningún caso se permitirá la unión de cuentas.\n  Los clientes no podrán acumular puntos en membresías diferentes a la cual parezcan como titular, en caso de encontrarse situaciones como esta, INVERMODA SAC. se reserva el derecho de retirar del programa a quien incurra en este procedimiento y a quien haga parte de este."
         }

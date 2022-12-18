@@ -1,7 +1,9 @@
 {
   "store.product": {
+    "title":"store product",
     "children": [
-      "shelf.relatedProducts"
+      "responsive-layout.mobile#product",
+      "responsive-layout.desktop#product"
     ]
   }
 }

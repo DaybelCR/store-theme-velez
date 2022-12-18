@@ -284,7 +284,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "external",
-                "href": "#",
+                "href": "/",
                 "noFollow": true,
                 "tagTitle": "Mujer",
                 "text": "MUJER"
@@ -298,7 +298,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "external",
-                "href": "#",
+                "href": "/",
                 "noFollow": true,
                 "tagTitle": "Hombre",
                 "text": "HOMBRE"
@@ -312,7 +312,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "external",
-                "href": "/products",
+                "href": "/",
                 "noFollow": true,
                 "tagTitle": "Ver Todo",
                 "text": "VER TODO"
@@ -328,7 +328,7 @@
             "blockClass": "dep__mobile--menu",
             "itemProps": {
                 "type": "internal",
-                "href": "/products",
+                "href": "/",
                 "noFollow": true,
                 "tagTitle": "Fly Up",
                 "text": "FLY UP"
@@ -344,7 +344,7 @@
             "blockClass": ["dep__mobile--menu","extraDep__mobile--menu"],
             "itemProps": {
                 "type": "internal",
-                "href": "/products",
+                "href": "/",
                 "noFollow": true,
                 "tagTitle": "Fly Up",
                 "text": "- ICONOS"
@@ -360,7 +360,7 @@
             "blockClass": ["dep__mobile--menu","extraDep__mobile--menu"],
             "itemProps": {
                 "type": "internal",
-                "href": "/products",
+                "href": "/",
                 "noFollow": true,
                 "tagTitle": "Fly Up",
                 "text": "- CUIDADOS DEL CUERO"
@@ -376,7 +376,7 @@
             "blockClass": ["dep__mobile--menu","extraDep__mobile--menu"],
             "itemProps": {
                 "type": "internal",
-                "href": "/products",
+                "href": "/",
                 "noFollow": true,
                 "tagTitle": "Fly Up",
                 "text": "- GUIA DE REGALOS"
