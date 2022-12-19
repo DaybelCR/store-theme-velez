@@ -22,10 +22,18 @@
       "modal-layout#content__detail--product": {
         "title": "component modal",
         "children": [
+          "modal-header#detail--product",
           "flex-layout.row#modal-content"
         ],
         "props": {
           "blockClass": "container__view"
+        }
+      },
+      "modal-header#detail--product":{
+        "title": "modal header",
+        "props": {
+            "blockClass":"detail-product",
+            "showCloseButton": false
         }
       },
       "flex-layout.row#modal-content": {
@@ -48,13 +56,67 @@
         }
       },
       "flex-layout.col#modal-content--right": {
-        "title": "component content items",
+        "title": "container  items",
+       "children": [
+        "modal-content#detail-product",
+        "modal-actions#detail-product"
+       ],
+       "props": {
+        "blockClass":"pdp__modal-content--right"
+       }
+      },
+      "modal-content#detail-product":{
+        "title":"component modal content",
         "children": [
-         "vtex.store-components:product-name",
-          "product-price",
+          "vtex.store-components:product-name",
+           "product-price",
+           "sku-selector",
+           "product-description#detail__product"
+         ],
+         "props":{
+          "blockClass":"pdp__contentRight-items"
+         }
+      },
+      "vtex.store-components:product-name":{
+        "props": {
+          "tag": "h3"
+        }
+      },
+      "product-description#detail__product":{
+        "props": {
+          "collapseContent": false
+        }
+      },
+      "modal-actions#detail-product":{
+        "title":"component modal actions",
+       "children":[
+        "flex-layout.row#buy-product",
+        "flex-layout.row#see-product"
+       ]
+      },
+      "flex-layout.row#buy-product":{
+        "title": "container buy product",
+        "children": [
           "product-quantity",
-          "sku-selector",
-          "product-description"
+          "add-to-cart-button"
+        ],
+        "props": {
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.row#see-product":{
+        "title": "container see product",
+        "children": [
+          "link.product#product-page"
         ]
+      },
+      "link.product#product-page": {
+        "title": "component link to pdp",
+        "props": {
+          "href": "/{slug}/p",
+          "label": "VER PRODUCTO",
+          "displayMode": "button"
+        }
       }
+    
 }

@@ -13,6 +13,7 @@
 
 .stackItem--container__view:last-child :global(.vtex-store-icons-0-x-searchIcon) {
     color: transparent;
+    padding: 2rem;
 }
 .stackItem--container__view:last-child :global(.vtex-store-icons-0-x-searchIcon):hover {
     color: #000;

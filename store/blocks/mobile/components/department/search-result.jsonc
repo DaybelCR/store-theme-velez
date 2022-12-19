@@ -1,18 +1,4 @@
 {
-  "search-result-layout.mobile#department": {
-    "title": "search department mobile",
-    "children": [
-      "flex-layout.row#global__department--container",
-      "flex-layout.row#departament__breadcrumb",
-      "flex-layout.row#department__container-filters",
-      "flex-layout.row#department__numProducts",
-      "flex-layout.row#mobile__department-results"
-    ],
-    "props": {
-      "pagination": "show-more",
-      "preventRouteChange": true
-    }
-  },
   "flex-layout.row#department__container-filters": {
     "title": "container filters and orders",
     "children": [
