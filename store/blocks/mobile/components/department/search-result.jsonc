@@ -16,14 +16,52 @@
   "flex-layout.row#department__container-filters": {
     "title": "container filters and orders",
     "children": [
-      "order-by.v2",
-      "filter-navigator.v3",
-      "gallery-layout-switcher"
+      "flex-layout.col#department__container-order",
+      "flex-layout.col#department__container-filter",
+      "flex-layout.col#department__container-switcher"
     ],
     "props": {
       "fullWidth": true,
       "paddingBottom": 5,
-      "paddingTop": 5
+      "paddingTop": 5,
+      "preserveLayoutOnMobile": true,
+      "blockClass": "mobile__department--container-filters"
+    }
+  },
+  "flex-layout.col#department__container-order": {
+    "title": "container order",
+    "children": [
+      "order-by.v2#mobile__department--order"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#department__container-filter": {
+    "title": "container filter",
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#department__container-switcher": {
+    "title": "container switcher",
+    "children": [
+      "gallery-layout-switcher"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "order-by.v2#mobile__department--order": {
+    "title":"component order",
+    "props": {
+      "blockClass": "mobile__department--order"
     }
   },
   "flex-layout.row#department__numProducts": {
@@ -32,39 +70,45 @@
       "total-products.v2"
     ],
     "props": {
-      "fullWidth": true
+      "fullWidth": true,
+      "marginBottom": 5
     }
   },
-  "flex-layout.row#mobile__department-results":{
+  "flex-layout.row#mobile__department-results": {
+    "title": "container search result mobile",
     "children": [
-   "search-content#mobile__department"
-    ]
+      "search-content#mobile__department"
+    ],
+    "props": {
+      "blockClass": "mobile__department-results"
+    }
   },
   "search-content#mobile__department": {
-    "title": "search content",
+    "title": "search content mobile",
     "blocks": [
-        "gallery#mobile__department",
-        "not-found"
+      "gallery#mobile__department",
+      "not-found"
     ]
-},
-"gallery#mobile__department":{
-  "props": {
-    "layouts": [
-      {
-        "name": "grid-one-column",
-        "component": "OneOrTwoLineSummary",
-        "itemsPerRow": 1
-      },
-      {
-        "name": "grid-two-columns",
-        "component": "OneOrTwoLineSummary",
-        "itemsPerRow": 2
-      }
-    ],
-    "OneOrTwoLineSummary": "product-summary.shelf",
-    "ManyByLineSummary": "product-summary.shelf"
-  }
-},
+  },
+  "gallery#mobile__department": {
+    "title":"component gallery products",
+    "props": {
+      "layouts": [
+        {
+          "name": "grid-one-column",
+          "component": "OneOrTwoLineSummary",
+          "itemsPerRow": 1
+        },
+        {
+          "name": "grid-two-columns",
+          "component": "OneOrTwoLineSummary",
+          "itemsPerRow": 2
+        }
+      ],
+      "OneOrTwoLineSummary": "product-summary.shelf#department",
+      "ManyByLineSummary": "product-summary.shelf#department"
+    }
+  },
   "gallery-layout-switcher": {
     "title": "component gallery switcher",
     "children": [
