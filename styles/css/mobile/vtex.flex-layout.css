@@ -85,3 +85,11 @@
 .stretchChildrenWidth:last-child{
     width: 7rem !important;
 }
+/* department */
+.flexRow--mobile__department--container-filters{
+    margin-left:2rem;
+    margin-right:2rem;
+}
+.flexRow--mobile__department-results :global(.vtex-product-summary-2-x-imageContainer){
+  width: 100%;
+}

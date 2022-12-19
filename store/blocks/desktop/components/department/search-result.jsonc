@@ -1,18 +1,4 @@
 {
-  "search-result-layout.desktop#department": {
-    "title": "search department desktop",
-    "children": [
-      "flex-layout.row#global__department--container",
-      "flex-layout.row#departament__breadcrumb",
-      "flex-layout.row#departament__text",
-      "flex-layout.row#desktop__department--result",
-      "search-fetch-more"
-    ],
-    "props": {
-      "pagination": "show-more",
-      "preventRouteChange": true
-    }
-  },
   "flex-layout.row#departament__breadcrumb": {
     "title": "Container breadcrumb",
     "children": [
@@ -59,11 +45,16 @@
     "title": "container row orders",
     "children": [
       "total-products.v2",
-      "order-by.v2"
+      "order-by.v2#desktop__department"
     ],
     "props": {
       "marginBottom": 5,
       "fullWidth": true
+    }
+  },
+  "order-by.v2#desktop__department": {
+    "props": {
+      "blockClass": "desktop__department"
     }
   },
   "flex-layout.row#desktop__department--result": {
@@ -122,63 +113,5 @@
     "props": {
       "tag": "h3"
     }
-  },
-  "stack-layout#container__view": {
-    "title": "component stack layout",
-    "children": [
-      "product-summary-image",
-      "modal-trigger#container__view"
-    ],
-    "props": {
-      "blockClass": "container__view"
-    }
-  },
-  "modal-trigger#container__view": {
-    "title": "component modal trigger",
-    "children": [
-      "icon-search",
-      "modal-layout#content__detail--product"
-    ],
-    "props": {
-      "blockClass": "container__view"
-    }
-  },
-  "modal-layout#content__detail--product": {
-    "title": "component modal",
-    "children": [
-      "flex-layout.row#modal-content"
-    ],
-    "props": {
-      "blockClass": "container__view"
-    }
-  },
-  "flex-layout.row#modal-content": {
-    "title": "container main modal",
-    "children": [
-      "flex-layout.col#modal-content--left",
-      "flex-layout.col#modal-content--right"
-    ]
-  },
-  "flex-layout.col#modal-content--left": {
-    "title": "container image product",
-    "children": [
-      "product-images"
-    ]
-  },
-  "product-images": {
-    "title": "component image",
-    "props": {
-      "displayThumbnailsArrows": true
-    }
-  },
-  "flex-layout.col#modal-content--right": {
-    "title": "component content items",
-    "children": [
-     "vtex.store-components:product-name",
-      "product-price",
-      "product-quantity",
-      "sku-selector",
-      "product-description"
-    ]
   }
 }

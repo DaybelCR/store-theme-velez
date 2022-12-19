@@ -21,9 +21,9 @@
 .imageElement--global__department--image{
     width: 100%;
 }
-.figure{
+/* .figure{
     display:none;
-}
+} */
 .swiperCaretNext .caretIcon,
 .swiperCaretPrev .caretIcon{
     color:#000;
@@ -40,6 +40,25 @@
 }
 .swiperBullet--active{
     color: #fff;
+}
+/*-------- modal detail product------ */
+.productDescriptionTitle{
+    display: none;
+}
+.sellingPriceValue{
+    font-size: 1rem;
+}
+.productNameContainer{
+    color:#3f3f40 ;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+}
+.priceContainer,
+.productDescriptionContainer{
+    margin-top: 1rem;
+    margin-bottom:1rem;
 }
 /* --------------static-------------------- */
 .imageElement--ourStores--image,

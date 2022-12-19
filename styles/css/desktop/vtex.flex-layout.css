@@ -59,3 +59,11 @@ border-radius: 0;
 }
 /*------------ department------------------- */
 
+.flexColChild--pdp__modal-content--right:first-child{
+    height: 66%!important;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.flexColChild--pdp__modal-content--right:last-child{
+    height: 34%!important;
+}
