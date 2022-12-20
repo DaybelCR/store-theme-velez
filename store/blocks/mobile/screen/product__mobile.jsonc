@@ -2,8 +2,8 @@
     "responsive-layout.mobile#product":{
         "title":"product detail mobile",
         "children":[
-            "responsive-layout.tablet#tablet__detail-product"
-            // "responsive-layout.phone#phone__detail-product"
+            "responsive-layout.tablet#tablet__detail-product",
+             "responsive-layout.phone#phone__detail-product"
             // "flex-layout.row#product-breadcrumb",
             // "flex-layout.row#product__info",
             // "flex-layout.row#product__related",

@@ -47,10 +47,11 @@
 }
 .productNameContainer{
     color:#3f3f40 ;
-    font-weight: 700;
     font-size: 1rem;
     letter-spacing: 2px;
     margin-top: 1rem;
+    font-family: Lato,Lato-regular;
+    font-weight: 400;
 }
 
 /* --------------static-------------------- */
@@ -69,4 +70,14 @@
 }
 :global(.vtex-shelf-1-x-dot--isActive){
     background-color: #cacbcc;
+}
+
+.productDescriptionText--global__product-detail{
+    color: #000;
+    padding-bottom: 1.5rem;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-family: Lato,Lato-light;
 }

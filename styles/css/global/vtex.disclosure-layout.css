@@ -1,0 +1,20 @@
+.trigger--product-disclosure--title{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-top:1px solid #b0b0b0;
+}
+:global(.vtex-store-icons-0-x-plusIcon),
+:global(.vtex-store-icons-0-x-minusIcon){
+color: #b0b0b0;
+width: 0.6rem;
+padding-right: 1rem;
+}
+.content--product-disclosure-content{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}

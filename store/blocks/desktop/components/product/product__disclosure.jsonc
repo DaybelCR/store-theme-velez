@@ -1,0 +1,135 @@
+{
+    "disclosure-layout-group#detail-product": {
+        "title": "component disclosure layout group",
+        "children": [
+            "disclosure-layout#description-product",
+            "disclosure-layout#shipping-product",
+            "disclosure-layout#care-product"
+        ]
+    },
+    "disclosure-state-indicator#detail-product": {
+        "title":"component state indicator",
+        "props": {
+            "Show": "icon-plus",
+            "Hide": "icon-minus"
+        }
+    },
+    "disclosure-layout#description-product": {
+        "title": "component disclosure description",
+        "children": [
+            "disclosure-trigger#description-product",
+            "disclosure-content#description-product"
+        ]
+    },
+    "disclosure-trigger#description-product": {
+        "title": "component trigger description",
+        "children": [
+            "rich-text#description-product",
+            "disclosure-state-indicator#detail-product"
+        ],
+        "props": {
+            "blockClass": "product-disclosure--title"
+        }
+    },
+    "rich-text#description-product": {
+        "title": "text item description",
+        "props": {
+            "text": "DESCRIPCIÓN"
+        }
+    },
+    "disclosure-content#description-product": {
+        "title": "content item description",
+        "children": [
+            "product-description#detail-product"
+        ],
+        "props": {
+            "blockClass": "product-disclosure-content"
+        }
+    },
+    "product-description#detail-product": {
+        "title": "component product description",
+        "props": {
+            "collapseContent": false,
+            "showTitle": false,
+            "blockClass": "global__product-detail"
+        }
+    },
+    "disclosure-layout#shipping-product": {
+        "title": "component disclosure shipping",
+        "children": [
+            "disclosure-trigger#shipping-product",
+            "disclosure-content#shipping-product"
+        ]
+    },
+    "disclosure-trigger#shipping-product": {
+        "title": "component trigger shipping",
+        "children": [
+            "rich-text#shipping-product",
+            "disclosure-state-indicator#detail-product"
+        ],
+        "props": {
+            "blockClass": "product-disclosure--title"
+        }
+    },
+    "disclosure-content#shipping-product": {
+        "title": "content item description",
+        "children": [
+            "rich-text#shipping-product-detail"
+        ],
+        "props": {
+            "blockClass": "product-disclosure-content"
+        }
+    },
+    "rich-text#shipping-product": {
+        "title": "text item shipping",
+        "props": {
+            "text": "POLÍTICAS DE ENVÍO"
+        }
+    },
+    "rich-text#shipping-product-detail": {
+        "title": "paragraph shipping",
+        "props": {
+            "blockClass":"disclosure__product-detail--text",
+            "text": "El tiempo de entrega empezará a contar a partir de la confirmación exitosa del pago, que recibirás en el correo electrónico con el cual realizaste tu compra."
+        }
+    },
+    "disclosure-layout#care-product": {
+        "title": "component disclosure care",
+        "children": [
+            "disclosure-trigger#care-product",
+            "disclosure-content#care-product"
+        ]
+    },
+    "disclosure-trigger#care-product": {
+        "title": "component trigger care",
+        "children": [
+            "rich-text#care-product",
+            "disclosure-state-indicator#detail-product"
+        ],
+        "props": {
+            "blockClass": "product-disclosure--title"
+        }
+    },
+    "rich-text#care-product": {
+        "title": "text item care",
+        "props": {
+            "text": "CUIDADOS"
+        }
+    },
+    "disclosure-content#care-product": {
+        "title": "content item care",
+        "children": [
+            "rich-text#care-product-detail"
+        ],
+        "props": {
+            "blockClass": "product-disclosure-content"
+        }
+    },
+    "rich-text#care-product-detail": {
+        "title": "paragraph care",
+        "props": {
+            "text": "No lavar \n No secar en máquina \n No usar blanqueador, ni detergentes",
+            "blockClass":"disclosure__product-detail--text"
+        }
+    }
+}

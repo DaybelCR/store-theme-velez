@@ -68,3 +68,13 @@
 .wrapper--pageStaticOne-text:hover{
  background-color:#e3e4e6
 }
+/* -------------------------product-detail -----------------*/
+.paragraph--disclosure__product-detail--text{
+    color: #000;
+    padding-bottom: 1.5rem;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-family: Lato,Lato-light;
+}

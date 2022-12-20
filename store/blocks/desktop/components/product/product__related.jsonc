@@ -14,14 +14,9 @@
           "product-summary.shelf#global__home--shelf"
         ],
         "props": {
-          "recommendation": "similars",
           "productList": {
             "titleText": "PRODUCTOS SIMILARES",
-            "itemsPerPage": {
-              "desktop": 4,
-              "tablet": 3,
-              "phone": 2
-            }
+            "itemsPerPage": 4
           }
         }
       }

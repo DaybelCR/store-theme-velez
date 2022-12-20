@@ -29,8 +29,7 @@
           "sku-selector",
           "product-availability",
           "product-quantity#detail-page",
-          "add-to-cart-button#detail-page",
-          "menu#product"
+          "add-to-cart-button#detail-page"
         ],
         "props": {
           "width": "50%",
