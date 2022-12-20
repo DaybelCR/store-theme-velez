@@ -1,0 +1,25 @@
+{
+    "flex-layout.row#product__visited": {
+      "title": "container product visited",
+        "children": [
+          "shelf.relatedProducts#visited-freq"
+        ]
+      },
+      "shelf.relatedProducts#visited-freq": {
+        "title": "container visited freq",
+        "blocks": [
+          "product-summary.shelf#global__home--shelf"
+        ],
+        "props": {
+          "recommendation": "view",
+          "productList": {
+            "titleText": "VISITADA RECIENTEMENTE",
+            "itemsPerPage": {
+              "desktop": 4,
+              "tablet": 3,
+              "phone": 2
+            }
+          }
+        }
+      }
+}

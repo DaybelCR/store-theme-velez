@@ -1,0 +1,8 @@
+{
+    "responsive-layout.tablet#tablet__detail-product":{
+        "children":[
+            "flex-layout.row#product-breadcrumb",
+            "flex-layout.row#tablet__product__info"
+        ]
+    }
+}

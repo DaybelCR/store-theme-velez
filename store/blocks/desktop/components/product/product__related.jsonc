@@ -1,0 +1,28 @@
+{
+    "flex-layout.row#product__related": {
+        "title": "container product related",
+        "children": [
+          "shelf.relatedProducts#product__related"
+        ],
+        "props": {
+          "marginBottom": 7
+        }
+      },
+      "shelf.relatedProducts#product__related": {
+        "title": "component product related",
+        "blocks": [
+          "product-summary.shelf#global__home--shelf"
+        ],
+        "props": {
+          "recommendation": "similars",
+          "productList": {
+            "titleText": "PRODUCTOS SIMILARES",
+            "itemsPerPage": {
+              "desktop": 4,
+              "tablet": 3,
+              "phone": 2
+            }
+          }
+        }
+      }
+}

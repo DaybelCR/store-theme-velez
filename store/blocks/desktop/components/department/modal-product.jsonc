@@ -71,20 +71,16 @@
           "vtex.store-components:product-name",
            "product-price",
            "sku-selector",
-           "product-description#detail__product"
+           "product-description#detail-product"
          ],
          "props":{
           "blockClass":"pdp__contentRight-items"
          }
       },
       "vtex.store-components:product-name":{
+        "title": "component product name",
         "props": {
           "tag": "h3"
-        }
-      },
-      "product-description#detail__product":{
-        "props": {
-          "collapseContent": false
         }
       },
       "modal-actions#detail-product":{
