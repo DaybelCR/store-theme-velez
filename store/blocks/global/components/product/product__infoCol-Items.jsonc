@@ -1,0 +1,91 @@
+{
+      "modal-trigger#size-guide":{
+        "title": "component modal trigguer",
+           "children":[
+            "rich-text#size-guide",
+            "modal-layout#size-guide"
+           ]
+      },
+      "rich-text#size-guide":{
+        "title": "component text size-guide",
+        "props": {
+          "text":"[GUÍA DE TALLAS](/)",
+          "blockClass":"product__modal--size-guide"
+        }
+      },
+      "modal-layout#size-guide":{
+        "title": "modal size guide",
+        "children": [
+          "modal-header#detail--product",
+          "modal-content#size-guide"
+        ]
+      },
+      "modal-content#size-guide":{
+        "title": "modal content size guide",
+        "children":[
+          "image#size-guide"
+        ]
+      },
+      "image#size-guide":{
+        "title": "component image",
+        "props": {
+          "src": "assets/image/global/image-pdp.png"
+        }
+      },
+
+      "flex-layout.row#add-to-cart-button": {
+        "title": "container add to cart button",
+        "children": [
+          "add-to-cart-button#detail-product"
+        ],
+        "props": {
+          "paddingTop":3,
+          "paddingBottom":5,
+          "blockClass":"product-add-to-cart"
+        }
+      },
+      "product-identifier.product#detail-product":{
+        "title":"component product identifier",
+          "props":{
+            "label": "custom",
+            "customLabel": "REF."
+          }
+      },
+      "product-availability": {
+        "title": "product availability",
+        "props": {
+          "threshold": 20,
+          "lowStockMessage": "Unidades disponibles : {quantity} "
+        }
+      },
+      "product-quantity#detail-product": {
+        "title": "component product quantity",
+        "props": {
+          "selectorType": "dropdown",
+          "showLabel": false
+        }
+      },
+      "add-to-cart-button#detail-product": {
+        "title": "component add to cart button",
+        "props": {
+          "text": "COMPRAR"
+        }
+      },
+      "flex-layout.row#product__container-contact":{
+        "title": "container contact ",
+        "children": [
+          "rich-text#contact-product"
+        ],
+        "props": {
+          "paddingTop":3,
+          "blockClass": "product__modal--size-guide"
+        }
+      },
+      "rich-text#contact-product":{
+        "title": "text contact",
+        "props": {
+          "text": "[¿NECESITAS AYUDA? CONTÁCTANOS](/)",
+          "blockClass":"product__modal--contact-button"
+        }
+      }
+}

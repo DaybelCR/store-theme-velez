@@ -13,3 +13,10 @@ right: 0;
     padding: 2rem ;
     overflow-x: hidden;
 }
+.closeIcon{
+    color: transparent;
+}
+.contentContainer{
+    padding: 0;
+    margin: 0;
+}

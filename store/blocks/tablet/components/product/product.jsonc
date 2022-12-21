@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#tablet__product__info":{
+        "title": "container product info tablet",
+        "children": [
+          "flex-layout.col#container-images",
+          "flex-layout.col#container-info-product"
+        ],
+        "props": {
+          "fullWidth": true,
+          "marginBottom": 8,
+          "blockClass": "tablet__container--row-info"
+        }
+    }
+}
