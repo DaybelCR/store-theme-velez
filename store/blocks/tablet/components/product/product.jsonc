@@ -1,40 +1,14 @@
 {
     "flex-layout.row#tablet__product__info":{
-        "title": "container product info",
+        "title": "container product info tablet",
         "children": [
-          "flex-layout.col#tablet__container-images",
-          "flex-layout.col#tablet__container-info-product"
+          "flex-layout.col#container-images",
+          "flex-layout.col#container-info-product"
         ],
         "props": {
           "fullWidth": true,
-          "marginBottom": 8
+          "marginBottom": 8,
+          "blockClass": "tablet__container--row-info"
         }
-    },
-    "flex-layout.col#tablet__container-images": {
-        "title": "container images",
-        "children": [
-          "product-images#detail-product"
-        ],
-        "props": {
-          "width": "50%"
-        }
-      },
-      "flex-layout.col#tablet__container-info-product": {
-        "title": "container col product info",
-        "children": [
-          "vtex.store-components:product-name",
-          "product-price",
-          "product-identifier.product",
-          "product-separator",
-          "sku-selector",
-          "product-availability",
-          "product-quantity#detail-page",
-          "add-to-cart-button#detail-page"
-        ],
-        "props": {
-          "width": "50%",
-          "preventVerticalStretch": true,
-          "blockClass": "container-info-product"
-        }
-      }
+    }
 }

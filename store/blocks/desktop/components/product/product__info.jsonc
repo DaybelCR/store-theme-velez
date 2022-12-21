@@ -17,8 +17,7 @@
         ],
         "props": {
           "width": "70%",
-          "paddingLeft": 8,
-          "paddingRight": 6
+          "paddingLeft": 6
         }
       },
       "product-images#detail-product": {
@@ -34,46 +33,23 @@
         "children": [
           "vtex.store-components:product-name",
           "product-price",
-          "product-identifier.product",
+          "product-identifier.product#detail-product",
           "product-separator",
           "sku-selector",
           "product-availability",
-          "product-quantity#detail-page",
-          "add-to-cart-button#detail-page",
-          "disclosure-layout-group#detail-product"
+          "modal-trigger#size-guide",
+          "product-quantity#detail-product",
+          "product-separator",
+          "flex-layout.row#add-to-cart-button",
+          "disclosure-layout-group#global__detail-product",
+          "flex-layout.row#product__container-contact"
         ],
         "props": {
           "width": "30%",
-          "paddingLeft": 6,
-          "paddingRight": 8,
+          "paddingLeft":6,
+          "paddingRight": 6,
           "preventVerticalStretch": true,
           "blockClass": "container-info-product"
-        }
-      },
-      "product-availability": {
-        "title": "product availability",
-        "props": {
-          "threshold": 2,
-          "lowStockMessage": "Unidades disponibles : {quantity} "
-        }
-      },
-      "product-quantity#detail-page": {
-        "title": "component product quantity",
-        "props": {
-          "selectorType": "dropdown",
-          "showLabel": false
-        }
-      },
-      "add-to-cart-button#detail-page": {
-        "title": "component add to cart button",
-        "props": {
-          "text": "COMPRAR"
-        }
-      },
-      "rich-text#product-care": {
-        "title": "text care product",
-        "props": {
-          "text": "No lavar \n No secar en máquina \n No usar blanqueador, ni detergentes"
         }
       }
 }

@@ -1,5 +1,5 @@
 {
-    "disclosure-layout-group#detail-product": {
+    "disclosure-layout-group#global__detail-product": {
         "title": "component disclosure layout group",
         "children": [
             "disclosure-layout#description-product",
@@ -34,7 +34,8 @@
     "rich-text#description-product": {
         "title": "text item description",
         "props": {
-            "text": "DESCRIPCIÓN"
+            "text": "DESCRIPCIÓN",
+            "blockClass":"global__product-disclosure--textTitle"
         }
     },
     "disclosure-content#description-product": {
@@ -83,7 +84,8 @@
     "rich-text#shipping-product": {
         "title": "text item shipping",
         "props": {
-            "text": "POLÍTICAS DE ENVÍO"
+            "text": "POLÍTICAS DE ENVÍO",
+            "blockClass":"global__product-disclosure--textTitle"
         }
     },
     "rich-text#shipping-product-detail": {
@@ -113,7 +115,8 @@
     "rich-text#care-product": {
         "title": "text item care",
         "props": {
-            "text": "CUIDADOS"
+            "text": "CUIDADOS",
+            "blockClass":"global__product-disclosure--textTitle"
         }
     },
     "disclosure-content#care-product": {

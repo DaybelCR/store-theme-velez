@@ -32,8 +32,7 @@
       "modal-header#detail--product":{
         "title": "modal header",
         "props": {
-            "blockClass":"detail-product",
-            "showCloseButton": false
+            "blockClass":"detail-product"
         }
       },
       "flex-layout.row#modal-content": {

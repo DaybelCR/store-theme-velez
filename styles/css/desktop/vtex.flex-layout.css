@@ -90,8 +90,6 @@
 
  .flexCol--container-info-product :global(.vtex-dropdown) {
      width: 4rem;
-     /* margin-top: 1rem;
-margin-bottom: 1rem; */
  }
 
  .flexCol--container-info-product :global(.vtex-dropdown__container) {
@@ -109,6 +107,5 @@ margin-bottom: 1rem; */
  }
 
 .flexColChild--container-info-product{
-    padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
