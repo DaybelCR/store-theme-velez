@@ -1,0 +1,14 @@
+.orderByText--mobile__department--order{
+    display: none;
+    
+}
+.galleryLayoutOptionButton{
+    padding: 1rem;
+}
+.galleryLayoutOptionButton:hover{
+    background-color: #000;
+}
+:global(.vtex-store-icons-0-x-singleGridIcon),
+:global(.vtex-store-icons-0-x-gridIcon){
+    color: #3f3f40
+}

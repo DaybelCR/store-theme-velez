@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#product-breadcrumb": {
+    "title": "component container breadcrumb",
+    "children": [
+      "flex-layout.col#product-breadcrumb"
+    ],
+    "props": {
+      "fullWidth": true,
+      "paddingTop":6
+    }
+  },
+  "flex-layout.col#product-breadcrumb": {
+    "title": "component container col breadcrumb",
+    "children": [
+      "breadcrumb"
+    ],
+    "props": {
+      "paddingLeft":7,
+      "paddingRight":7
+    }
+  },
+  "breadcrumb": {
+    "title": "component breadcrumb",
+    "props": {
+      "showOnMobile": true
+    }
+  }
+}

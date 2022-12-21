@@ -1,0 +1,21 @@
+.filterPopupTitle--desktop__department{
+    color: transparent;
+}
+.orderByText--desktop__department{
+    display: block;
+}
+.filterPopupArrowIcon--desktop__department{
+    position: relative;
+    top:-0.5rem;
+}
+.orderByOptionsContainer--desktop__department{
+    width:fit-content;
+}
+.orderByButton--desktop__department{
+    border: none;
+    width: fit-content;
+}
+.orderByDropdown--desktop__department{
+    position: absolute;
+    right: 0;
+}

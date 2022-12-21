@@ -25,7 +25,7 @@
             "blockClass": "home__sectionThree--banner",
             "src": "assets/image/desktop/home__sectionThree--banner.png",
             "link": {
-                "url": "https://daysic--itgloberspartnercl.myvtex.com/"
+                "url": "/queso"
             }
         }
     },
@@ -33,7 +33,7 @@
         "title": "link Section Three",
         "props": {
             "textPosition": "RIGHT",
-            "text": "[ver **nuevas referencias**>>](https://daysic--itgloberspartnercl.myvtex.com/)",
+            "text": "[ver **nuevas referencias**>>](/queso)",
             "blockClass": "home__sectionThree--link"
         }
     }

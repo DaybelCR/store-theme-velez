@@ -43,7 +43,7 @@
     "rich-text#home__sectionOne--linksOne": {
         "title": "linksOne - section one ",
         "props": {
-            "text": "[MUJER](https://daysic--itgloberspartnercl.myvtex.com/)   [HOMBRE](https://daysic--itgloberspartnercl.myvtex.com/)",
+            "text": "[MUJER](/techo)   [HOMBRE](/techo)",
             "blockClass": [
                 "home__sectionOne--links",
                 "home__sectionOne--linksOne"
@@ -60,7 +60,7 @@
     "rich-text#home__sectionOne--linksTwo": {
         "title": "links two - section one ",
         "props": {
-            "text": "[MUJER](https://daysic--itgloberspartnercl.myvtex.com/)    [HOMBRE](https://daysic--itgloberspartnercl.myvtex.com/)",
+            "text": "[MUJER](/celulares)    [HOMBRE](/celulares)",
             "blockClass": [
                 "home__sectionOne--links",
                 "home__sectionOne--linksTwo"

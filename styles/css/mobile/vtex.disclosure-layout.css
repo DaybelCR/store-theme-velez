@@ -1,12 +1,3 @@
-.content--searchBar-content--visible{
-    background-color: red;
-}
-.trigger--searchBar-trigger{
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-}
-
 .trigger--footer-disclosure--title,
 .trigger--home__buy-online,
 .trigger--home__buy-store{

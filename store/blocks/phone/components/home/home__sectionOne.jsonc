@@ -29,7 +29,7 @@
         "props": {
             "blockClass": "phone__home-sectionOne--bannerOne",
             "textPosition": "CENTER",
-            "text": "[MUJER](https://daysic--itgloberspartnercl.myvtex.com/)   [HOMBRE](https://daysic--itgloberspartnercl.myvtex.com/)"
+            "text": "[MUJER](/techo)   [HOMBRE](/techo)"
         }
     },
     "flex-layout.col#phone__home-sectionOne--bannerTwo":{
@@ -51,7 +51,7 @@
         "props": {
             "blockClass": "phone__home-sectionOne--bannerTwo",
             "textPosition": "CENTER",
-            "text": "[MUJER](https://daysic--itgloberspartnercl.myvtex.com/)   [HOMBRE](https://daysic--itgloberspartnercl.myvtex.com/)"
+            "text": "[MUJER](/celulares)   [HOMBRE](/celulares)"
         }
     }
 }

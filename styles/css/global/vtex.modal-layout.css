@@ -1,0 +1,22 @@
+.paper{
+    width: 60%;
+    border-radius: 1.3rem;
+}
+
+.headerContainer--detail-product{
+border: none;
+position: absolute;
+right: 0;
+}
+
+.contentContainer--pdp--pdp__contentRight-items{
+    padding: 2rem ;
+    overflow-x: hidden;
+}
+.closeIcon{
+    color: transparent;
+}
+.contentContainer{
+    padding: 0;
+    margin: 0;
+}

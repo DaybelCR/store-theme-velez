@@ -1,0 +1,89 @@
+{
+    "flex-layout.row#phone__product__info": {
+        "title": "container images phone",
+        "children": [
+          "flex-layout.col#phone__container-images",
+          "flex-layout.col#phone__container-info-product"
+        ],
+        "props": {
+            "fullWidth": true,
+            "paddingBottom":7,
+            "blockClass": "phone__product__info"
+        }
+      },
+      "flex-layout.col#phone__container-images":{
+        "title": "container col images phone",
+        "children": [
+            "product-images#phone__detail-product"
+        ],
+        "props": {
+           "paddingLeft":5,
+           "paddingRight":5,
+           "blockClass":"phone__product--container-images"
+        }
+      },
+      "product-images#phone__detail-product": {
+        "title": "component images",
+        "props": {
+          "showNavigationArrows": false,
+          "placeholder": "images product detail"
+        }
+      },
+      "flex-layout.col#phone__container-info-product": {
+        "title": "container col product info",
+        "children": [
+          "vtex.store-components:product-name",
+          "product-price",
+          "product-identifier.product#detail-product",
+          "product-separator",
+          "sku-selector",
+          "product-availability",
+          "modal-trigger#phone__size-guide",
+          "product-quantity#detail-product",
+          "product-separator",
+          "flex-layout.row#add-to-cart-button",
+          "disclosure-layout-group#global__detail-product",
+          "flex-layout.row#product__container-contact"
+        ],
+        "props": {
+          "paddingLeft":5,
+          "paddingRight": 5,
+          "width": "100%",
+          "horizontalAlign": "center",
+          "blockClass": "container-info-product"
+        }
+      },
+      "modal-trigger#phone__size-guide":{
+        "title": "component modal triguer",
+        "children":[
+         "rich-text#size-guide",
+         "modal-layout#size-guide"
+        ]
+   },
+   "rich-text#phone__size-guide":{
+    "title": "text size guide",
+     "props": {
+       "text":"[GUÍA DE TALLAS](/)",
+       "blockClass":"product__modal--size-guide"
+     }
+   },
+   "modal-layout#phone__size-guide":{
+    "title": "component modal size guide",
+     "children": [
+       "modal-header#detail--product",
+       "modal-content#phone__size-guide"
+     ]
+   },
+   "modal-content#phone__size-guide":{
+    "title": "component modal content size guide",
+     "children":[
+        "image#phone__size-guide"
+     ]
+   },
+   "image#phone__size-guide":{
+    "title": "image size guide",
+     "props": {
+       "src": "assets/image/global/image-pdp-phone.png"
+     }
+   }
+}

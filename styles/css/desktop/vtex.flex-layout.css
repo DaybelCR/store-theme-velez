@@ -1,60 +1,111 @@
- .flexRowContent--header__subMenu-rowTop{
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
+ .flexRowContent--header__subMenu-rowTop {
+     padding-left: 2rem;
+     padding-right: 2rem;
+ }
 
-/*------------ Home------------------- */
+ /*------------ Home------------------- */
 
-.flexRow--desktop__home--sectionOne{
-    background-image: url(assets/image/desktop/home__sectionOne--background.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
+ .flexRow--desktop__home--sectionOne {
+     background-image: url(assets/image/desktop/home__sectionOne--background.png);
+     background-repeat: no-repeat;
+     background-size: 100%;
+ }
 
-.flexCol--home__sectionOne--containerOne{
-    margin: 8.1vw 0.9vw 4vw 3vw;
-}
-.flexCol--home__sectionOne--containerTwo{
-    margin: 8.2vw 4vw 4vw 0;
-}
+ .flexCol--home__sectionOne--containerOne {
+     margin: 8.1vw 0.9vw 4vw 3vw;
+ }
 
-.flexRowContent--home__row--tabOne{
-    max-width: 900px;
-    margin:20px auto;
-}
-   /*-------------footer------------------------- */
+ .flexCol--home__sectionOne--containerTwo {
+     margin: 8.2vw 4vw 4vw 0;
+ }
 
-.flexRow--desktop__footer--rowTwo{
-    width: 92%;
-    margin: 2rem auto auto;
-    padding: 2rem 0;
-    border-top:solid gray 0.5px;
-    border-bottom:solid gray 0.5px;
-}
-.flexRowContent--desktop__footer--rowTwo{
-    padding: 1.5rem 0 0.6rem 0;
-}
-.flexRowContent--desktop__footer--rowOne,
-.flexRowContent--desktop__footer--rowThree{
-    width:92%;
-    margin:2.5rem  auto;
-}
+ .flexRowContent--home__row--tabOne {
+     max-width: 900px;
+     margin: 20px auto;
+ }
 
-.flexColChild--footer_container--input :global(.vtex-input-prefix__group){
-border-color: black;
-border-radius: 0;
-}
-.flexCol--footer__rowOne--containerThree :global(.vtex-checkbox__label){
-    width: 25vw;
-}
+ /*-------------footer------------------------- */
 
-.flexCol--footer__rowOne--containerThree{
-    margin-right: 6rem;
-}
-.flexRowContent--footer_container--newsletter .stretchChildrenWidth:first-child{
-   width: calc(100%-9rem);
-}
-.flexRowContent--footer_container--newsletter .stretchChildrenWidth:last-child{
-    width: 9rem;
-}
+ .flexRow--desktop__footer--rowTwo {
+     width: 92%;
+     margin: 2rem auto auto;
+     padding: 2rem 0;
+     border-top: solid gray 0.5px;
+     border-bottom: solid gray 0.5px;
+ }
 
+ .flexRowContent--desktop__footer--rowTwo {
+     padding: 1.5rem 0 0.6rem 0;
+ }
+
+ .flexRowContent--desktop__footer--rowOne,
+ .flexRowContent--desktop__footer--rowThree {
+     width: 92%;
+     margin: 2.5rem auto;
+ }
+
+ .flexColChild--footer_container--input :global(.vtex-input-prefix__group) {
+     border-color: black;
+     border-radius: 0;
+ }
+
+ .flexCol--footer__rowOne--containerThree :global(.vtex-checkbox__label) {
+     width: 25vw;
+ }
+
+ .flexCol--footer__rowOne--containerThree {
+     margin-right: 6rem;
+ }
+
+ .flexRowContent--footer_container--newsletter .stretchChildrenWidth:first-child {
+     width: calc(100%-9rem);
+ }
+
+ .flexRowContent--footer_container--newsletter .stretchChildrenWidth:last-child {
+     width: 9rem;
+ }
+
+ /*------------ department------------------- */
+
+ .flexColChild--pdp__modal-content--right:first-child {
+     height: 66% !important;
+     overflow-y: auto;
+     overflow-x: hidden;
+ }
+
+ .flexColChild--pdp__modal-content--right:last-child {
+     height: 34% !important;
+ }
+
+ /*------------pdp------------------- */
+ .flexCol--container-info-product :global(.vtex-button) {
+     background-color: black;
+     border: none;
+     border-radius: 0;
+ }
+
+ .flexCol--container-info-product :global(.vtex-add-to-cart-button-0-x-buttonText) {
+     font-size: 0.8rem;
+ }
+
+ .flexCol--container-info-product :global(.vtex-dropdown) {
+     width: 4rem;
+ }
+
+ .flexCol--container-info-product :global(.vtex-dropdown__container) {
+     border-radius: 0;
+     border: solid 1px #000;
+ }
+
+ .flexCol--container-info-product :global(.vtex-dropdown__arrow) {
+     color: #000;
+ }
+
+ :global(.vtex-shelf-1-x-title) {
+     font-size: 1.2rem;
+     color: #000;
+ }
+
+.flexColChild--container-info-product{
+    padding-bottom: 0.5rem;
+}

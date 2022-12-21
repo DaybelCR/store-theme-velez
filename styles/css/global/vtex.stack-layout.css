@@ -1,0 +1,22 @@
+.stackItem--container__view:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.stackItem--container__view:last-child:hover {
+    background: hsla(0, 0%, 100%, .4);
+}
+
+.stackItem--container__view:last-child :global(.vtex-store-icons-0-x-searchIcon) {
+    color: transparent;
+    padding: 2rem;
+}
+.stackItem--container__view:last-child :global(.vtex-store-icons-0-x-searchIcon):hover {
+    color: #000;
+    width: 1.5rem;
+    height: 1.5rem;
+}

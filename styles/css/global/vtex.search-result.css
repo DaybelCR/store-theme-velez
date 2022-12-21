@@ -1,0 +1,26 @@
+.filterMessage{
+    display:none
+}
+
+.searchResultContainer{
+    max-width: 100%;
+}
+.gallery{
+    margin: 0;
+}
+.filterTitleSpan{
+    text-transform: uppercase;
+}
+:global(.vtex-slider__base-internal),:global(.vtex-slider__selector){
+    background-color: #000;
+}
+
+
+.filterClearButtonWrapper :global(.vtex-button),
+.filterApplyButtonWrapper :global(.vtex-button){
+    color: #000;
+    background-color: transparent;
+}
+.filtersWrapperMobile .filterPopupTitle{
+    color: #000;
+}
