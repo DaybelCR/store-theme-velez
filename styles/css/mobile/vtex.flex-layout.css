@@ -133,3 +133,9 @@ width: 70%;
 :global(.vtex-product-availability-0-x-container){
 justify-content: center;
 }
+
+@media only screen and (max-width: 630px) {
+    .flexRow--container-modal-product{
+       overflow-y: auto;
+        }
+  }

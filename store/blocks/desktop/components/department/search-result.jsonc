@@ -1,30 +1,4 @@
 {
-  "flex-layout.row#departament__breadcrumb": {
-    "title": "Container breadcrumb",
-    "children": [
-      "flex-layout.col#departament__breadcrumb"
-    ],
-    "props": {
-      "marginBottom": 5,
-      "marginTop": 5,
-      "fullWidth": true
-    }
-  },
-  "flex-layout.col#departament__breadcrumb": {
-    "title": "Container col breadcrumb",
-    "children": [
-      "breadcrumb.search"
-    ],
-    "props": {
-      "paddingLeft": 7,
-      "paddingRight": 7
-    }
-  },
-  "breadcrumb.search": {
-    "props": {
-      "showOnMobile": true
-    }
-  },
   "flex-layout.row#global__department--container": {
     "title": "container row image",
     "children": [
@@ -41,6 +15,33 @@
       "blockClass": "global__department--image"
     }
   },
+  "flex-layout.row#departament__breadcrumb": {
+    "title": "Container breadcrumb",
+    "children": [
+      "flex-layout.col#departament__breadcrumb"
+    ],
+    "props": {
+      "marginBottom": 5,
+      "marginTop": 8,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#departament__breadcrumb": {
+    "title": "Container col breadcrumb",
+    "children": [
+      "breadcrumb.search"
+    ],
+    "props": {
+      "paddingLeft": 7,
+      "paddingRight": 7
+    }
+  },
+  "breadcrumb.search": {
+    "title": "component breadcrumb",
+    "props": {
+      "showOnMobile": true
+    }
+  },
   "flex-layout.row#departament__text": {
     "title": "container row orders",
     "children": [
@@ -49,10 +50,12 @@
     ],
     "props": {
       "marginBottom": 5,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "desktop__container--departament__text"
     }
   },
   "order-by.v2#desktop__department": {
+    "title":"component order",
     "props": {
       "blockClass": "desktop__department"
     }
@@ -74,7 +77,7 @@
     ],
     "props": {
       "width": "20%",
-      "paddingLeft": 7
+      "paddingLeft": 9
     }
   },
   "flex-layout.col#desktop__department--products": {
@@ -83,7 +86,8 @@
       "search-content"
     ],
     "props": {
-      "width": "80%"
+      "width": "80%",
+      "paddingRight":9
     }
   },
   "search-content": {

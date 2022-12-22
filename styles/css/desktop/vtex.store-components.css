@@ -41,3 +41,17 @@
     top:12vw;
     left:38vw;
 }
+
+
+.productImagesContainer--modal-product--carousel
+.carouselGaleryCursor{
+    width: 100% !important;
+    padding-left: 0 !important;
+}
+.productImageTag--modal-product--main{
+    max-height: unset!important;
+}
+
+.productImagesContainer--modal-product--carousel{
+background-color: #eee!important;
+}
