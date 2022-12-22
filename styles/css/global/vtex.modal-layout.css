@@ -1,4 +1,4 @@
-.paper{
+.paper--content-detail--product{
     width: 60%;
     border-radius: 1.3rem;
 }
@@ -20,3 +20,22 @@ right: 0;
     padding: 0;
     margin: 0;
 }
+
+.contentContainer--pdp__contentRight-items{
+    overflow-x: hidden;
+    padding: 2.5rem;
+}
+
+.actionsContainer--modal-product{
+    border-top: solid 1px #eee;
+    padding: 0 2.5rem 2.5rem;
+}
+.actionsContentWrapper--modal-product{
+    padding-top: 1.5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .actionsContainer--modal-product{
+        padding: 0 2rem 2rem;
+    }
+  }

@@ -18,4 +18,5 @@
 .orderByDropdown--desktop__department{
     position: absolute;
     right: 0;
+    padding-right: 2.5rem;
 }
