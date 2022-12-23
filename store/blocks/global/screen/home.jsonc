@@ -1,6 +1,7 @@
 {
   "store.home": { 
     "blocks": [
+     "whatsapp-button",
      "responsive-layout.desktop",
      "responsive-layout.tablet",
      "responsive-layout.phone"
