@@ -13,20 +13,20 @@
         "title": "component modal trigger",
         "children": [
           "icon-search",
-          "modal-layout#content__detail--product"
+          "modal-layout#content-detail--product"
         ],
         "props": {
           "blockClass": "container__view"
         }
       },
-      "modal-layout#content__detail--product": {
+      "modal-layout#content-detail--product": {
         "title": "component modal",
         "children": [
           "modal-header#detail--product",
           "flex-layout.row#modal-content"
         ],
         "props": {
-          "blockClass": "container__view"
+          "blockClass": "content-detail--product"
         }
       },
       "modal-header#detail--product":{
@@ -40,18 +40,26 @@
         "children": [
           "flex-layout.col#modal-content--left",
           "flex-layout.col#modal-content--right"
-        ]
+        ],
+        "props": {
+          "blockClass": "container-modal-product"
+        }
       },
       "flex-layout.col#modal-content--left": {
         "title": "container image product",
         "children": [
-          "product-images"
-        ]
+          "product-images#modal-product"
+        ],
+        "props": {
+          "blockClass":"container-modal-images"
+        }
       },
-      "product-images": {
+      "product-images#modal-product": {
         "title": "component image",
         "props": {
-          "displayThumbnailsArrows": true
+          "displayThumbnailsArrows": true,
+          "thumbnailVisibility":"hidden",
+          "blockClass": "modal-product"
         }
       },
       "flex-layout.col#modal-content--right": {
@@ -67,7 +75,7 @@
       "modal-content#detail-product":{
         "title":"component modal content",
         "children": [
-          "vtex.store-components:product-name",
+           "vtex.store-components:product-name",
            "product-price",
            "sku-selector",
            "product-description#detail-product"
@@ -87,23 +95,44 @@
        "children":[
         "flex-layout.row#buy-product",
         "flex-layout.row#see-product"
-       ]
+       ],
+       "props":{
+        "blockClass":"modal-product"
+       }
       },
       "flex-layout.row#buy-product":{
         "title": "container buy product",
         "children": [
-          "product-quantity",
-          "add-to-cart-button"
+          "product-quantity#modal-product",
+          "add-to-cart-button#modal-product"
         ],
         "props": {
-          "preventVerticalStretch": true
+          "colGap":5,
+         "blockClass": "container__buy-product"
+        }
+      },
+      "product-quantity#modal-product":{
+        "title": "component product-quantity",
+        "props": {
+          "showLabel": false,
+          "blockClass":"modal-product"
+        }
+      },
+      "add-to-cart-button#modal-product":{
+        "title": "component add to cart button",
+        "props": {
+          "text": "COMPRAR",
+          "blockClass":"modal-product"
         }
       },
       "flex-layout.row#see-product":{
         "title": "container see product",
         "children": [
           "link.product#product-page"
-        ]
+        ],
+        "props": {
+          "paddingTop":5
+        }
       },
       "link.product#product-page": {
         "title": "component link to pdp",

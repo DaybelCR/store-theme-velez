@@ -1,0 +1,12 @@
+{
+    "whatsapp-button":{
+        "title": "Whatsapp Button",
+        "props":{
+            "logo":"assets/image/global/custom-button.png",
+            "phone":"934389699",
+            "message":"Bienvenido(a) a la tienda Vélez, por favor ingresa tu duda.",
+            "width":40,
+            "height":40
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.container-logo--wtsp{
+    z-index: 100;
+}
+.image-logo--wtsp {
+    background-color: #25d366;
+    padding: 0.5rem;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px 2px rgb(0 0 0 / 10%);
+}
+
+.image-logo--wtsp:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}

@@ -22,3 +22,30 @@ width: 50% !important;
 :global(.vtex-dropdown) {
     width: 100%!important;
 }
+.flexColChild--pdp__modal-content--right
+:global(.vtex-store-link-0-x-link),
+.flexColChild--pdp__modal-content--right
+:global(.vtex-button){
+  border: none;
+  border-radius: 0;
+}
+.flexColChild--pdp__modal-content--right
+:global(.vtex-store-link-0-x-link){
+background-color: #f0f0f0;
+color: #000;
+}
+.flexColChild--pdp__modal-content--right
+:global(.vtex-button){
+  background-color:#000 ;
+  height: 2.5rem;
+}
+.flexColChild--pdp__modal-content--right
+:global(.vtex-store-link-0-x-link):hover{
+  background-color: black;
+  color: #fff;
+}
+
+.flexRowContent--container__buy-product
+.stretchChildrenWidth{
+width: auto;
+}
