@@ -81,14 +81,14 @@
     "props": {
       "layouts": [
         {
-          "name": "grid-one-column",
-          "component": "OneOrTwoLineSummary",
-          "itemsPerRow": 1
-        },
-        {
           "name": "grid-two-columns",
           "component": "OneOrTwoLineSummary",
           "itemsPerRow": 2
+        },
+        {
+          "name": "grid-one-column",
+          "component": "OneOrTwoLineSummary",
+          "itemsPerRow": 1
         }
       ],
       "OneOrTwoLineSummary": "product-summary.shelf#department",
@@ -98,8 +98,8 @@
   "gallery-layout-switcher": {
     "title": "component gallery switcher",
     "children": [
-      "gallery-layout-option#grid__one-column",
-      "gallery-layout-option#grid__two-columns"
+      "gallery-layout-option#grid__two-columns",
+      "gallery-layout-option#grid__one-column"
     ]
   },
   "gallery-layout-option#grid__one-column": {
