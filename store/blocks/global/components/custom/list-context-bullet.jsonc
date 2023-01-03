@@ -1,0 +1,77 @@
+{
+     "list-context.bullet-group":{
+        "title": "My list context bullets",
+        "children": ["slider-layout#bullet-group"],
+        "props":{
+            "bullets":[
+                {
+                    "image":"assets/image/global/bulletOne.png",
+                    "titleBullet":"Bolsos",
+                    "link":{
+                        "url":"/"
+                    }
+                },
+                {
+                    "image":"assets/image/global/bulletTwo.png",
+                    "titleBullet":"Billeteras",
+                    "link":{
+                        "url":"/"
+                    }                     
+                },
+                {
+                    "image":"assets/image/global/bulletThree.png",
+                    "titleBullet":"Mochilas",
+                    "link":{
+                        "url":"/"
+                    }                     
+                },
+                {
+                    "image":"assets/image/global/bulletFour.png",
+                    "titleBullet":"Carteras",
+                    "link":{
+                        "url":"/"
+                    }                     
+                },
+                {
+                    "image":"assets/image/global/bulletFive.png",
+                    "titleBullet":"Casacas",
+                    "link":{
+                        "url":"/"
+                    }                     
+                },
+                {
+                    "image":"assets/image/global/bulletSix.png",
+                    "titleBullet":"Zapatos",
+                    "link":{
+                        "url":"/"
+                    }                     
+                },
+                {
+                    "image":"assets/image/global/bulletSeven.png",
+                    "titleBullet":"Calzados",
+                    "link":{
+                        "url":"/"
+                    }                     
+                },
+                {
+                    "image":"assets/image/global/bulletEigth.png",
+                    "titleBullet":"Correas",
+                    "link":{
+                        "url":"/"
+                    }                     
+                }
+            ]
+        }
+    },
+    "slider-layout#bullet-group":{
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 5,
+                "phone": 5
+            },
+            "infinite": true
+        }
+        
+    }
+}

@@ -57,6 +57,7 @@
       "flex-layout.col#politica_condiciones"
     ],
     "props": {
+      "paddingBottom":7,
       "horizontalAlign": "center",
       "blockClass": "header__subMenu-rowTop"
     }

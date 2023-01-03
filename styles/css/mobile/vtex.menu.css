@@ -22,15 +22,16 @@ font-weight: 700;
     color: gray;
     font-size: 1rem;
 }
-/* .accordionIcon--dep__mobile--menu::before{
+.accordionIcon--dep__mobile--menu{
+    color: transparent;
+}
+
+.accordionIcon--dep__mobile--menu::after{
 background-color: #fff;
 content: ">";
-position:absolute;
-top:5rem;
-right: 25px;
 color:gray;
-font-size: 26px;
-} */
+font-size: 1rem;
+}
 
 .menuContainer--footer-menu-item .styledLinkContent{
     font-size: 0.8rem;

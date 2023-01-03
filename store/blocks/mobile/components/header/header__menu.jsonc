@@ -25,8 +25,8 @@
             "blockClass": "dep__mobile--menu",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
-                "noFollow": true,
+                "href":  "/mujer",
+                "noFollow": false,
                 "tagTitle": "Mujer",
                 "text": "MUJER"
             }
@@ -65,9 +65,8 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-                "type": "external",
-                "href": "#",
-                "noFollow": true,
+                "href": "/electrodomesticos/hierro",
+                "noFollow": false,
                 "tagTitle": "Nuevo",
                 "text": "NUEVO"
             }
@@ -79,8 +78,7 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-                "type": "external",
-                "href": "#",
+                "href": "/electrodomesticos/varillas",
                 "noFollow": true,
                 "tagTitle": "Zapatillas",
                 "text": "ZAPATILLAS"
@@ -93,8 +91,7 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-                "type": "external",
-                "href": "#",
+                "href": "/mujer/zapatos",
                 "noFollow": true,
                 "tagTitle": "Zapatos",
                 "text": "ZAPATOS"
@@ -107,8 +104,7 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-                "type": "external",
-                "href": "#",
+                "href": "/electrodomesticos/ladrillos",
                 "noFollow": true,
                 "tagTitle": "Mochilas",
                 "text": "MOCHILAS"
@@ -121,8 +117,7 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-                "type": "external",
-                "href": "#",
+                "href": "/queso/cemento",
                 "noFollow": true,
                 "tagTitle": "Bolsos",
                 "text": "BOLSOS"
@@ -135,7 +130,6 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-                "type": "external",
                 "href": "#",
                 "noFollow": true,
                 "tagTitle":"Casacas",
@@ -149,7 +143,6 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-                "type": "external",
                 "href": "#",
                 "noFollow": true,
                 "tagTitle": "Correas",
@@ -163,7 +156,6 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-                "type": "external",
                 "href": "#",
                 "noFollow": true,
                 "tagTitle": "Billeteras",
@@ -177,7 +169,6 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-                "type": "external",
                 "href": "#",
                 "noFollow": true,
                 "tagTitle": "Accesorios",
@@ -191,7 +182,6 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-                "type": "external",
                 "href": "#",
                 "noFollow": true,
                 "tagTitle": "Ropa",
@@ -205,7 +195,6 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-                "type": "external",
                 "href": "#",
                 "noFollow": true,
                 "tagTitle": "Viajes",
@@ -219,7 +208,6 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-                "type": "external",
                 "href": "#",
                 "noFollow": true,
                 "tagTitle": "verTodo",
@@ -236,7 +224,7 @@
             "blockClass": "dep__mobile--menu",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/electrodomesticos",
                 "noFollow": true,
                 "tagTitle": "Hombre",
                 "text": "HOMBRE"
@@ -283,7 +271,6 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-                "type": "external",
                 "href": "/",
                 "noFollow": true,
                 "tagTitle": "Mujer",
@@ -297,7 +284,6 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-                "type": "external",
                 "href": "/",
                 "noFollow": true,
                 "tagTitle": "Hombre",
@@ -311,7 +297,6 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-                "type": "external",
                 "href": "/",
                 "noFollow": true,
                 "tagTitle": "Ver Todo",
