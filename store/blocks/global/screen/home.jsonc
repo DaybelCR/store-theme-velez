@@ -5,7 +5,8 @@
      "whatsapp-button",
      "responsive-layout.desktop",
      "responsive-layout.tablet",
-     "responsive-layout.phone"
+     "responsive-layout.phone",
+     "list-context.bullet-group"
     ]
   }
 }

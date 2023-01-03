@@ -6,6 +6,7 @@
         ],
         "props": {
             "fullWidth": true,
+            "marginBottom":7,
             "blockClass": "desktop__home--sectionSix"
         }
     },

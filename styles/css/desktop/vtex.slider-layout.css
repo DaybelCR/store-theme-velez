@@ -1,0 +1,24 @@
+.bullet__item {
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+.bullet__item--title {
+    text-align: center;
+    font-weight: 600;
+}
+
+.bullet__item--image {
+    width: 100%;
+    height: 15rem;
+}
+.bullet__item--link {
+    text-decoration: none;
+    color: #000;
+}
+.paginationDot{
+    background-color: #e0e0e0;
+}
+.paginationDot--isActive{
+    background-color: #cacbcc;
+}
