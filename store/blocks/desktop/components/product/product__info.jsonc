@@ -42,7 +42,8 @@
           "product-separator",
           "flex-layout.row#add-to-cart-button",
           "disclosure-layout-group#global__detail-product",
-          "flex-layout.row#product__container-contact"
+          "flex-layout.row#product__container-contact",
+          "modal-trigger#add-to-cart-info"
         ],
         "props": {
           "width": "30%",
