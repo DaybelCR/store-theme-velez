@@ -60,7 +60,11 @@
     "vtex.product-availability": "0.x",
     "itgloberspartnercl.whatsapp-button": "0.x",
     "itgloberspartnercl.bullets-diagramation": "0.x",
-    "itgloberspartnercl.add-to-cart-info": "0.x"
+    "itgloberspartnercl.add-to-cart-info": "0.x",
+    "itgloberspartnercl.custom-department-search": "0.x",
+    "itgloberspartnercl.pdf-reader": "0.x",
+    "itgloberspartnercl.context-test": "0.x",
+    "itgloberspartnercl.my-form-order": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

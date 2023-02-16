@@ -1,0 +1,7 @@
+{
+    "store.custom#form-order":{
+        "children": [
+            "my-form-order"
+        ]
+    }
+}

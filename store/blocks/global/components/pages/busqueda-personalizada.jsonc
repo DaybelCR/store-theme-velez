@@ -1,0 +1,15 @@
+{
+    "store.custom#custom-search":{
+        "children": [
+            "custom-department-search",
+            "pdf-reader"
+        ]
+    },
+    "pdf-reader":{
+        "props":{
+            "pdfUrl": "assets/documents/pdfSample.pdf",
+            "width": 500,
+            "height": 800
+        }
+    }
+}

@@ -4,5 +4,11 @@
     },
     "store.custom#program-points":{
         "path": "/programa-puntos"
+    },
+    "store.custom#custom-search":{
+        "path": "/busqueda-personalizada"
+    },
+    "store.custom#form-order":{
+        "path": "/MyFormOrder"
     }
 }
